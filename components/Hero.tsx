@@ -45,20 +45,26 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <motion.button
+              <motion.a
+                href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transition"
               >
                 Download Now <ArrowRight className="w-5 h-5" />
-              </motion.button>
-              <motion.button
+              </motion.a>
+              <motion.a
+                href="https://apps.apple.com/gb/app/doctor-food/id6766101323"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="glass px-8 py-4 rounded-full font-semibold flex items-center justify-center gap-2 hover:shadow-lg transition"
               >
-                <Smartphone className="w-5 h-5" /> Watch Demo
-              </motion.button>
+                <Smartphone className="w-5 h-5" /> Download iOS
+              </motion.a>
             </div>
 
             <div className="mt-12 flex items-center gap-8 justify-center lg:justify-start">

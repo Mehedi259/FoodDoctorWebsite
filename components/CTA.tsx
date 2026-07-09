@@ -48,21 +48,27 @@ export default function CTA() {
               transition={{ delay: 0.4 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center"
             >
-              <motion.button
+              <motion.a
+                href="https://apps.apple.com/gb/app/doctor-food/id6766101323"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-emerald-600 px-8 py-4 rounded-full font-semibold flex items-center gap-2 shadow-lg hover:shadow-xl transition"
               >
                 <AppleIcon className="w-5 h-5" /> Download for iOS
-              </motion.button>
+              </motion.a>
 
-              <motion.button
+              <motion.a
+                href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-white/20 backdrop-blur-sm text-white border-2 border-white px-8 py-4 rounded-full font-semibold flex items-center gap-2 hover:bg-white/30 transition"
               >
                 <Smartphone className="w-5 h-5" /> Download for Android
-              </motion.button>
+              </motion.a>
             </motion.div>
 
             <motion.p
