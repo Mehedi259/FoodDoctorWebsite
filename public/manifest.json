@@ -1,0 +1,32 @@
+{
+  "name": "Food Doctor - AI Diet & Nutrition App",
+  "short_name": "Food Doctor",
+  "description": "AI-powered diet and nutrition management app with personalized meal plans and smart allergy detection",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/app_icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/app_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["health", "lifestyle", "food"],
+  "screenshots": [
+    {
+      "src": "/app_icon.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}

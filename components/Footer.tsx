@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <Image src="/app_icon.png" alt="Food Doctor" width={32} height={32} className="w-8 h-8 rounded-lg" />
-              <span className="text-xl font-bold text-white">Food Doctor</span>
+            <div className="flex items-center space-x-3 mb-4">
+              <Image src="/app_icon.png" alt="Food Doctor" width={40} height={40} className="w-10 h-10 rounded-xl" />
+              <span className="text-2xl font-bold text-white">Food Doctor</span>
             </div>
             <p className="text-sm text-gray-400 mb-4">
               Your personal AI health coach for a better, healthier life.

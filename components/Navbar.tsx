@@ -1,12 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
     <motion.nav
@@ -16,9 +17,9 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-2">
-            <Image src="/app_icon.png" alt="Food Doctor" width={32} height={32} className="w-8 h-8 rounded-lg" />
-            <span className="text-xl font-bold text-gradient">Food Doctor</span>
+          <div className="flex items-center space-x-3">
+            <Image src="/app_icon.png" alt="Food Doctor" width={48} height={48} className="w-12 h-12 rounded-xl shadow-md" />
+            <span className="text-2xl font-bold text-gradient">Food Doctor</span>
           </div>
 
           {/* Desktop Menu */}
@@ -35,14 +36,47 @@ export default function Navbar() {
             <a href="/about" className="text-gray-700 hover:text-emerald-600 transition">
               About
             </a>
-            <a 
-              href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition"
-            >
-              Download App
-            </a>
+            <div className="relative">
+              <button
+                onMouseEnter={() => setShowDropdown(true)}
+                onMouseLeave={() => setShowDropdown(false)}
+                className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition flex items-center gap-2"
+              >
+                Download App
+                <ChevronDown className="w-4 h-4" />
+              </button>
+              <AnimatePresence>
+                {showDropdown && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    onMouseEnter={() => setShowDropdown(true)}
+                    onMouseLeave={() => setShowDropdown(false)}
+                    className="absolute right-0 mt-2 w-48 glass rounded-xl shadow-xl overflow-hidden z-50"
+                  >
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-3 hover:bg-emerald-50 transition flex items-center gap-3"
+                    >
+                      <span className="text-2xl">🤖</span>
+                      <span className="text-sm font-medium text-gray-700">Get on Android</span>
+                    </a>
+                    <a
+                      href="https://apps.apple.com/gb/app/doctor-food/id6766101323"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-3 hover:bg-emerald-50 transition flex items-center gap-3 border-t border-gray-100"
+                    >
+                      <span className="text-2xl">🍎</span>
+                      <span className="text-sm font-medium text-gray-700">Get on iOS</span>
+                    </a>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
