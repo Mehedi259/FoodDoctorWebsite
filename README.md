@@ -134,3 +134,34 @@ npm run build
 ```
 
 Build successful হলে project GitHub-এ push করে Vercel থেকে import করে deploy করা যাবে।
+
+## Post-Deployment Setup
+
+Website deploy হওয়ার পর নিচের steps follow করো:
+
+### 1. Google Analytics Setup
+- `SETUP_GUIDE.md` file খুলে **Google Analytics** section follow করো
+- Measurement ID পেলে Vercel এ environment variable যোগ করো
+
+### 2. Google Search Console
+- `SETUP_GUIDE.md` file এ **Google Search Console** section follow করো
+- Website verify করো এবং sitemap submit করো
+
+### 3. Bing Webmaster Tools
+- `SETUP_GUIDE.md` file এ **Bing Webmaster Tools** section follow করো
+- Website verify করো
+
+### 4. Social Media Test
+- Facebook Debugger, Twitter Card Validator দিয়ে test করো
+
+**বিস্তারিত instructions**: `SETUP_GUIDE.md` file দেখো।
+
+## Environment Variables
+
+তোমার `.env.local` file তৈরি করো (example দেখো: `.env.local.example`):
+
+```bash
+NEXT_PUBLIC_GA_ID=G-XXXXXXXXXX
+```
+
+Vercel এ deploy করার সময় এই environment variable add করতে হবে।
