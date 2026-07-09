@@ -1,6 +1,7 @@
 "use client";
 
-import { Apple, Mail, MessageCircle, Share2, Link } from "lucide-react";
+import { Mail, MessageCircle, Share2, Link } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Apple className="w-8 h-8 text-emerald-500" />
+              <Image src="/app_icon.png" alt="Food Doctor" width={32} height={32} className="w-8 h-8 rounded-lg" />
               <span className="text-xl font-bold text-white">Food Doctor</span>
             </div>
             <p className="text-sm text-gray-400 mb-4">

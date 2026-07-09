@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Apple, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
-            <Apple className="w-8 h-8 text-emerald-600" />
+            <Image src="/app_icon.png" alt="Food Doctor" width={32} height={32} className="w-8 h-8 rounded-lg" />
             <span className="text-xl font-bold text-gradient">Food Doctor</span>
           </div>
 
@@ -34,9 +35,14 @@ export default function Navbar() {
             <a href="/about" className="text-gray-700 hover:text-emerald-600 transition">
               About
             </a>
-            <button className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition">
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition"
+            >
               Download App
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -67,9 +73,14 @@ export default function Navbar() {
             <a href="/about" className="block text-gray-700 hover:text-emerald-600">
               About
             </a>
-            <button className="w-full bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full">
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block w-full text-center bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full"
+            >
               Download App
-            </button>
+            </a>
           </motion.div>
         )}
       </div>
