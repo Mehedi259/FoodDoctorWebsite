@@ -8,6 +8,11 @@ export const metadata: Metadata = {
   title: "Food Doctor - AI-Powered Diet & Health Assistant",
   description: "Transform your health with personalized meal plans, AI diet recommendations, and smart allergy detection. Your personal nutrition expert in your pocket.",
   keywords: "diet app, health tracker, meal planning, AI nutrition, allergy detection",
+  icons: {
+    icon: "/app_icon.png",
+    shortcut: "/app_icon.png",
+    apple: "/app_icon.png",
+  },
 };
 
 export default function RootLayout({
