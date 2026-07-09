@@ -1,149 +1,136 @@
-# Food Doctor - Premium Landing Page
+# Food Doctor Landing Page
 
-A modern, high-quality landing page for the Food Doctor mobile app built with Next.js, Tailwind CSS, and Framer Motion.
+Food Doctor একটি school project landing page। এটি একটি AI-powered health ও nutrition mobile app-এর জন্য বানানো হয়েছে। সাইটটির লক্ষ্য হলো app-এর প্রধান সুবিধা, কাজ করার পদ্ধতি, user review এবং download call-to-action সুন্দরভাবে দেখানো।
 
-## 🚀 Features
+## Project Overview
 
-- **Modern Design**: Clean, minimal UI with glassmorphism effects and soft gradients
-- **Smooth Animations**: Framer Motion powered animations and micro-interactions
-- **Fully Responsive**: Mobile-first design that works perfectly on all devices
-- **SEO Optimized**: Proper meta tags and semantic HTML
-- **Fast Performance**: Built with Next.js 15 App Router for optimal speed
-- **Premium Components**: Reusable, well-structured component architecture
+এই website-এ home page, about page, privacy policy এবং terms page আছে। Home page-টি কয়েকটি আলাদা section দিয়ে তৈরি, যাতে project structure পরিষ্কার থাকে এবং প্রয়োজন হলে সহজে content পরিবর্তন করা যায়।
 
-## 📄 Pages
+Main sections:
 
-- **Home**: Complete landing page with all sections
-- **About Us**: Company information and mission
-- **Privacy Policy**: Comprehensive privacy information
-- **Terms & Conditions**: Legal terms and conditions
+- Navbar
+- Hero section
+- Features section
+- How It Works section
+- Benefits section
+- Testimonials section
+- Call-to-action section
+- Footer
 
-## 🎨 Sections
+## Tech Stack
 
-1. **Hero Section**: Eye-catching introduction with CTA buttons
-2. **Features**: 6 key features with icons and animations
-3. **How It Works**: 4-step process explanation
-4. **Benefits**: Why choose Food Doctor
-5. **Testimonials**: User reviews and ratings
-6. **CTA**: Strong call-to-action banner
-7. **Footer**: Links and social media
+এই project-এ নিচের technologies ব্যবহার করা হয়েছে:
 
-## 🛠 Tech Stack
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React icons
 
-- **Framework**: Next.js 15 (App Router)
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Language**: TypeScript
+## Pages
 
-## 📦 Installation
+- `/` - Main landing page
+- `/about` - Food Doctor সম্পর্কে information
+- `/privacy` - Privacy policy
+- `/terms` - Terms and conditions
+- `/test` - Tailwind CSS test page
 
-1. Navigate to the project directory:
-```bash
-cd food-doctor-landing
+## Folder Structure
+
+```text
+FoodDoctorWebsite/
+├── app/
+│   ├── about/page.tsx
+│   ├── privacy/page.tsx
+│   ├── terms/page.tsx
+│   ├── test/page.tsx
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+├── components/
+│   ├── Benefits.tsx
+│   ├── CTA.tsx
+│   ├── Features.tsx
+│   ├── Footer.tsx
+│   ├── Hero.tsx
+│   ├── HowItWorks.tsx
+│   ├── Navbar.tsx
+│   └── Testimonials.tsx
+├── public/
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── next.config.ts
 ```
 
-2. Install dependencies:
+## How to Run
+
+প্রথমে dependencies install করতে হবে:
+
 ```bash
 npm install
 ```
 
-3. Run the development server:
+তারপর development server চালাতে হবে:
+
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
+এরপর browser-এ এই address খুলুন:
 
-## 🚀 Deployment
+```text
+http://localhost:3000
+```
 
-Deploy easily on Vercel:
+## Available Commands
+
+```bash
+npm run dev
+```
+
+Development mode-এ project চালায়।
 
 ```bash
 npm run build
 ```
 
-Or click the button below:
+Production build তৈরি করে।
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
-
-## 📁 Project Structure
-
-```
-food-doctor-landing/
-├── app/
-│   ├── about/
-│   │   └── page.tsx
-│   ├── privacy/
-│   │   └── page.tsx
-│   ├── terms/
-│   │   └── page.tsx
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── globals.css
-├── components/
-│   ├── Navbar.tsx
-│   ├── Hero.tsx
-│   ├── Features.tsx
-│   ├── HowItWorks.tsx
-│   ├── Benefits.tsx
-│   ├── Testimonials.tsx
-│   ├── CTA.tsx
-│   └── Footer.tsx
-├── public/
-├── tailwind.config.ts
-├── tsconfig.json
-└── package.json
+```bash
+npm start
 ```
 
-## 🎯 Key Features Implemented
+Production server চালায়।
 
-- ✅ Glassmorphism design with backdrop blur
-- ✅ Smooth scroll animations
-- ✅ Hover effects on interactive elements
-- ✅ Floating animations on hero section
-- ✅ Gradient backgrounds and text
-- ✅ Mobile-responsive navigation
-- ✅ Professional color scheme (emerald/teal)
-- ✅ Clean typography with Inter font
-- ✅ Semantic HTML structure
-- ✅ Fast page loads
-
-## 🎨 Customization
-
-### Colors
-Edit the gradient colors in `globals.css` and component files:
-```css
-from-emerald-600 to-teal-600
+```bash
+npm run lint
 ```
 
-### Content
-Update text content directly in component files under `/components`
+Code quality check করে।
 
-### Animations
-Modify Framer Motion animations in component files or add new ones in `tailwind.config.ts`
+## Customization Guide
 
-## 📱 Responsive Breakpoints
+Text পরিবর্তন করতে চাইলে `components/` folder-এর fileগুলো edit করতে হবে। যেমন:
 
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
+- Hero section-এর headline বা button text: `components/Hero.tsx`
+- Feature card-এর text: `components/Features.tsx`
+- Review text: `components/Testimonials.tsx`
+- Footer link ও contact text: `components/Footer.tsx`
 
-## 🔧 Scripts
+Color theme মূলত emerald, teal এবং cyan gradient দিয়ে করা হয়েছে। এগুলো component file এবং `app/globals.css`-এ Tailwind class হিসেবে ব্যবহার করা হয়েছে।
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm start` - Start production server
-- `npm run lint` - Run ESLint
+## Project Notes
 
-## 📝 License
+এই project একটি presentation/demo-ready landing page হিসেবে তৈরি। Real app store link, social media link, company address, testimonial এবং statistics production-এ ব্যবহার করার আগে real information দিয়ে update করা উচিত।
 
-This project is created for demonstration purposes.
+## Deployment
 
-## 🤝 Support
+Vercel-এ deploy করার আগে production build check করা ভালো:
 
-For support, email support@fooddoctor.com
+```bash
+npm run build
+```
 
----
-
-Built with ❤️ using Next.js, Tailwind CSS, and Framer Motion
+Build successful হলে project GitHub-এ push করে Vercel থেকে import করে deploy করা যাবে।
