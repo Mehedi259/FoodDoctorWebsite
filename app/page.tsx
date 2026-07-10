@@ -8,6 +8,7 @@ import Benefits from "@/components/Benefits";
 import Testimonials from "@/components/Testimonials";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import AIDemoChat from "@/components/AIDemoChat";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <CTA />
       <Footer />
+      <AIDemoChat />
     </main>
   );
 }
