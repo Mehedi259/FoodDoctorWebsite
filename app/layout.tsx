@@ -32,6 +32,12 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  verification: {
+    google: "V30zoj-sa9zNQlpAHpCI2OtktjT_ErRoF8HQrgQZHYc",
+    other: {
+      "google-site-verification": ["DNrQ_v4kgpbt6_fOT80KYgJmSgbenkR2fg3mT9tq5Vg"],
+    },
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
