@@ -107,7 +107,10 @@ export default function LivePlan() {
                   {t("kcalLabel", { kcal: format.number(day.kcal) })}
                 </motion.span>
               </CardTitle>
-              <Progress value={(day.kcal / GOAL_KCAL) * 100} />
+              <Progress
+                value={(day.kcal / GOAL_KCAL) * 100}
+                aria-label={t("kcalLabel", { kcal: format.number(day.kcal) })}
+              />
             </CardHeader>
 
             <CardContent>
