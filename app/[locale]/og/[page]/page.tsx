@@ -44,6 +44,14 @@ export default async function OgCard({
   };
   const card = cards[page as OgPage];
 
+  // One Storyset illustration per page, from public/illustrations/
+  const scenes: Record<OgPage, string> = {
+    home: "eating-healthy-food",
+    about: "order-food",
+    privacy: "security",
+    terms: "mobile-note-list",
+  };
+
   return (
     <div
       id="og-card"
@@ -102,8 +110,15 @@ export default async function OgCard({
         </div>
       </div>
 
-      {/* App preview */}
-      <div className="relative flex flex-1 items-center justify-center">
+      {/* Illustration above the app preview */}
+      <div className="relative flex flex-1 flex-col items-center justify-center gap-6">
+        <Image
+          src={`/illustrations/${scenes[page as OgPage]}.svg`}
+          alt=""
+          width={1000}
+          height={1000}
+          className="h-[280px] w-[280px] drop-shadow-2xl"
+        />
         <Card className="w-[380px] rotate-3 gap-4 py-6 text-foreground shadow-2xl">
           <CardHeader className="gap-1">
             <p className="text-sm text-muted-foreground">{phone("greeting")}</p>
