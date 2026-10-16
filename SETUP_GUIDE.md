@@ -1,4 +1,4 @@
-# Setup Guide for Food Doctor Website
+# Setup Guide for Doctor Food Website
 
 এই guide তে তুমি Google Search Console, Bing Webmaster Tools, এবং Google Analytics setup করার complete instructions পাবে।
 
@@ -12,8 +12,8 @@
 3. **"Start measuring"** button এ click করো
 
 ### Step 2: Property তৈরি করো
-1. **Account name**: `Food Doctor` লিখো
-2. **Property name**: `Food Doctor Website` লিখো
+1. **Account name**: `Doctor Food` লিখো
+2. **Property name**: `Doctor Food Website` লিখো
 3. **Reporting time zone**: `Bangladesh` select করো
 4. **Currency**: `BDT - Bangladeshi Taka` select করো
 5. **Next** এ click করো
@@ -26,7 +26,7 @@
 ### Step 4: Web Stream Setup
 1. **Platform**: **Web** select করো
 2. **Website URL**: `https://food-doctor-website.vercel.app` লিখো
-3. **Stream name**: `Food Doctor Website` লিখো
+3. **Stream name**: `Doctor Food Website` লিখো
 4. **Create stream** এ click করো
 
 ### Step 5: Measurement ID কপি করো

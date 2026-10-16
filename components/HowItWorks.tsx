@@ -1,82 +1,57 @@
-"use client";
+import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { IconBolt, IconRefresh, IconUserPlus, IconWand } from "@tabler/icons-react";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import SectionHeader from "@/components/SectionHeader";
 
-import { motion } from "framer-motion";
-import { UserPlus, Target, Utensils, TrendingUp } from "lucide-react";
-
-const steps = [
-  {
-    icon: UserPlus,
-    title: "Create Your Profile",
-    description: "Tell us about your health goals, dietary preferences, and any allergies or restrictions.",
-    step: "01",
-  },
-  {
-    icon: Target,
-    title: "Set Your Goals",
-    description: "Define your objectives whether it's weight loss, muscle gain, or maintaining a healthy lifestyle.",
-    step: "02",
-  },
-  {
-    icon: Utensils,
-    title: "Get Your Plan",
-    description: "Receive personalized meal plans and nutrition recommendations powered by AI.",
-    step: "03",
-  },
-  {
-    icon: TrendingUp,
-    title: "Track Progress",
-    description: "Monitor your journey with detailed analytics and adjust your plan as you progress.",
-    step: "04",
-  },
-];
+const icons = [IconUserPlus, IconWand, IconBolt, IconRefresh];
 
 export default function HowItWorks() {
+  const t = useTranslations("HowItWorks");
+  const steps = t.raw("steps") as { title: string; body: string }[];
+
   return (
-    <section id="how-it-works" className="py-20 bg-gradient-to-br from-emerald-50 via-teal-50 to-cyan-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-16"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            How It Works
-          </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Get started in minutes and transform your health journey with our simple 4-step process.
-          </p>
-        </motion.div>
+    <section id="how-it-works" className="bg-background py-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <SectionHeader eyebrow={t("eyebrow")} title={t("title")} />
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {steps.map((step, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.15 }}
-              className="relative"
-            >
-              {/* Connector Line */}
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-16 left-[60%] w-full h-0.5 bg-gradient-to-r from-emerald-300 to-teal-300 z-0"></div>
-              )}
+        <Image
+          src="/illustrations/order-food.svg"
+          alt=""
+          width={1000}
+          height={1000}
+          sizes="(min-width: 768px) 640px, 90vw"
+          className="mx-auto mb-12 h-auto w-full max-w-sm"
+        />
 
-              <div className="relative glass p-8 rounded-2xl hover:shadow-xl transition text-center">
-                <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
-                  {step.step}
-                </div>
-
-                <div className="w-16 h-16 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-500 flex items-center justify-center">
-                  <step.icon className="w-8 h-8 text-white" />
-                </div>
-
-                <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{step.description}</p>
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          {steps.map((step, index) => {
+            const Icon = icons[index];
+            return (
+              <div key={step.title} className="relative">
+                {index < steps.length - 1 && (
+                  <div className="absolute top-12 start-[calc(50%+3rem)] z-0 hidden h-px w-[calc(100%-6rem)] bg-linear-to-r from-primary/60 to-primary/10 lg:block" />
+                )}
+                <Card className="relative z-10 h-full">
+                  <CardHeader>
+                    <div className="mb-2 flex items-center justify-between">
+                      <div className="flex size-12 items-center justify-center rounded-xl bg-primary text-primary-foreground">
+                        <Icon className="size-6" />
+                      </div>
+                      <Badge variant="outline" className="text-base font-semibold">
+                        {String(index + 1).padStart(2, "0")}
+                      </Badge>
+                    </div>
+                    <CardTitle className="text-xl">{step.title}</CardTitle>
+                    <CardDescription className="text-base leading-relaxed">
+                      {step.body}
+                    </CardDescription>
+                  </CardHeader>
+                </Card>
               </div>
-            </motion.div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

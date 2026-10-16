@@ -311,7 +311,7 @@ const [isTyping, setIsTyping] = useState(false);
 **User**: "How many calories should I eat to lose weight?"
 
 **AI Response**:  
-> For safe weight loss, aim for a 500-calorie deficit per day, which equals ~1 lb/week loss. Average needs: Women: 1,500-1,800 cal/day, Men: 1,800-2,200 cal/day. Download Food Doctor app for your personalized calorie target! 📱
+> For safe weight loss, aim for a 500-calorie deficit per day, which equals ~1 lb/week loss. Average needs: Women: 1,500-1,800 cal/day, Men: 1,800-2,200 cal/day. Download Doctor Food app for your personalized calorie target! 📱
 
 ### Question 3: Rice
 **User**: "Is brown rice better than white rice?"

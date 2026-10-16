@@ -1,6 +1,6 @@
-# Food Doctor Landing Page
+# Doctor Food Landing Page
 
-Food Doctor একটি school project landing page। এটি একটি AI-powered health ও nutrition mobile app-এর জন্য বানানো হয়েছে। সাইটটির লক্ষ্য হলো app-এর প্রধান সুবিধা, কাজ করার পদ্ধতি, user review এবং download call-to-action সুন্দরভাবে দেখানো।
+Doctor Food একটি school project landing page। এটি একটি AI-powered health ও nutrition mobile app-এর জন্য বানানো হয়েছে। সাইটটির লক্ষ্য হলো app-এর প্রধান সুবিধা, কাজ করার পদ্ধতি, user review এবং download call-to-action সুন্দরভাবে দেখানো।
 
 ## Project Overview
 
@@ -31,7 +31,7 @@ Main sections:
 ## Pages
 
 - `/` - Main landing page
-- `/about` - Food Doctor সম্পর্কে information
+- `/about` - Doctor Food সম্পর্কে information
 - `/privacy` - Privacy policy
 - `/terms` - Terms and conditions
 - `/test` - Tailwind CSS test page

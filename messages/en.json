@@ -1,0 +1,505 @@
+{
+  "Meta": {
+    "title": "AI Meal Planner for Allergies & Weight Goals | Doctor Food",
+    "description": "AI meal plans you'll actually stick to, allergy flags and a nutrition assistant. Calorie tracking and easy recipes. Free on iOS and Android."
+  },
+  "Navbar": {
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "about": "About",
+    "downloadApp": "Download app",
+    "getOnAndroid": "Get on Android",
+    "getOnIos": "Get on iOS",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "blog": "Blog"
+  },
+  "Hero": {
+    "badge": "Free on iOS and Android",
+    "titleLine1": "Stop guessing what to eat.",
+    "titleHighlight": "AI meal plans that fit your life.",
+    "description": "Doctor Food builds a weekly meal plan around your goals, allergies and tastes, tracks what you eat, and answers nutrition questions in seconds.",
+    "availableOn": "Available on",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "askCta": "Ask a nutrition question free",
+    "trust": [
+      "Free to download",
+      "3 free AI questions",
+      "Allergy flags on every meal"
+    ]
+  },
+  "Phone": {
+    "preview": "Example preview",
+    "greeting": "Good morning",
+    "todaysPlan": "Today's plan",
+    "progress": "{eaten} of {goal} kcal",
+    "breakfast": "Breakfast",
+    "breakfastMeal": "Overnight oats with berries",
+    "lunch": "Lunch",
+    "lunchMeal": "Lemon chicken and quinoa bowl",
+    "dinner": "Dinner",
+    "dinnerMeal": "Salmon with roasted greens",
+    "allergyTitle": "Allergy check",
+    "allergyBody": "Peanuts removed from your snack. Sunflower butter added instead.",
+    "floatingPlan": "This week's plan is ready",
+    "floatingProtein": "Lunch: 32 g protein"
+  },
+  "Pain": {
+    "eyebrow": "Sound familiar?",
+    "title": "Most people don't lack knowledge. They lack a plan that fits their week.",
+    "items": [
+      {
+        "title": "Diets that don't last",
+        "body": "Strict plans fall apart by week two. Doctor Food adjusts your plan to your schedule and taste, so you keep going."
+      },
+      {
+        "title": "Allergy-friendly meal plans",
+        "body": "Eating out with an allergy means guessing. Get allergen flags and safer swaps on every meal."
+      },
+      {
+        "title": "Calorie tracking in seconds",
+        "body": "Log a meal in seconds, not minutes. See your whole day at a glance."
+      },
+      {
+        "title": "Stop wondering what to eat",
+        "body": "Get a week of dinners built around food you already enjoy."
+      },
+      {
+        "title": "Nutrition advice that's about you",
+        "body": "Answers based on your profile, not random posts. Ask any nutrition question, any time."
+      },
+      {
+        "title": "Family meal planning",
+        "body": "Different goals, one table. Plans that work for everyone at home, without cooking three dinners."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "eyebrow": "How it works",
+    "title": "Start your meal plan in four steps",
+    "steps": [
+      {
+        "title": "Tell us about you",
+        "body": "Your goals, allergies, favourite foods and how much time you have to cook."
+      },
+      {
+        "title": "Get your first week",
+        "body": "The AI builds a week of meals with recipes, portions and a shopping list."
+      },
+      {
+        "title": "Log in seconds",
+        "body": "Describe or type a meal. Calories and macros update instantly."
+      },
+      {
+        "title": "Adjust as life changes",
+        "body": "Travelling or a busy week? Your plan updates around you."
+      }
+    ]
+  },
+  "Features": {
+    "eyebrow": "Features",
+    "title": "Everything for your daily meal plan",
+    "items": [
+      {
+        "title": "AI diet recommendations",
+        "body": "Advice based on your profile and goals, not generic tips."
+      },
+      {
+        "title": "Personalised meal plans",
+        "body": "Weekly plans that match your budget, cooking time and taste."
+      },
+      {
+        "title": "Allergy detection",
+        "body": "Flags likely allergens in meals and recipes so you can eat with confidence."
+      },
+      {
+        "title": "Calorie and macro tracking",
+        "body": "Logged in seconds, with a clear view of your day."
+      },
+      {
+        "title": "Recipe suggestions",
+        "body": "New meals from the ingredients you already have."
+      },
+      {
+        "title": "Meal scheduling",
+        "body": "Plan ahead and get reminders before you get hungry."
+      }
+    ]
+  },
+  "UseCases": {
+    "eyebrow": "Built for your situation",
+    "title": "Whatever your goal, your plan adapts",
+    "tabs": [
+      {
+        "label": "Weight loss",
+        "title": "Lose weight without starving",
+        "body": "Realistic calorie targets and meals you'll enjoy, adjusted as you progress.",
+        "points": [
+          "Calorie target based on your goal",
+          "Portion guidance you can follow",
+          "Weekly check-ins that update your plan"
+        ]
+      },
+      {
+        "label": "Food allergies",
+        "title": "Eat out with less worry",
+        "body": "Allergy flags on every meal and swaps that keep the flavour you like.",
+        "points": [
+          "Set your allergies once",
+          "Flags on plans and recipes",
+          "Swap ideas for foods you love"
+        ]
+      },
+      {
+        "label": "Busy weeks",
+        "title": "Healthy food, even in hectic weeks",
+        "body": "Quick recipes and a plan that works around late shifts and travel.",
+        "points": [
+          "15-minute meal ideas",
+          "Batch-cooking list for the week",
+          "Reminders before you get hungry"
+        ]
+      },
+      {
+        "label": "Family meals",
+        "title": "One kitchen, different needs",
+        "body": "Plan together, cook once, and adjust portions for each person.",
+        "points": [
+          "One shared weekly plan",
+          "Individual portions",
+          "Preferences for each person"
+        ]
+      }
+    ]
+  },
+  "AskAI": {
+    "eyebrow": "Try the assistant",
+    "title": "Ask any food question and get a clear answer",
+    "body": "Calories, protein, allergies, what to eat before a workout. Try three questions free, right here.",
+    "points": [
+      "Nutrition facts for everyday foods",
+      "Calorie and protein targets",
+      "What to eat before or after training"
+    ],
+    "sampleQuestion": "How much protein is in lentils?",
+    "sampleAnswer": "About 18 g per cup of cooked lentils. Pair them with rice or bread for a complete set of amino acids.",
+    "cta": "Ask the assistant"
+  },
+  "Pricing": {
+    "eyebrow": "Pricing",
+    "title": "Start free. Upgrade when you're ready.",
+    "body": "Download for free and try three AI questions. Pick a plan for more credits every month or year.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "credits": "{count} credits",
+    "creditsPerMonth": "per month",
+    "creditsPerYear": "per year",
+    "recommended": "Most popular",
+    "autoRenewMonthly": "Auto-renews monthly",
+    "autoRenewYearly": "Auto-renews yearly",
+    "getApp": "Get the app",
+    "plans": [
+      {
+        "name": "Pro",
+        "description": "For getting started",
+        "features": [
+          "Meal plans for one person",
+          "Allergy flags on every meal",
+          "AI nutrition questions",
+          "Calorie and macro tracking"
+        ]
+      },
+      {
+        "name": "Premium",
+        "description": "For committed goals",
+        "features": [
+          "Everything in Pro",
+          "More credits for AI questions",
+          "Recipe suggestions",
+          "Weekly plan adjustments"
+        ]
+      },
+      {
+        "name": "Family",
+        "description": "For the whole household",
+        "features": [
+          "Everything in Premium",
+          "Plans for the whole household",
+          "The largest credit allowance"
+        ]
+      }
+    ],
+    "note": "Subscriptions renew automatically. Cancel any time before renewal. Unused credits don't roll over.",
+    "saveBadge": "Save 2 months",
+    "billingLabel": "Billing period",
+    "equivalent": "About {price} a month",
+    "featuresTitle": "What's included"
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions about meal planning",
+    "items": [
+      {
+        "q": "Is Doctor Food a replacement for my doctor?",
+        "a": "No. Doctor Food offers nutrition guidance and meal ideas. It isn't medical advice, so talk to your doctor about any medical condition or medication."
+      },
+      {
+        "q": "How does allergy detection work?",
+        "a": "You set your allergies once. Doctor Food flags likely allergens in meals and recipes and suggests swaps. For severe allergies, always check product labels too."
+      },
+      {
+        "q": "Can I cancel my subscription?",
+        "a": "Yes. Cancel any time before renewal to avoid the next charge. Unused credits don't roll over."
+      },
+      {
+        "q": "Is my health data private?",
+        "a": "Your data is encrypted in transit and at rest, and we don't sell it. The privacy policy explains what we collect and why."
+      },
+      {
+        "q": "Which devices does it work on?",
+        "a": "Doctor Food is available on iOS and Android."
+      },
+      {
+        "q": "What does Doctor Food cost?",
+        "a": "The app is free to download and includes three AI questions. Paid plans add credits every month or year. See the pricing section for each plan."
+      },
+      {
+        "q": "How do AI credits work?",
+        "a": "Each AI request uses credits. Your plan gives you a set number of credits per month or per year. Unused credits don't roll over."
+      },
+      {
+        "q": "Can the whole family use one plan?",
+        "a": "Yes. The Family plan is built for the whole household and includes the largest credit allowance."
+      },
+      {
+        "q": "Does it help with weight goals?",
+        "a": "Yes. Choose a goal such as weight loss and Doctor Food sets realistic calorie targets and meals, then adjusts them as you progress."
+      },
+      {
+        "q": "What if my allergy is severe?",
+        "a": "Doctor Food flags likely allergens to help you, but it can't guarantee that a food is safe. For severe allergies, always read product labels and follow your allergist's advice."
+      },
+      {
+        "q": "Can I track what I eat every day?",
+        "a": "Yes. Log a meal in seconds and see calories and macros for the day in one view."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Your next meal can already be planned.",
+    "body": "Download Doctor Food and get your first personalised meal plan today.",
+    "note": "Free to download. Cancel any subscription before it renews."
+  },
+  "Footer": {
+    "tagline": "Your personal AI nutrition coach, for food that fits your life.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "about": "About us",
+    "privacy": "Privacy policy",
+    "terms": "Terms & conditions",
+    "rights": "All rights reserved.",
+    "blog": "Blog"
+  },
+  "About": {
+    "title": "About Doctor Food",
+    "intro": "Doctor Food is a health-tech platform that combines artificial intelligence with nutritional science to help people reach their wellness goals. Founded in 2023, we've grown to serve over 500,000 active users worldwide.",
+    "missionTitle": "Our mission",
+    "mission": "We believe everyone deserves personalised, expert-level nutrition guidance. Our mission is to make AI-powered dietary recommendations accessible to all.",
+    "storyTitle": "Our story",
+    "story": "Doctor Food started from a simple observation: despite all the diet information available, people still struggle to find personalised nutrition advice that works for their needs. Our founders, a team of nutritionists, data scientists and health enthusiasts, set out to solve that with modern AI.",
+    "whatTitle": "What we do",
+    "what": "We provide intelligent meal planning and nutrition tracking that adapts to your lifestyle, preferences and health goals. Our AI looks at your eating patterns, finds areas to improve and suggests changes that fit into your daily routine.",
+    "valuesTitle": "Our values",
+    "values": [
+      {
+        "title": "Science-based",
+        "body": "Our recommendations are grounded in peer-reviewed nutrition research."
+      },
+      {
+        "title": "Privacy-first",
+        "body": "Your health data is encrypted and never shared without your explicit consent."
+      },
+      {
+        "title": "Inclusive",
+        "body": "We support all dietary preferences, restrictions and cultural food traditions."
+      },
+      {
+        "title": "Transparent",
+        "body": "We explain the reasoning behind every recommendation we make."
+      }
+    ],
+    "teamTitle": "Our team",
+    "team": "Doctor Food is powered by a diverse team of registered dietitians, machine learning engineers, UX designers and health advocates. Together we're making healthy eating simple, enjoyable and sustainable.",
+    "joinTitle": "Join our journey",
+    "join": "We're always looking for passionate people to join our mission. Check out our careers page or write to careers@fooddoctor.com."
+  },
+  "Chat": {
+    "title": "AI Nutrition Assistant",
+    "open": "Open the AI nutrition assistant",
+    "close": "Close chat",
+    "send": "Send message",
+    "inputLabel": "Ask about nutrition",
+    "placeholder": "Ask about nutrition...",
+    "counter": "{count}/3 free questions used",
+    "intro": "Hi! I'm your AI nutrition assistant. Ask me anything about food, nutrition or healthy eating. 🥗",
+    "quickLabel": "Try these quick questions:",
+    "limitTitle": "🎉 Free trial complete!",
+    "limitBody": "Download Doctor Food for unlimited AI conversations, personalised meal plans and more.",
+    "android": "Android",
+    "ios": "iOS",
+    "limitFooter": "Download the app for unlimited questions! 🚀"
+  },
+  "Marquee": {
+    "items": [
+      "AI meal plans",
+      "Allergy-friendly recipes",
+      "Calorie tracking in seconds",
+      "Family meal planning",
+      "Weight-loss meal ideas",
+      "Private and encrypted"
+    ]
+  },
+  "LivePlan": {
+    "eyebrow": "Live preview",
+    "title": "See a week of eating, planned in seconds",
+    "body": "Tap through the days. Each plan updates its calories, meals and allergy flags around your goals.",
+    "kcalLabel": "{kcal} kcal",
+    "allergyNote": "Peanut-free swap applied",
+    "mealOats": "Overnight oats with berries",
+    "mealChicken": "Lemon chicken and quinoa bowl",
+    "mealSalmon": "Salmon with roasted greens",
+    "mealWrap": "Turkey and avocado wrap",
+    "mealStir": "Tofu stir-fry with rice"
+  },
+  "AllergyScanner": {
+    "eyebrow": "Allergy flags",
+    "title": "Tell us your allergies once. We check every meal.",
+    "body": "Turn on your allergies and see which ingredients get flagged before you cook.",
+    "hint": "Tap an allergy to see what it affects",
+    "safe": "Safe",
+    "flagged": "Flagged",
+    "allergyPeanut": "Peanuts",
+    "allergyMilk": "Milk",
+    "allergyGluten": "Gluten",
+    "ingPeanutButter": "Peanut butter",
+    "ingYogurt": "Greek yogurt",
+    "ingBread": "Wholegrain bread",
+    "ingChicken": "Chicken breast",
+    "ingBlueberries": "Blueberries"
+  },
+  "Trust": {
+    "eyebrow": "Privacy and trust",
+    "title": "Your health data stays private",
+    "items": [
+      {
+        "title": "Encrypted",
+        "body": "Your data is encrypted in transit and at rest."
+      },
+      {
+        "title": "Never sold",
+        "body": "We don't sell your personal data to third parties."
+      },
+      {
+        "title": "Cancel any time",
+        "body": "Cancel before renewal. No hidden charges."
+      }
+    ],
+    "disclaimer": "Doctor Food gives nutrition guidance, not medical advice. For a medical condition or medication, talk to your doctor."
+  },
+  "Common": {
+    "home": "Home"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Meal planning, allergies and nutrition, explained",
+    "body": "Practical guides for planning meals you'll stick to, cooking safely with allergies, and reading nutrition labels with confidence.",
+    "latestTitle": "From the blog",
+    "latestBody": "Practical guides on meal planning, allergies and everyday nutrition.",
+    "viewAll": "All articles",
+    "readArticle": "Read article",
+    "published": "Published {date}",
+    "updated": "Updated {date}",
+    "minutes": "{count} min read",
+    "by": "By {name}",
+    "backToBlog": "Back to the blog",
+    "empty": "No articles in this language yet. Check back soon.",
+    "relatedTitle": "Keep reading",
+    "ctaTitle": "Turn the tips into a plan",
+    "ctaBody": "Doctor Food builds a weekly meal plan around your goals and allergies. Start free on iOS and Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Platform",
+    "title": "One app for planning, tracking and guidance",
+    "body": "Meal plans, allergy checks, tracking and nutrition answers all use the same profile, so every choice fits the rest of your day.",
+    "pillars": [
+      {
+        "title": "Plan",
+        "body": "Weekly meals built around your goal, schedule and allergies.",
+        "items": [
+          {
+            "title": "Weekly meal plans",
+            "body": "A full week of breakfasts, lunches and dinners that match your targets."
+          },
+          {
+            "title": "Recipe suggestions",
+            "body": "Easy recipes from the ingredients you already have at home."
+          },
+          {
+            "title": "Meal scheduling",
+            "body": "Reminders that help you plan ahead, so you aren't choosing food when hungry."
+          }
+        ]
+      },
+      {
+        "title": "Track",
+        "body": "See what you eat and how it adds up, day by day.",
+        "items": [
+          {
+            "title": "Calorie and macro tracking",
+            "body": "Log a meal in seconds and see calories, protein, carbs and fat."
+          },
+          {
+            "title": "Food diary",
+            "body": "A simple timeline of everything you ate, in the order you ate it."
+          },
+          {
+            "title": "Weight management",
+            "body": "Progress toward your weight goal, with targets that adjust as you go."
+          }
+        ]
+      },
+      {
+        "title": "Guide",
+        "body": "Clear answers and safer choices when you need them.",
+        "items": [
+          {
+            "title": "AI diet recommendations",
+            "body": "Suggestions based on your profile, your goals and what you enjoy."
+          },
+          {
+            "title": "Nutrition coaching",
+            "body": "Ask questions in plain language and get practical, general guidance."
+          },
+          {
+            "title": "Allergy detection",
+            "body": "Likely allergens flagged in meals and recipes, with safer swaps."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Questions about Doctor Food",
+    "body": "Answers about plans, credits, allergies, privacy and devices. Still have a question? Ask the nutrition assistant inside the app."
+  }
+}

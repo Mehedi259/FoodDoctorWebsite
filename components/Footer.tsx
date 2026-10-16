@@ -1,75 +1,62 @@
-"use client";
-
-import { Mail, MessageCircle, Share2, Link } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/navigation";
+import { Separator } from "@/components/ui/separator";
+
+const linkClass = "opacity-70 transition hover:opacity-100";
 
 export default function Footer() {
+  const t = useTranslations("Footer");
+
   return (
-    <footer className="bg-gray-900 text-gray-300">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid md:grid-cols-4 gap-8 mb-8">
-          {/* Brand */}
+    <footer className="bg-foreground text-background">
+      <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="mb-10 grid gap-10 md:grid-cols-4">
           <div>
-            <div className="flex items-center space-x-3 mb-4">
-              <Image src="/app_icon.png" alt="Food Doctor" width={40} height={40} className="w-10 h-10 rounded-xl" />
-              <span className="text-2xl font-bold text-white">Food Doctor</span>
+            <div className="mb-4 flex items-center gap-3">
+              <Image src="/app_icon.png" alt="Doctor Food" width={40} height={40} className="rounded-xl" />
+              <span className="text-2xl font-bold">Doctor Food</span>
             </div>
-            <p className="text-sm text-gray-400 mb-4">
-              Your personal AI health coach for a better, healthier life.
-            </p>
-            <div className="flex gap-4">
-              <a href="#" className="hover:text-emerald-500 transition">
-                <Share2 className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-emerald-500 transition">
-                <MessageCircle className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-emerald-500 transition">
-                <Mail className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-emerald-500 transition">
-                <Link className="w-5 h-5" />
-              </a>
-            </div>
+            <p className="text-sm leading-relaxed opacity-70">{t("tagline")}</p>
           </div>
 
-          {/* Product */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Product</h3>
+            <h2 className="mb-4 font-semibold">{t("product")}</h2>
             <ul className="space-y-2 text-sm">
-              <li><a href="#features" className="hover:text-emerald-500 transition">Features</a></li>
-              <li><a href="#how-it-works" className="hover:text-emerald-500 transition">How It Works</a></li>
-              <li><a href="#testimonials" className="hover:text-emerald-500 transition">Testimonials</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition">Pricing</a></li>
+              <li><Link href="/features" className={linkClass}>{t("features")}</Link></li>
+              <li><Link href="/#how-it-works" className={linkClass}>{t("howItWorks")}</Link></li>
+              <li><Link href="/#pricing" className={linkClass}>{t("pricing")}</Link></li>
+              <li><Link href="/faq" className={linkClass}>{t("faq")}</Link></li>
             </ul>
           </div>
 
-          {/* Company */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
+            <h2 className="mb-4 font-semibold">{t("company")}</h2>
             <ul className="space-y-2 text-sm">
-              <li><a href="/about" className="hover:text-emerald-500 transition">About Us</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition">Careers</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition">Blog</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition">Contact</a></li>
+              <li><Link href="/about" className={linkClass}>{t("about")}</Link></li>
+              <li><Link href="/blog" className={linkClass}>{t("blog")}</Link></li>
             </ul>
           </div>
 
-          {/* Legal */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Legal</h3>
+            <h2 className="mb-4 font-semibold">{t("legal")}</h2>
             <ul className="space-y-2 text-sm">
-              <li><a href="/privacy" className="hover:text-emerald-500 transition">Privacy Policy</a></li>
-              <li><a href="/terms" className="hover:text-emerald-500 transition">Terms & Conditions</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition">Cookie Policy</a></li>
-              <li><a href="#" className="hover:text-emerald-500 transition">GDPR</a></li>
+              <li><Link href="/privacy" className={linkClass}>{t("privacy")}</Link></li>
+              <li><Link href="/terms" className={linkClass}>{t("terms")}</Link></li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 text-center text-sm">
-          <p>&copy; {new Date().getFullYear()} Food Doctor. All rights reserved.</p>
-        </div>
+        <Separator className="mb-8 bg-background/20" />
+        <p className="text-center text-sm opacity-70">
+          &copy; {new Date().getFullYear()} Doctor Food. {t("rights")}
+        </p>
+        <p className="mt-2 text-center text-xs opacity-60">
+          Illustrations by{" "}
+          <a href="https://storyset.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-100">
+            Storyset
+          </a>
+        </p>
       </div>
     </footer>
   );

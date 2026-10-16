@@ -1,0 +1,505 @@
+{
+  "Meta": {
+    "title": "KI-Essensplaner für Allergien und Ziele | Doctor Food",
+    "description": "KI-Ernährungspläne, die du wirklich durchhältst, Allergie-Hinweise und ein Ernährungsassistent. Kalorienzähler und einfache Rezepte. Kostenlos für iOS und Android."
+  },
+  "Navbar": {
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "about": "Über uns",
+    "downloadApp": "App laden",
+    "getOnAndroid": "Für Android",
+    "getOnIos": "Für iOS",
+    "language": "Sprache",
+    "openMenu": "Menü öffnen",
+    "blog": "Blog"
+  },
+  "Hero": {
+    "badge": "Kostenlos für iOS und Android",
+    "titleLine1": "Hör auf zu raten, was du essen sollst.",
+    "titleHighlight": "KI-Ernährungspläne, die zu deinem Leben passen.",
+    "description": "Doctor Food erstellt einen Wochenplan für deine Ziele, Allergien und Vorlieben, erfasst, was du isst, und beantwortet deine Ernährungsfragen in Sekunden.",
+    "availableOn": "Verfügbar im",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "askCta": "Kostenlos eine Ernährungsfrage stellen",
+    "trust": [
+      "Kostenlos herunterladen",
+      "3 kostenlose KI-Fragen",
+      "Allergie-Hinweise bei jeder Mahlzeit"
+    ]
+  },
+  "Phone": {
+    "preview": "Beispielvorschau",
+    "greeting": "Guten Morgen",
+    "todaysPlan": "Heutiger Plan",
+    "progress": "{eaten} von {goal} kcal",
+    "breakfast": "Frühstück",
+    "breakfastMeal": "Overnight Oats mit Beeren",
+    "lunch": "Mittagessen",
+    "lunchMeal": "Zitronenhähnchen-Bowl mit Quinoa",
+    "dinner": "Abendessen",
+    "dinnerMeal": "Lachs mit geröstetem Gemüse",
+    "allergyTitle": "Allergie-Check",
+    "allergyBody": "Erdnüsse aus deinem Snack entfernt. Stattdessen Sonnenblumenbutter hinzugefügt.",
+    "floatingPlan": "Der Wochenplan ist fertig",
+    "floatingProtein": "Mittagessen: 32 g Eiweiß"
+  },
+  "Pain": {
+    "eyebrow": "Kommt dir das bekannt vor?",
+    "title": "Den meisten fehlt nicht das Wissen. Es fehlt ein Plan, der zu ihrer Woche passt.",
+    "items": [
+      {
+        "title": "Diäten, die nicht halten",
+        "body": "Strenge Pläne scheitern oft in der zweiten Woche. Doctor Food passt deinen Plan an deinen Alltag und Geschmack an, damit du dranbleibst."
+      },
+      {
+        "title": "Allergikerfreundliche Ernährungspläne",
+        "body": "Auswärts essen mit Allergie heißt raten. Bekomme bei jeder Mahlzeit Allergen-Hinweise und sicherere Alternativen."
+      },
+      {
+        "title": "Kalorien in Sekunden erfassen",
+        "body": "Eine Mahlzeit in Sekunden erfassen, nicht in Minuten. Sieh deinen ganzen Tag auf einen Blick."
+      },
+      {
+        "title": "Schluss mit dem Grübeln, was du essen sollst",
+        "body": "Erhalte eine Woche Abendessen aus Gerichten, die du ohnehin magst."
+      },
+      {
+        "title": "Ernährungstipps, die zu dir passen",
+        "body": "Antworten auf Basis deines Profils statt zufälliger Posts. Stell jede Ernährungsfrage, wann immer du willst."
+      },
+      {
+        "title": "Familienessen planen",
+        "body": "Unterschiedliche Ziele, ein Tisch. Pläne, die für alle zu Hause funktionieren, ohne drei Abendessen zu kochen."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "eyebrow": "So funktioniert's",
+    "title": "In vier Schritten zu deinem Ernährungsplan",
+    "steps": [
+      {
+        "title": "Erzähl uns von dir",
+        "body": "Deine Ziele, Allergien, Lieblingsessen und wie viel Zeit du zum Kochen hast."
+      },
+      {
+        "title": "Bekomm deine erste Woche",
+        "body": "Die KI erstellt eine Woche mit Rezepten, Portionen und Einkaufsliste."
+      },
+      {
+        "title": "In Sekunden erfassen",
+        "body": "Beschreibe oder tippe eine Mahlzeit ein. Kalorien und Nährstoffe aktualisieren sich sofort."
+      },
+      {
+        "title": "Passe dich an, wenn sich etwas ändert",
+        "body": "Reise oder stressige Woche? Dein Plan passt sich dir an."
+      }
+    ]
+  },
+  "Features": {
+    "eyebrow": "Funktionen",
+    "title": "Alles für deinen täglichen Ernährungsplan",
+    "items": [
+      {
+        "title": "KI-Ernährungsempfehlungen",
+        "body": "Tipps auf Basis deines Profils und deiner Ziele, keine allgemeinen Ratschläge."
+      },
+      {
+        "title": "Persönliche Ernährungspläne",
+        "body": "Wochenpläne, die zu Budget, Kochzeit und Geschmack passen."
+      },
+      {
+        "title": "Allergieerkennung",
+        "body": "Markiert mögliche Allergene in Mahlzeiten und Rezepten, damit du sicher essen kannst."
+      },
+      {
+        "title": "Kalorien- und Nährwerterfassung",
+        "body": "In Sekunden erfasst, mit einem klaren Überblick über deinen Tag."
+      },
+      {
+        "title": "Rezeptvorschläge",
+        "body": "Neue Gerichte aus den Zutaten, die du schon hast."
+      },
+      {
+        "title": "Mahlzeitenplanung",
+        "body": "Plane voraus und bekomme Erinnerungen, bevor du Hunger hast."
+      }
+    ]
+  },
+  "UseCases": {
+    "eyebrow": "Für deine Situation gemacht",
+    "title": "Egal welches Ziel: Dein Plan passt sich an",
+    "tabs": [
+      {
+        "label": "Abnehmen",
+        "title": "Gewicht verlieren, ohne zu hungern",
+        "body": "Realistische Kalorienziele und Gerichte, die dir schmecken, angepasst mit deinem Fortschritt.",
+        "points": [
+          "Kalorienziel passend zu deinem Ziel",
+          "Portionsempfehlungen, die sich leicht umsetzen lassen",
+          "Wöchentliche Check-ins, die deinen Plan aktualisieren"
+        ]
+      },
+      {
+        "label": "Lebensmittelallergien",
+        "title": "Auswärts essen mit weniger Sorgen",
+        "body": "Allergie-Hinweise bei jeder Mahlzeit und Alternativen, die deinen Geschmack treffen.",
+        "points": [
+          "Allergien einmal festlegen",
+          "Hinweise in Plänen und Rezepten",
+          "Tauschideen für deine Lieblingsessen"
+        ]
+      },
+      {
+        "label": "Volle Wochen",
+        "title": "Gesund essen, auch in stressigen Wochen",
+        "body": "Schnelle Rezepte und ein Plan, der zu Spätschichten und Reisen passt.",
+        "points": [
+          "Mahlzeiten-Ideen in 15 Minuten",
+          "Liste für Vorkochen in der Woche",
+          "Erinnerungen, bevor der Hunger kommt"
+        ]
+      },
+      {
+        "label": "Familienessen",
+        "title": "Eine Küche, unterschiedliche Bedürfnisse",
+        "body": "Gemeinsam planen, einmal kochen und die Portionen für jede Person anpassen.",
+        "points": [
+          "Ein gemeinsamer Wochenplan",
+          "Individuelle Portionen",
+          "Vorlieben für jede Person"
+        ]
+      }
+    ]
+  },
+  "AskAI": {
+    "eyebrow": "Probier den Assistenten aus",
+    "title": "Frag alles rund ums Essen und bekomm eine klare Antwort",
+    "body": "Kalorien, Eiweiß, Allergien, was du vor dem Training essen solltest. Stell hier direkt drei Fragen kostenlos.",
+    "points": [
+      "Nährwerte gängiger Lebensmittel",
+      "Kalorien- und Eiweißziele",
+      "Was du vor oder nach dem Training essen solltest"
+    ],
+    "sampleQuestion": "Wie viel Eiweiß steckt in Linsen?",
+    "sampleAnswer": "Etwa 18 g pro Tasse gekochter Linsen. Kombiniere sie mit Reis oder Brot, dann bekommst du alle essenziellen Aminosäuren.",
+    "cta": "Den Assistenten fragen"
+  },
+  "Pricing": {
+    "eyebrow": "Preise",
+    "title": "Starte kostenlos. Upgrade, wenn du bereit bist.",
+    "body": "Lade die App kostenlos herunter und teste drei KI-Fragen. Wähle einen Plan für mehr Credits pro Monat oder Jahr.",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "perMonth": "/Monat",
+    "perYear": "/Jahr",
+    "credits": "{count} Credits",
+    "creditsPerMonth": "pro Monat",
+    "creditsPerYear": "pro Jahr",
+    "recommended": "Am beliebtesten",
+    "autoRenewMonthly": "Verlängert sich monatlich automatisch",
+    "autoRenewYearly": "Verlängert sich jährlich automatisch",
+    "getApp": "App holen",
+    "plans": [
+      {
+        "name": "Pro",
+        "description": "Für den Einstieg",
+        "features": [
+          "Speisepläne für eine Person",
+          "Allergiehinweise zu jeder Mahlzeit",
+          "KI-Ernährungsfragen",
+          "Kalorien- und Makro-Tracking"
+        ]
+      },
+      {
+        "name": "Premium",
+        "description": "Für langfristige Ziele",
+        "features": [
+          "Alles aus Pro",
+          "Mehr Credits für KI-Fragen",
+          "Rezeptvorschläge",
+          "Wöchentliche Plananpassungen"
+        ]
+      },
+      {
+        "name": "Family",
+        "description": "Für den ganzen Haushalt",
+        "features": [
+          "Alles aus Premium",
+          "Pläne für den ganzen Haushalt",
+          "Das größte Credit-Kontingent"
+        ]
+      }
+    ],
+    "note": "Abos verlängern sich automatisch. Du kannst vor der Verlängerung jederzeit kündigen. Nicht genutzte Credits werden nicht übertragen.",
+    "saveBadge": "2 Monate sparen",
+    "billingLabel": "Abrechnungszeitraum",
+    "featuresTitle": "Was enthalten ist",
+    "equivalent": "Etwa {price} pro Monat"
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Häufige Fragen zur Essensplanung",
+    "items": [
+      {
+        "q": "Ersetzt Doctor Food meinen Arzt?",
+        "a": "Nein. Doctor Food bietet Ernährungsorientierung und Mahlzeitenideen. Es ist keine medizinische Beratung. Sprich bei Erkrankungen oder Medikamenten mit deinem Arzt."
+      },
+      {
+        "q": "Wie funktioniert die Allergieerkennung?",
+        "a": "Du hinterlegst deine Allergien einmal. Doctor Food markiert mögliche Allergene in Mahlzeiten und Rezepten und schlägt Alternativen vor. Bei schweren Allergien prüfe zusätzlich immer die Produktetiketten."
+      },
+      {
+        "q": "Kann ich mein Abo kündigen?",
+        "a": "Ja. Du kannst jederzeit vor der Verlängerung kündigen, um die nächste Abbuchung zu vermeiden. Nicht genutzte Credits werden nicht übertragen."
+      },
+      {
+        "q": "Sind meine Gesundheitsdaten privat?",
+        "a": "Deine Daten sind bei der Übertragung und gespeichert verschlüsselt, und wir verkaufen sie nicht. Die Datenschutzerklärung erklärt, was wir erheben und warum."
+      },
+      {
+        "q": "Auf welchen Geräten funktioniert die App?",
+        "a": "Doctor Food ist für iOS und Android verfügbar."
+      },
+      {
+        "q": "Was kostet Doctor Food?",
+        "a": "Die App ist kostenlos und enthält drei KI-Fragen. Bezahlpläne fügen jeden Monat oder jedes Jahr Credits hinzu. Im Preisbereich findest du die Details zu jedem Plan."
+      },
+      {
+        "q": "Wie funktionieren KI-Credits?",
+        "a": "Jede KI-Anfrage verbraucht Credits. Dein Plan enthält eine feste Anzahl an Credits pro Monat oder pro Jahr. Nicht genutzte Credits werden nicht übertragen."
+      },
+      {
+        "q": "Kann die ganze Familie einen Plan nutzen?",
+        "a": "Ja. Der Family-Plan ist für den ganzen Haushalt gedacht und enthält das größte Credit-Kontingent."
+      },
+      {
+        "q": "Hilft die App bei Gewichtszielen?",
+        "a": "Ja. Wähle ein Ziel wie Gewichtsabnahme, und Doctor Food legt realistische Kalorienziele und Mahlzeiten fest und passt sie an, während du Fortschritte machst."
+      },
+      {
+        "q": "Was ist, wenn meine Allergie schwer ist?",
+        "a": "Doctor Food markiert wahrscheinliche Allergene, um dir zu helfen, kann aber nicht garantieren, dass ein Lebensmittel sicher ist. Bei schweren Allergien immer die Produktetiketten lesen und den Rat deines Allergologen befolgen."
+      },
+      {
+        "q": "Kann ich täglich erfassen, was ich esse?",
+        "a": "Ja. Trage eine Mahlzeit in Sekunden ein und sieh Kalorien und Makros für den Tag in einer Übersicht."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Deine nächste Mahlzeit kann schon geplant sein.",
+    "body": "Lade Doctor Food herunter und hol dir heute deinen ersten persönlichen Ernährungsplan.",
+    "note": "Kostenloser Download. Kündige Abos vor der Verlängerung."
+  },
+  "Footer": {
+    "tagline": "Dein persönlicher KI-Ernährungscoach für Essen, das in dein Leben passt.",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "features": "Funktionen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "faq": "FAQ",
+    "about": "Über uns",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "rights": "Alle Rechte vorbehalten.",
+    "blog": "Blog"
+  },
+  "About": {
+    "title": "Über Doctor Food",
+    "intro": "Doctor Food ist eine Gesundheitsplattform, die künstliche Intelligenz mit Ernährungswissenschaft verbindet, um Menschen bei ihren Wellness-Zielen zu helfen. Seit der Gründung 2023 nutzen über 500.000 aktive Nutzer weltweit unsere App.",
+    "missionTitle": "Unsere Mission",
+    "mission": "Wir glauben, dass jeder individuelle Ernährungsberatung auf Expertenniveau verdient. Unser Ziel ist es, KI-gestützte Ernährungsempfehlungen für alle zugänglich zu machen.",
+    "storyTitle": "Unsere Geschichte",
+    "story": "Doctor Food entstand aus einer einfachen Beobachtung: Trotz unzähliger Informationen zu Diäten fällt es vielen schwer, persönliche Ernährungstipps zu finden, die zu ihren Bedürfnissen passen. Unsere Gründer, ein Team aus Ernährungswissenschaftlern, Datenwissenschaftlern und Gesundheitsbegeisterten, wollten das mit moderner KI lösen.",
+    "whatTitle": "Was wir tun",
+    "what": "Wir bieten intelligente Mahlzeitenplanung und Ernährungstracking, die sich an deinen Lebensstil, deine Vorlieben und deine Gesundheitsziele anpasst. Unsere KI analysiert deine Essgewohnheiten, zeigt Verbesserungspotenziale auf und schlägt Änderungen vor, die in deinen Alltag passen.",
+    "valuesTitle": "Unsere Werte",
+    "values": [
+      {
+        "title": "Wissenschaftlich fundiert",
+        "body": "Unsere Empfehlungen basieren auf begutachteter Ernährungsforschung."
+      },
+      {
+        "title": "Datenschutz zuerst",
+        "body": "Deine Gesundheitsdaten werden verschlüsselt und nie ohne deine ausdrückliche Zustimmung weitergegeben."
+      },
+      {
+        "title": "Inklusiv",
+        "body": "Wir unterstützen alle Ernährungsweisen, Einschränkungen und kulturellen Esstraditionen."
+      },
+      {
+        "title": "Transparent",
+        "body": "Wir erklären die Begründung hinter jeder Empfehlung."
+      }
+    ],
+    "teamTitle": "Unser Team",
+    "team": "Doctor Food wird von einem vielfältigen Team aus diplomierten Ökotrophologen, Machine-Learning-Ingenieuren, UX-Designern und Gesundheitsexperten getragen. Gemeinsam machen wir gesundes Essen einfach, genussvoll und nachhaltig.",
+    "joinTitle": "Begleite unseren Weg",
+    "join": "Wir suchen immer leidenschaftliche Menschen, die unsere Mission unterstützen. Schau auf unserer Karriereseite vorbei oder schreib an careers@fooddoctor.com."
+  },
+  "Chat": {
+    "title": "KI-Ernährungsassistent",
+    "open": "KI-Ernährungsassistenten öffnen",
+    "close": "Chat schließen",
+    "send": "Nachricht senden",
+    "inputLabel": "Frage zur Ernährung stellen",
+    "placeholder": "Frag etwas zur Ernährung...",
+    "counter": "{count}/3 kostenlose Fragen genutzt",
+    "intro": "Hallo! Ich bin dein KI-Ernährungsassistent. Frag mich alles rund um Essen, Ernährung oder gesunde Ernährung. 🥗",
+    "quickLabel": "Probier diese schnellen Fragen:",
+    "limitTitle": "🎉 Kostenlose Testphase beendet!",
+    "limitBody": "Lade Doctor Food herunter für unbegrenzte KI-Gespräche, persönliche Ernährungspläne und mehr.",
+    "android": "Android",
+    "ios": "iOS",
+    "limitFooter": "Lade die App für unbegrenzte Fragen herunter! 🚀"
+  },
+  "Marquee": {
+    "items": [
+      "KI-Ernährungspläne",
+      "Allergikerfreundliche Rezepte",
+      "Kalorien in Sekunden",
+      "Familienessen planen",
+      "Ideen zum Abnehmen",
+      "Privat und verschlüsselt"
+    ]
+  },
+  "LivePlan": {
+    "eyebrow": "Live-Vorschau",
+    "title": "Eine Woche Essen, in Sekunden geplant",
+    "body": "Tippe dich durch die Tage. Jeder Plan passt Kalorien, Mahlzeiten und Allergie-Hinweise an deine Ziele an.",
+    "kcalLabel": "{kcal} kcal",
+    "allergyNote": "Erdnussfreie Alternative eingesetzt",
+    "mealOats": "Overnight Oats mit Beeren",
+    "mealChicken": "Zitronenhähnchen-Bowl mit Quinoa",
+    "mealSalmon": "Lachs mit geröstetem Gemüse",
+    "mealWrap": "Puten-Avocado-Wrap",
+    "mealStir": "Tofu-Pfanne mit Reis"
+  },
+  "AllergyScanner": {
+    "eyebrow": "Allergie-Hinweise",
+    "title": "Deine Allergien einmal angeben. Wir prüfen jede Mahlzeit.",
+    "body": "Aktiviere deine Allergien und sieh, welche Zutaten vor dem Kochen markiert werden.",
+    "hint": "Tippe auf eine Allergie, um zu sehen, was betroffen ist",
+    "safe": "Sicher",
+    "flagged": "Markiert",
+    "allergyPeanut": "Erdnüsse",
+    "allergyMilk": "Milch",
+    "allergyGluten": "Gluten",
+    "ingPeanutButter": "Erdnussbutter",
+    "ingYogurt": "Griechischer Joghurt",
+    "ingBread": "Vollkornbrot",
+    "ingChicken": "Hähnchenbrust",
+    "ingBlueberries": "Heidelbeeren"
+  },
+  "Trust": {
+    "eyebrow": "Datenschutz und Vertrauen",
+    "title": "Deine Gesundheitsdaten bleiben privat",
+    "items": [
+      {
+        "title": "Verschlüsselt",
+        "body": "Deine Daten sind bei der Übertragung und gespeichert verschlüsselt."
+      },
+      {
+        "title": "Nie verkauft",
+        "body": "Wir verkaufen deine persönlichen Daten nicht an Dritte."
+      },
+      {
+        "title": "Jederzeit kündbar",
+        "body": "Vor der Verlängerung kündigen. Keine versteckten Gebühren."
+      }
+    ],
+    "disclaimer": "Doctor Food bietet Ernährungsorientierung, keine medizinische Beratung. Bei einer Erkrankung oder einem Medikament sprich bitte mit deinem Arzt."
+  },
+  "Common": {
+    "home": "Startseite"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Mahlzeitenplanung, Allergien und Ernährung erklärt",
+    "body": "Praktische Anleitungen, um Mahlzeiten zu planen, die man auch durchhält, bei Allergien sicher zu kochen und Nährwertangaben sicher zu lesen.",
+    "latestTitle": "Aus dem Blog",
+    "latestBody": "Praktische Anleitungen zu Mahlzeitenplanung, Allergien und Alltagsernährung.",
+    "viewAll": "Alle Artikel",
+    "readArticle": "Artikel lesen",
+    "published": "Veröffentlicht am {date}",
+    "updated": "Aktualisiert am {date}",
+    "minutes": "{count} Min. Lesezeit",
+    "by": "Von {name}",
+    "backToBlog": "Zurück zum Blog",
+    "empty": "In dieser Sprache gibt es noch keine Artikel. Schau bald wieder vorbei.",
+    "relatedTitle": "Weiterlesen",
+    "ctaTitle": "Mach aus den Tipps einen Plan",
+    "ctaBody": "Doctor Food erstellt einen Wochenspeiseplan passend zu deinen Zielen und Allergien. Kostenlos starten auf iOS und Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Plattform",
+    "title": "Eine App für Planung, Tracking und Orientierung",
+    "body": "Speisepläne, Allergiechecks, Tracking und Antworten zur Ernährung nutzen dasselbe Profil, damit jede Entscheidung zum Rest deines Tages passt.",
+    "pillars": [
+      {
+        "title": "Planen",
+        "body": "Wochenmahlzeiten, die sich nach deinem Ziel, deinem Alltag und deinen Allergien richten.",
+        "items": [
+          {
+            "title": "Wöchentliche Speisepläne",
+            "body": "Eine ganze Woche Frühstück, Mittag- und Abendessen, passend zu deinen Zielen."
+          },
+          {
+            "title": "Rezeptvorschläge",
+            "body": "Einfache Rezepte aus den Zutaten, die du ohnehin zu Hause hast."
+          },
+          {
+            "title": "Mahlzeitenplanung",
+            "body": "Erinnerungen, die dir helfen, vorauszuplanen, damit du nicht hungrig Essen auswählen musst."
+          }
+        ]
+      },
+      {
+        "title": "Tracken",
+        "body": "Sieh, was du isst und wie sich das Tag für Tag summiert.",
+        "items": [
+          {
+            "title": "Kalorien- und Makro-Tracking",
+            "body": "Trage eine Mahlzeit in Sekunden ein und sieh Kalorien, Eiweiß, Kohlenhydrate und Fett."
+          },
+          {
+            "title": "Ernährungstagebuch",
+            "body": "Eine übersichtliche Zeitleiste all dessen, was du gegessen hast, in der Reihenfolge des Essens."
+          },
+          {
+            "title": "Gewichtsmanagement",
+            "body": "Fortschritt zu deinem Gewichtsziel, mit Zielwerten, die sich mit dir mitentwickeln."
+          }
+        ]
+      },
+      {
+        "title": "Begleiten",
+        "body": "Klare Antworten und sicherere Entscheidungen, wenn du sie brauchst.",
+        "items": [
+          {
+            "title": "KI-Ernährungsempfehlungen",
+            "body": "Vorschläge auf Basis deines Profils, deiner Ziele und deiner Vorlieben."
+          },
+          {
+            "title": "Ernährungscoaching",
+            "body": "Stelle Fragen in einfacher Sprache und erhalte praktische, allgemeine Orientierung."
+          },
+          {
+            "title": "Allergieerkennung",
+            "body": "Wahrscheinliche Allergene in Mahlzeiten und Rezepten werden markiert, mit sichereren Alternativen."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Fragen zu Doctor Food",
+    "body": "Antworten zu Plänen, Credits, Allergien, Datenschutz und Geräten. Noch eine Frage? Frage den Ernährungsassistenten in der App."
+  }
+}

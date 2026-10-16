@@ -1,0 +1,505 @@
+{
+  "Meta": {
+    "title": "Planificateur de repas IA pour allergies et objectifs | Doctor Food",
+    "description": "Des plans repas IA que tu vas vraiment suivre, des alertes allergènes et un assistant nutrition. Compteur de calories et recettes faciles. Gratuit sur iOS et Android."
+  },
+  "Navbar": {
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "about": "À propos",
+    "downloadApp": "Télécharger l'app",
+    "getOnAndroid": "Sur Android",
+    "getOnIos": "Sur iOS",
+    "language": "Langue",
+    "openMenu": "Ouvrir le menu",
+    "blog": "Blog"
+  },
+  "Hero": {
+    "badge": "Gratuit sur iOS et Android",
+    "titleLine1": "Arrête de te demander quoi manger.",
+    "titleHighlight": "Des plans repas IA qui s'adaptent à ta vie.",
+    "description": "Doctor Food crée un plan repas hebdomadaire selon tes objectifs, tes allergies et tes goûts, suit ce que tu manges et répond à tes questions nutrition en quelques secondes.",
+    "availableOn": "Disponible sur",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "askCta": "Pose une question nutrition gratuitement",
+    "trust": [
+      "Gratuit au téléchargement",
+      "3 questions IA gratuites",
+      "Alertes allergies à chaque repas"
+    ]
+  },
+  "Phone": {
+    "preview": "Aperçu d'exemple",
+    "greeting": "Bonjour",
+    "todaysPlan": "Plan du jour",
+    "progress": "{eaten} sur {goal} kcal",
+    "breakfast": "Petit-déjeuner",
+    "breakfastMeal": "Overnight oats aux fruits rouges",
+    "lunch": "Déjeuner",
+    "lunchMeal": "Bowl poulet citron et quinoa",
+    "dinner": "Dîner",
+    "dinnerMeal": "Saumon et légumes rôtis",
+    "allergyTitle": "Contrôle allergies",
+    "allergyBody": "Cacahuètes retirées de ton snack. Beurre de tournesol ajouté à la place.",
+    "floatingPlan": "Le plan de la semaine est prêt",
+    "floatingProtein": "Déjeuner : 32 g de protéines"
+  },
+  "Pain": {
+    "eyebrow": "Ça te parle ?",
+    "title": "La plupart des gens ne manquent pas de connaissances. Il leur manque un plan qui colle à leur semaine.",
+    "items": [
+      {
+        "title": "Des régimes qui ne tiennent pas",
+        "body": "Les plans stricts s'effondrent dès la deuxième semaine. Doctor Food adapte ton plan à ton emploi du temps et à tes goûts, pour que tu tiennes."
+      },
+      {
+        "title": "Plans repas adaptés aux allergies",
+        "body": "Manger dehors avec une allergie, c'est deviner. Reçois des alertes allergènes et des substitutions plus sûres à chaque repas."
+      },
+      {
+        "title": "Compter les calories en quelques secondes",
+        "body": "Note un repas en quelques secondes, pas en quelques minutes. Vois ta journée entière d'un coup d'œil."
+      },
+      {
+        "title": "Arrête de te demander quoi manger",
+        "body": "Reçois une semaine de dîners construite autour des aliments que tu aimes déjà."
+      },
+      {
+        "title": "Des conseils nutrition pour toi",
+        "body": "Des réponses basées sur ton profil, pas sur des publications au hasard. Pose n'importe quelle question nutrition, à tout moment."
+      },
+      {
+        "title": "Planifier les repas en famille",
+        "body": "Des objectifs différents, une seule table. Des plans qui conviennent à tout le monde à la maison, sans cuisiner trois dîners."
+      }
+    ]
+  },
+  "HowItWorks": {
+    "eyebrow": "Comment ça marche",
+    "title": "Lance ton plan repas en quatre étapes",
+    "steps": [
+      {
+        "title": "Parle-nous de toi",
+        "body": "Tes objectifs, allergies, aliments préférés et le temps que tu as pour cuisiner."
+      },
+      {
+        "title": "Reçois ta première semaine",
+        "body": "L'IA crée une semaine de repas avec recettes, portions et liste de courses."
+      },
+      {
+        "title": "Enregistre en quelques secondes",
+        "body": "Décris ou tape un repas. Calories et macros se mettent à jour instantanément."
+      },
+      {
+        "title": "Ajuste quand ta vie change",
+        "body": "Voyage ou semaine chargée ? Ton plan s'adapte à toi."
+      }
+    ]
+  },
+  "Features": {
+    "eyebrow": "Fonctionnalités",
+    "title": "Tout ce qu'il faut pour ton plan repas du quotidien",
+    "items": [
+      {
+        "title": "Recommandations alimentaires IA",
+        "body": "Des conseils basés sur ton profil et tes objectifs, pas des astuces génériques."
+      },
+      {
+        "title": "Plans repas personnalisés",
+        "body": "Des plans hebdomadaires adaptés à ton budget, à ton temps de cuisine et à tes goûts."
+      },
+      {
+        "title": "Détection des allergies",
+        "body": "Signale les allergènes probables dans les repas et recettes pour manger en confiance."
+      },
+      {
+        "title": "Suivi des calories et macros",
+        "body": "Saisie en quelques secondes, avec une vue claire de ta journée."
+      },
+      {
+        "title": "Suggestions de recettes",
+        "body": "De nouveaux plats avec les ingrédients que tu as déjà."
+      },
+      {
+        "title": "Planification des repas",
+        "body": "Planifie à l'avance et reçois des rappels avant d'avoir faim."
+      }
+    ]
+  },
+  "UseCases": {
+    "eyebrow": "Pensé pour ta situation",
+    "title": "Quel que soit ton objectif, ton plan s'adapte",
+    "tabs": [
+      {
+        "label": "Perte de poids",
+        "title": "Perdre du poids sans avoir faim",
+        "body": "Des objectifs caloriques réalistes et des repas que tu vas apprécier, ajustés au fil de tes progrès.",
+        "points": [
+          "Objectif calorique selon ton but",
+          "Repères de portions faciles à suivre",
+          "Bilans hebdomadaires qui mettent ton plan à jour"
+        ]
+      },
+      {
+        "label": "Allergies alimentaires",
+        "title": "Manger dehors avec moins de soucis",
+        "body": "Alertes allergènes sur chaque repas et substitutions qui gardent le goût que tu aimes.",
+        "points": [
+          "Configure tes allergies une seule fois",
+          "Alertes dans les plans et les recettes",
+          "Idées de substitutions pour tes aliments préférés"
+        ]
+      },
+      {
+        "label": "Semaines chargées",
+        "title": "Bien manger, même les semaines folles",
+        "body": "Recettes rapides et plan qui s'adapte aux horaires décalés et aux voyages.",
+        "points": [
+          "Idées de repas en 15 minutes",
+          "Liste de batch cooking pour la semaine",
+          "Rappels avant que la faim arrive"
+        ]
+      },
+      {
+        "label": "Repas en famille",
+        "title": "Une cuisine, des besoins différents",
+        "body": "Planifiez ensemble, cuisinez une fois et ajustez les portions pour chacun.",
+        "points": [
+          "Un plan hebdomadaire partagé",
+          "Portions individuelles",
+          "Préférences pour chaque personne"
+        ]
+      }
+    ]
+  },
+  "AskAI": {
+    "eyebrow": "Essaie l'assistant",
+    "title": "Pose n'importe quelle question sur l'alimentation et obtiens une réponse claire",
+    "body": "Calories, protéines, allergies, que manger avant un entraînement. Teste trois questions gratuitement, ici même.",
+    "points": [
+      "Valeurs nutritionnelles des aliments du quotidien",
+      "Objectifs de calories et de protéines",
+      "Quoi manger avant ou après l'entraînement"
+    ],
+    "sampleQuestion": "Combien de protéines y a-t-il dans les lentilles ?",
+    "sampleAnswer": "Environ 18 g par tasse de lentilles cuites. Associées à du riz ou du pain, elles apportent un ensemble complet d'acides aminés.",
+    "cta": "Pose ta question à l'assistant"
+  },
+  "Pricing": {
+    "eyebrow": "Tarifs",
+    "title": "Commence gratuitement. Passe à la vitesse supérieure quand tu veux.",
+    "body": "Télécharge gratuitement et teste trois questions IA. Choisis une formule pour plus de crédits chaque mois ou chaque année.",
+    "monthly": "Mensuel",
+    "yearly": "Annuel",
+    "perMonth": "/mois",
+    "perYear": "/an",
+    "credits": "{count} crédits",
+    "creditsPerMonth": "par mois",
+    "creditsPerYear": "par an",
+    "recommended": "Le plus populaire",
+    "autoRenewMonthly": "Renouvellement automatique chaque mois",
+    "autoRenewYearly": "Renouvellement automatique chaque année",
+    "getApp": "Obtenir l'app",
+    "plans": [
+      {
+        "name": "Pro",
+        "description": "Pour bien commencer",
+        "features": [
+          "Plans de repas pour une personne",
+          "Alertes d'allergènes sur chaque repas",
+          "Questions nutritionnelles avec IA",
+          "Suivi des calories et des macros"
+        ]
+      },
+      {
+        "name": "Premium",
+        "description": "Pour des objectifs au long cours",
+        "features": [
+          "Tout ce qui est dans Pro",
+          "Plus de crédits pour les questions IA",
+          "Suggestions de recettes",
+          "Ajustements hebdomadaires du plan"
+        ]
+      },
+      {
+        "name": "Family",
+        "description": "Pour toute la famille",
+        "features": [
+          "Tout ce qui est dans Premium",
+          "Plans pour toute la famille",
+          "Le plus grand nombre de crédits"
+        ]
+      }
+    ],
+    "note": "Les abonnements se renouvellent automatiquement. Résilie à tout moment avant le renouvellement. Les crédits non utilisés ne sont pas reportés.",
+    "saveBadge": "Économisez 2 mois",
+    "billingLabel": "Période de facturation",
+    "featuresTitle": "Ce qui est inclus",
+    "equivalent": "Environ {price} par mois"
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Questions fréquentes sur la planification des repas",
+    "items": [
+      {
+        "q": "Doctor Food remplace-t-il mon médecin ?",
+        "a": "Non. Doctor Food propose des conseils nutritionnels et des idées de repas. Ce n'est pas un avis médical : parle de toute pathologie ou de tout traitement avec ton médecin."
+      },
+      {
+        "q": "Comment fonctionne la détection des allergies ?",
+        "a": "Tu renseignes tes allergies une seule fois. Doctor Food signale les allergènes probables dans les repas et recettes et propose des substitutions. Pour les allergies graves, vérifie aussi toujours les étiquettes."
+      },
+      {
+        "q": "Puis-je résilier mon abonnement ?",
+        "a": "Oui. Résilie à tout moment avant le renouvellement pour éviter le prochain prélèvement. Les crédits non utilisés ne sont pas reportés."
+      },
+      {
+        "q": "Mes données de santé sont-elles privées ?",
+        "a": "Tes données sont chiffrées en transit et au repos, et nous ne les vendons pas. La politique de confidentialité explique ce que nous collectons et pourquoi."
+      },
+      {
+        "q": "Sur quels appareils fonctionne l'app ?",
+        "a": "Doctor Food est disponible sur iOS et Android."
+      },
+      {
+        "q": "Combien coûte Doctor Food ?",
+        "a": "L'app est gratuite à télécharger et comprend trois questions IA. Les formules payantes ajoutent des crédits chaque mois ou chaque année. Consultez la section tarifs pour le détail de chaque formule."
+      },
+      {
+        "q": "Comment fonctionnent les crédits IA ?",
+        "a": "Chaque requête IA consomme des crédits. Votre formule vous donne un nombre fixe de crédits par mois ou par an. Les crédits non utilisés ne sont pas reportés."
+      },
+      {
+        "q": "Toute la famille peut-elle utiliser un seul abonnement ?",
+        "a": "Oui. La formule Family est conçue pour toute la famille et offre le plus grand nombre de crédits."
+      },
+      {
+        "q": "Aide-t-elle à atteindre un objectif de poids ?",
+        "a": "Oui. Choisissez un objectif, comme la perte de poids, et Doctor Food définit des objectifs caloriques et des repas réalistes, puis les ajuste au fil de vos progrès."
+      },
+      {
+        "q": "Et si mon allergie est sévère ?",
+        "a": "Doctor Food signale les allergènes probables pour vous aider, mais ne peut pas garantir qu'un aliment est sans danger. En cas d'allergie sévère, lisez toujours les étiquettes et suivez les conseils de votre allergologue."
+      },
+      {
+        "q": "Puis-je suivre ce que je mange chaque jour ?",
+        "a": "Oui. Enregistrez un repas en quelques secondes et voyez les calories et les macros de la journée en un coup d'œil."
+      }
+    ]
+  },
+  "Cta": {
+    "title": "Ton prochain repas peut déjà être planifié.",
+    "body": "Télécharge Doctor Food et reçois dès aujourd'hui ton premier plan repas personnalisé.",
+    "note": "Téléchargement gratuit. Résilie tout abonnement avant son renouvellement."
+  },
+  "Footer": {
+    "tagline": "Ton coach nutrition IA personnel, pour une alimentation qui s'adapte à ta vie.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Mentions légales",
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarifs",
+    "faq": "FAQ",
+    "about": "À propos",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions générales",
+    "rights": "Tous droits réservés.",
+    "blog": "Blog"
+  },
+  "About": {
+    "title": "À propos de Doctor Food",
+    "intro": "Doctor Food est une plateforme de santé numérique qui combine intelligence artificielle et science de la nutrition pour aider chacun à atteindre ses objectifs de bien-être. Fondés en 2023, nous accompagnons aujourd'hui plus de 500 000 utilisateurs actifs dans le monde.",
+    "missionTitle": "Notre mission",
+    "mission": "Nous pensons que chacun mérite un accompagnement nutritionnel personnalisé et de niveau expert. Notre mission est de rendre les recommandations alimentaires basées sur l'IA accessibles à tous.",
+    "storyTitle": "Notre histoire",
+    "story": "Doctor Food est né d'un constat simple : malgré la quantité d'informations sur les régimes, les gens peinent à trouver des conseils nutritionnels personnalisés qui marchent pour eux. Nos fondateurs, une équipe de nutritionnistes, de data scientists et de passionnés de santé, ont voulu résoudre ce problème grâce à une IA moderne.",
+    "whatTitle": "Ce que nous faisons",
+    "what": "Nous proposons une planification des repas et un suivi nutritionnel intelligents, qui s'adaptent à ton mode de vie, à tes préférences et à tes objectifs de santé. Notre IA analyse tes habitudes alimentaires, repère les points à améliorer et suggère des changements qui s'intègrent à ton quotidien.",
+    "valuesTitle": "Nos valeurs",
+    "values": [
+      {
+        "title": "Fondé sur la science",
+        "body": "Nos recommandations reposent sur des recherches en nutrition évaluées par les pairs."
+      },
+      {
+        "title": "La confidentialité avant tout",
+        "body": "Tes données de santé sont chiffrées et ne sont jamais partagées sans ton consentement explicite."
+      },
+      {
+        "title": "Inclusif",
+        "body": "Nous accueillons toutes les préférences alimentaires, restrictions et traditions culinaires."
+      },
+      {
+        "title": "Transparent",
+        "body": "Nous expliquons la logique derrière chaque recommandation."
+      }
+    ],
+    "teamTitle": "Notre équipe",
+    "team": "Doctor Food est porté par une équipe diversifiée de diététiciens diplômés, d'ingénieurs en machine learning, de designers UX et de spécialistes de la santé. Ensemble, nous rendons l'alimentation saine simple, agréable et durable.",
+    "joinTitle": "Rejoins notre aventure",
+    "join": "Nous cherchons toujours des personnes passionnées pour rejoindre notre mission. Consulte notre page carrières ou écris à careers@fooddoctor.com."
+  },
+  "Chat": {
+    "title": "Assistant nutrition IA",
+    "open": "Ouvrir l'assistant nutrition IA",
+    "close": "Fermer le chat",
+    "send": "Envoyer le message",
+    "inputLabel": "Pose une question sur la nutrition",
+    "placeholder": "Pose une question sur la nutrition...",
+    "counter": "{count}/3 questions gratuites utilisées",
+    "intro": "Salut ! Je suis ton assistant nutrition IA. Pose-moi toutes tes questions sur l'alimentation, la nutrition ou une alimentation saine. 🥗",
+    "quickLabel": "Essaie ces questions rapides :",
+    "limitTitle": "🎉 Essai gratuit terminé !",
+    "limitBody": "Télécharge Doctor Food pour des conversations IA illimitées, des plans repas personnalisés et plus encore.",
+    "android": "Android",
+    "ios": "iOS",
+    "limitFooter": "Télécharge l'app pour des questions illimitées ! 🚀"
+  },
+  "Marquee": {
+    "items": [
+      "Plans repas IA",
+      "Recettes adaptées aux allergies",
+      "Calories en quelques secondes",
+      "Planification des repas en famille",
+      "Idées minceur",
+      "Privé et chiffré"
+    ]
+  },
+  "LivePlan": {
+    "eyebrow": "Aperçu en direct",
+    "title": "Une semaine de repas, planifiée en quelques secondes",
+    "body": "Parcours les jours. Chaque plan ajuste calories, repas et alertes allergies selon tes objectifs.",
+    "kcalLabel": "{kcal} kcal",
+    "allergyNote": "Substitution sans cacahuètes appliquée",
+    "mealOats": "Overnight oats aux fruits rouges",
+    "mealChicken": "Bowl poulet citron et quinoa",
+    "mealSalmon": "Saumon et légumes rôtis",
+    "mealWrap": "Wrap dinde et avocat",
+    "mealStir": "Wok de tofu et riz"
+  },
+  "AllergyScanner": {
+    "eyebrow": "Alertes allergies",
+    "title": "Indique tes allergies une fois. On vérifie chaque repas.",
+    "body": "Active tes allergies et vois quels ingrédients sont signalés avant de cuisiner.",
+    "hint": "Touche une allergie pour voir ce qu'elle concerne",
+    "safe": "Sûr",
+    "flagged": "Signalé",
+    "allergyPeanut": "Cacahuètes",
+    "allergyMilk": "Lait",
+    "allergyGluten": "Gluten",
+    "ingPeanutButter": "Beurre de cacahuète",
+    "ingYogurt": "Yaourt grec",
+    "ingBread": "Pain complet",
+    "ingChicken": "Blanc de poulet",
+    "ingBlueberries": "Myrtilles"
+  },
+  "Trust": {
+    "eyebrow": "Confidentialité et confiance",
+    "title": "Tes données de santé restent privées",
+    "items": [
+      {
+        "title": "Chiffrées",
+        "body": "Tes données sont chiffrées en transit et au repos."
+      },
+      {
+        "title": "Jamais vendues",
+        "body": "Nous ne vendons pas tes données personnelles à des tiers."
+      },
+      {
+        "title": "Résiliable à tout moment",
+        "body": "Résilie avant le renouvellement. Aucun frais caché."
+      }
+    ],
+    "disclaimer": "Doctor Food propose une aide nutritionnelle, pas un avis médical. Pour une pathologie ou un traitement, parle à ton médecin."
+  },
+  "Common": {
+    "home": "Accueil"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Planification des repas, allergies et nutrition, expliquées",
+    "body": "Des guides pratiques pour planifier des repas que vous tiendrez, cuisiner en toute sécurité avec des allergies et lire les étiquettes nutritionnelles avec confiance.",
+    "latestTitle": "Depuis le blog",
+    "latestBody": "Des guides pratiques sur la planification des repas, les allergies et la nutrition au quotidien.",
+    "viewAll": "Tous les articles",
+    "readArticle": "Lire l'article",
+    "published": "Publié le {date}",
+    "updated": "Mis à jour le {date}",
+    "minutes": "{count} min de lecture",
+    "by": "Par {name}",
+    "backToBlog": "Retour au blog",
+    "empty": "Pas encore d'articles dans cette langue. Revenez bientôt.",
+    "relatedTitle": "Continuer la lecture",
+    "ctaTitle": "Transformez ces conseils en plan",
+    "ctaBody": "Doctor Food crée un plan de repas hebdomadaire selon vos objectifs et vos allergies. Commencez gratuitement sur iOS et Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Plateforme",
+    "title": "Une seule app pour planifier, suivre et être guidé",
+    "body": "Plans de repas, contrôles d'allergies, suivi et réponses nutritionnelles utilisent le même profil, pour que chaque choix s'intègre au reste de votre journée.",
+    "pillars": [
+      {
+        "title": "Planifier",
+        "body": "Des repas hebdomadaires construits autour de votre objectif, de votre emploi du temps et de vos allergies.",
+        "items": [
+          {
+            "title": "Plans de repas hebdomadaires",
+            "body": "Une semaine complète de petits-déjeuners, déjeuners et dîners adaptés à vos objectifs."
+          },
+          {
+            "title": "Suggestions de recettes",
+            "body": "Des recettes simples avec les ingrédients que vous avez déjà à la maison."
+          },
+          {
+            "title": "Programmation des repas",
+            "body": "Des rappels pour anticiper, afin de ne pas choisir un repas quand on a faim."
+          }
+        ]
+      },
+      {
+        "title": "Suivre",
+        "body": "Voyez ce que vous mangez et comment cela s'additionne, jour après jour.",
+        "items": [
+          {
+            "title": "Suivi des calories et des macros",
+            "body": "Enregistrez un repas en quelques secondes et voyez calories, protéines, glucides et lipides."
+          },
+          {
+            "title": "Journal alimentaire",
+            "body": "Une chronologie simple de tout ce que vous avez mangé, dans l'ordre."
+          },
+          {
+            "title": "Gestion du poids",
+            "body": "Suivez votre progression vers votre objectif de poids, avec des cibles qui évoluent avec vous."
+          }
+        ]
+      },
+      {
+        "title": "Guider",
+        "body": "Des réponses claires et des choix plus sûrs quand vous en avez besoin.",
+        "items": [
+          {
+            "title": "Recommandations alimentaires par IA",
+            "body": "Des suggestions basées sur votre profil, vos objectifs et vos goûts."
+          },
+          {
+            "title": "Conseils nutritionnels",
+            "body": "Posez vos questions en langage simple et obtenez des conseils pratiques et généraux."
+          },
+          {
+            "title": "Détection des allergènes",
+            "body": "Les allergènes probables sont signalés dans les repas et les recettes, avec des alternatives plus sûres."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Questions sur Doctor Food",
+    "body": "Réponses sur les plans, les crédits, les allergies, la confidentialité et les appareils. Une autre question ? Posez-la à l'assistant nutrition dans l'app."
+  }
+}
