@@ -58,7 +58,7 @@ Search volumes are not verified here. The third-party data we found showed that 
 - One H1 per page, containing the main keyword.
 - Keywords appear in headings and the first sentence of each section, not repeated in every line.
 - Use the words people search for. "Meal plan" beats "nutrition programme" even when the second is more precise.
-- Each locale gets its own keyword research (see `I18N_CONTENT_GUIDE.md`). Do not translate the English keywords word for word.
+- Each locale gets its own keyword research (see `standards/I18N_CONTENT_GUIDE.md`). Do not translate the English keywords word for word.
 
 ---
 
