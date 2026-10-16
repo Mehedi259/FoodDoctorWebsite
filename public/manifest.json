@@ -1,6 +1,6 @@
 {
-  "name": "Food Doctor - AI Diet & Nutrition App",
-  "short_name": "Food Doctor",
+  "name": "Doctor Food - AI Diet & Nutrition App",
+  "short_name": "Doctor Food",
   "description": "AI-powered diet and nutrition management app with personalized meal plans and smart allergy detection",
   "start_url": "/",
   "display": "standalone",

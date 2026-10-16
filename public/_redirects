@@ -1,0 +1,5 @@
+# Cloudflare Pages redirects. Old English URLs from before the language folders
+# now point to their /en equivalents with permanent (301) redirects.
+/about   /en/about   301
+/privacy /en/privacy 301
+/terms   /en/terms   301

@@ -1,0 +1,187 @@
+{
+  "Meta": {
+    "title": "Doctor Food · Hedeflerin ve alerjilerin için yapay zekâ destekli yemek planları",
+    "description": "Gerçekten uygulayabileceğin yemek planları, alerjen uyarıları ve yapay zekâ destekli bir beslenme asistanı. Doctor Food sağlıklı beslenmeyi gerçek hayatına uydurur. iOS ve Android'de ücretsiz."
+  },
+  "Navbar": {
+    "features": "Özellikler",
+    "howItWorks": "Nasıl Çalışır",
+    "pricing": "Fiyatlar",
+    "faq": "SSS",
+    "about": "Hakkımızda",
+    "downloadApp": "Uygulamayı İndir",
+    "getOnAndroid": "Android'de Al",
+    "getOnIos": "iOS'ta Al",
+    "language": "Dil",
+    "openMenu": "Menüyü aç"
+  },
+  "Hero": {
+    "badge": "iOS ve Android'de ücretsiz",
+    "titleLine1": "Hayatına uyan yemek,",
+    "titleHighlight": "tersi değil.",
+    "description": "Doctor Food'a hedeflerini, alerjilerini ve sevdiğin yemekleri anlat. Yapay zekâmız gerçekten uygulayabileceğin yemek planları hazırlar, ne yediğini kaydeder ve beslenme sorularını saniyeler içinde yanıtlar.",
+    "availableOn": "Şurada mevcut",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "askCta": "Önce bir soru sor",
+    "trust": ["Ücretsiz indir", "3 ücretsiz yapay zekâ sorusu", "Programına uyum sağlar"]
+  },
+  "Phone": {
+    "preview": "Örnek önizleme",
+    "greeting": "Günaydın",
+    "todaysPlan": "Bugünün planı",
+    "progress": "{goal} kcal'in {eaten} kcal'i",
+    "breakfast": "Kahvaltı",
+    "breakfastMeal": "Yaban mersinli gece yulafı",
+    "lunch": "Öğle yemeği",
+    "lunchMeal": "Limonlu tavuk ve kinoa kasesi",
+    "dinner": "Akşam yemeği",
+    "dinnerMeal": "Fırında sebzeli somon",
+    "allergyTitle": "Alerji kontrolü",
+    "allergyBody": "Atıştırmalığındaki yer fıstığı çıkarıldı, yerine ayçiçeği ezmesi eklendi.",
+    "floatingPlan": "Bu haftanın planı hazır",
+    "floatingProtein": "Öğle: 32 g protein"
+  },
+  "Pain": {
+    "eyebrow": "Tanıdık geliyor mu?",
+    "title": "Çoğu insanın bilgisi eksik değildir. Gerçek hayatına uyan bir plana ihtiyacı vardır.",
+    "items": [
+      { "title": "Uzun sürmeyen diyetler", "body": "Katı planlar genelde ikinci haftada dağılır. Doctor Food planını programına ve damak zevkine göre uyarlar, böylece devam edebilirsin." },
+      { "title": "Gizli alerjenler", "body": "Alerjin varken dışarıda yemek yemek tahmin yürütmek demektir. Her öğünde net alerjen uyarıları ve daha güvenli alternatifler al." },
+      { "title": "Kalori saymak çok zaman alıyor", "body": "Bir öğünü dakikalar değil saniyeler içinde kaydet. Tüm gününü bir bakışta gör." },
+      { "title": "Akşam yemeğine karar vermek yorucu", "body": "Her akşam akşam yemeğinde ne yapacağını düşünmekten kurtul. Zaten sevdiğin yemeklerle hazırlanmış bir haftalık menü al." },
+      { "title": "İnternette çelişen tavsiyeler", "body": "Rastgele paylaşımlar yerine profiline göre yanıtlar al. İstediğin beslenme sorusunu istediğin zaman sorabilirsin." },
+      { "title": "Tüm aileyi beslemek", "body": "Farklı hedefler, tek sofra. Üç ayrı akşam yemeği pişirmeden evdeki herkes için uygun öğünler planla." }
+    ]
+  },
+  "HowItWorks": {
+    "eyebrow": "Nasıl Çalışır",
+    "title": "Dört adımda kafa karışıklığından düzene",
+    "steps": [
+      { "title": "Bize kendini anlat", "body": "Hedeflerin, alerjilerin, sevdiğin yemekler ve yemek yapmaya ayırabildiğin süre." },
+      { "title": "Sana uygun bir plan al", "body": "Yapay zekâ ilk haftanın öğünlerini; tarifler, porsiyonlar ve alışveriş listesiyle birlikte hazırlar." },
+      { "title": "Saniyeler içinde kaydet", "body": "Bir öğünü yazarak ya da anlatarak ekle. Kalori ve besin değerleri anında güncellenir." },
+      { "title": "Hayat değiştikçe uyarla", "body": "Seyahat, yoğun bir hafta ya da yeni bir hedef mi? Planın seninle birlikte güncellenir." }
+    ]
+  },
+  "Features": {
+    "eyebrow": "Özellikler",
+    "title": "İhtiyacın olan her şey, tek ve sakin bir uygulamada",
+    "items": [
+      { "title": "Yapay zekâ diyet önerileri", "body": "Herkese aynı genel ipuçları yerine, profiline ve hedeflerine göre şekillenen tavsiyeler." },
+      { "title": "Kişiselleştirilmiş yemek planları", "body": "Bütçene, pişirme sürene ve damak zevkine uygun haftalık planlar." },
+      { "title": "Alerji tespiti", "body": "Öğünlerdeki ve tariflerdeki olası alerjenleri gösterir, böylece daha rahat yemek yiyebilirsin." },
+      { "title": "Sağlık takibi", "body": "Kilo, ilerleme ve alışkanlıklar, bir bakışta anlaşılan tek bir panelde." },
+      { "title": "Tarif önerileri", "body": "Buzdolabındaki malzemelerden yeni yemekler." },
+      { "title": "Öğün planlama", "body": "Haftayı önceden planla ve acıkmadan önce hatırlatıcı al." }
+    ]
+  },
+  "UseCases": {
+    "eyebrow": "Senin durumuna göre",
+    "title": "Hedefin ne olursa olsun, plan sana uyum sağlar",
+    "tabs": [
+      { "label": "Kilo hedefleri", "title": "Aç kalmadan kilo ver", "body": "Gerçekçi kalori hedefleri ve seveceğin öğünler; ilerlemene göre ayarlanır.", "points": ["Hedefine göre kalori hedefleri", "Kolayca uygulanabilir porsiyon rehberi", "Planını güncelleyen haftalık kontroller"] },
+      { "label": "Besin alerjileri", "title": "Dışarıda daha rahat yemek", "body": "Her öğünde alerjen uyarıları ve sevdiğin lezzeti koruyan alternatifler.", "points": ["Alerjilerini bir kez ayarla", "Planlarda ve tariflerde uyarılar", "Sevdiğin yiyecekler için değişim önerileri"] },
+      { "label": "Yoğun programlar", "title": "Yoğun haftalarda bile sağlıklı yemek", "body": "Vardiyalara ve seyahate uyan hızlı tarifler ve plan.", "points": ["15 dakikalık yemek fikirleri", "Haftalık toplu pişirme listeleri", "Acıkmadan önce hatırlatmalar"] },
+      { "label": "Aile yemekleri", "title": "Tek mutfak, farklı ihtiyaçlar", "body": "Birlikte planlayın, bir kez pişirin ve her kişi için porsiyonları ayarlayın.", "points": ["Ortak haftalık plan", "Kişiye özel porsiyonlar", "Herkes için ayrı tercihler"] }
+    ]
+  },
+  "AskAI": {
+    "eyebrow": "Asistanı dene",
+    "title": "Yiyecekler hakkında istediğini sor, net bir yanıt al",
+    "body": "Kalori, protein, alerjiler, antrenmandan önce ne yenmeli. Üç soruyu burada, ücretsiz dene.",
+    "points": ["Günlük yiyeceklerin besin bilgileri", "Kalori ve protein hedefleri", "Antrenmandan önce ve sonra ne yenmeli"],
+    "sampleQuestion": "Mercimekte ne kadar protein var?",
+    "sampleAnswer": "Pişmiş mercimeğin bir bardağında yaklaşık 18 g protein bulunur. Pirinç ya da ekmekle birlikte yenince temel amino asitlerin dengeli bir kombinasyonunu sağlar.",
+    "cta": "Asistanı aç"
+  },
+  "Pricing": {
+    "eyebrow": "Fiyatlar",
+    "title": "Ücretsiz başla. Hazır olduğunda yükselt.",
+    "body": "Ücretsiz indir ve üç yapay zekâ sorusunu dene. Her ay ya da her yıl daha fazla kredi için bir plan seç.",
+    "monthly": "Aylık",
+    "yearly": "Yıllık",
+    "perMonth": "/ay",
+    "perYear": "/yıl",
+    "credits": "{count} kredi",
+    "creditsPerMonth": "aylık",
+    "creditsPerYear": "yıllık",
+    "recommended": "En popüler",
+    "autoRenewMonthly": "Her ay otomatik yenilenir",
+    "autoRenewYearly": "Her yıl otomatik yenilenir",
+    "getApp": "Uygulamayı al",
+    "plans": [
+      { "name": "Pro", "description": "Başlangıç için" },
+      { "name": "Premium", "description": "Kararlı hedefler için" },
+      { "name": "Family", "description": "Tüm aile için" }
+    ],
+    "note": "Abonelikler otomatik yenilenir. Yenilemeden önce istediğin zaman iptal edebilirsin. Kullanılmayan krediler devretmez."
+  },
+  "Faq": {
+    "eyebrow": "SSS",
+    "title": "Sorularının yanıtları",
+    "items": [
+      { "q": "Doctor Food doktorumun yerini tutar mı?", "a": "Hayır. Doctor Food beslenme rehberliği ve yemek fikirleri sunar. Tıbbi tavsiye değildir; herhangi bir hastalık ya da ilaç için doktoruna danış." },
+      { "q": "Alerji tespiti nasıl çalışır?", "a": "Alerjilerini bir kez ayarlarsın. Doctor Food öğünlerde ve tariflerde olası alerjenleri gösterir ve alternatifler önerir. Ciddi alerjilerde ürün etiketlerini de mutlaka kontrol et." },
+      { "q": "Aboneliğimi iptal edebilir miyim?", "a": "Evet. Bir sonraki ücretten kaçınmak için yenilemeden önce istediğin zaman iptal edebilirsin. Kullanılmayan krediler devretmez." },
+      { "q": "Sağlık verilerim gizli mi?", "a": "Verilerin aktarım sırasında ve depolanırken şifrelenir; satmıyoruz. Gizlilik politikası neyi neden topladığımızı açıklar." },
+      { "q": "Hangi cihazlarda çalışır?", "a": "Doctor Food iOS ve Android'de kullanılabilir." }
+    ]
+  },
+  "Cta": {
+    "title": "Bir sonraki öğünün şimdiden planlanmış olabilir.",
+    "body": "Doctor Food'ı indir ve bugün kişisel ilk planını al.",
+    "note": "Ücretsiz indirme. Yenilenmeden önce aboneliklerini iptal edebilirsin."
+  },
+  "Footer": {
+    "tagline": "Hayatına uyan yemek için kişisel yapay zekâ beslenme koçun.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "features": "Özellikler",
+    "howItWorks": "Nasıl Çalışır",
+    "pricing": "Fiyatlar",
+    "faq": "SSS",
+    "about": "Hakkımızda",
+    "privacy": "Gizlilik politikası",
+    "terms": "Şartlar ve koşullar",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "About": {
+    "title": "Doctor Food hakkında",
+    "intro": "Doctor Food, yapay zekâyı beslenme bilimiyle birleştirerek insanların sağlık hedeflerine ulaşmasına yardımcı olan bir sağlık teknolojisi platformudur. 2023'te kuruldu ve bugün dünya genelinde 500.000'den fazla aktif kullanıcıya hizmet veriyoruz.",
+    "missionTitle": "Misyonumuz",
+    "mission": "Herkesin kişiselleştirilmiş, uzman düzeyinde beslenme rehberliğini hak ettiğine inanıyoruz. Misyonumuz, yapay zekâ destekli diyet önerilerini herkes için erişilebilir kılmak.",
+    "storyTitle": "Hikayemiz",
+    "story": "Doctor Food basit bir gözlemle başladı: Diyetle ilgili bilgi bolluğuna rağmen insanlar, ihtiyaçlarına uygun kişisel beslenme tavsiyesi bulmakta zorlanıyor. Diyetisyenlerden, veri bilimcilerden ve sağlık meraklılarından oluşan kurucu ekibimiz bu sorunu modern yapay zekâ ile çözmek için yola çıktı.",
+    "whatTitle": "Ne yapıyoruz",
+    "what": "Yaşam tarzına, tercihlerine ve sağlık hedeflerine uyum sağlayan akıllı öğün planlaması ve beslenme takibi sunuyoruz. Yapay zekâmız beslenme alışkanlıklarını inceler, geliştirilebilecek alanları bulur ve günlük rutinine uyan değişiklikler önerir.",
+    "valuesTitle": "Değerlerimiz",
+    "values": [
+      { "title": "Bilime dayalı", "body": "Önerilerimiz hakem denetiminden geçmiş beslenme araştırmalarına dayanır." },
+      { "title": "Önce gizlilik", "body": "Sağlık verilerin şifrelenir ve açık iznin olmadan asla paylaşılmaz." },
+      { "title": "Kapsayıcı", "body": "Her türlü beslenme tercihini, kısıtlamayı ve kültürel yemek geleneğini destekleriz." },
+      { "title": "Şeffaf", "body": "Yaptığımız her önerinin arkasındaki mantığı açıklarız." }
+    ],
+    "teamTitle": "Ekibimiz",
+    "team": "Doctor Food; kayıtlı diyetisyenler, makine öğrenmesi mühendisleri, UX tasarımcıları ve sağlık savunucularından oluşan çeşitli bir ekip tarafından yürütülüyor. Birlikte sağlıklı beslenmeyi basit, keyifli ve sürdürülebilir kılıyoruz.",
+    "joinTitle": "Yolculuğumuza katıl",
+    "join": "Misyonumuza katılacak tutkulu insanları sürekli arıyoruz. Kariyer sayfamıza göz atabilir ya da careers@fooddoctor.com adresine yazabilirsin."
+  },
+  "Chat": {
+    "title": "Yapay zekâ beslenme asistanı",
+    "open": "Yapay zekâ beslenme asistanını aç",
+    "close": "Sohbeti kapat",
+    "send": "Mesajı gönder",
+    "inputLabel": "Beslenme hakkında sor",
+    "placeholder": "Beslenme hakkında sor...",
+    "counter": "{count}/3 ücretsiz soru kullanıldı",
+    "intro": "Merhaba! Ben senin yapay zekâ beslenme asistanınım. Yiyecekler, beslenme veya sağlıklı yeme hakkında istediğini sor. 🥗",
+    "quickLabel": "Bu hızlı soruları dene:",
+    "limitTitle": "🎉 Ücretsiz deneme sona erdi!",
+    "limitBody": "Sınırsız yapay zekâ sohbeti, kişisel yemek planları ve daha fazlası için Doctor Food'ı indir.",
+    "android": "Android",
+    "ios": "iOS",
+    "limitFooter": "Sınırsız soru için uygulamayı indir! 🚀"
+  }
+}

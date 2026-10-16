@@ -1,4 +1,4 @@
-# 🚀 Food Doctor Website Enhancement Plan
+# 🚀 Doctor Food Website Enhancement Plan
 
 Based on analysis of your Flutter app and Django backend, here are **high-impact features** to add to your website that will **attract users** and **increase conversions**.
 
@@ -217,7 +217,7 @@ Based on analysis of your Flutter app and Django backend, here are **high-impact
       </before-after-slider>
       <stats>
         <span>-15kg in 3 months</span>
-        <span>Using Food Doctor AI</span>
+        <span>Using Doctor Food AI</span>
       </stats>
     </transformation>
   </gallery>
@@ -261,7 +261,7 @@ Based on analysis of your Flutter app and Django backend, here are **high-impact
 **Implementation**:
 ```html
 <section id="how-it-works-video">
-  <h2>See Food Doctor in Action</h2>
+  <h2>See Doctor Food in Action</h2>
   <video-grid>
     <video>
       <title>How to Scan Food (30s)</title>
@@ -323,11 +323,11 @@ Based on analysis of your Flutter app and Django backend, here are **high-impact
 **Implementation**:
 ```html
 <section id="comparison">
-  <h2>Food Doctor vs Others</h2>
+  <h2>Doctor Food vs Others</h2>
   <table>
     <thead>
       <th>Feature</th>
-      <th>Food Doctor</th>
+      <th>Doctor Food</th>
       <th>MyFitnessPal</th>
       <th>Lose It</th>
     </thead>

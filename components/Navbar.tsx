@@ -1,123 +1,155 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, ChevronDown } from "lucide-react";
-import { useState } from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
+import { IconChevronDown, IconMenu2 } from "@tabler/icons-react";
+import { Link } from "@/i18n/navigation";
+import { Button, buttonVariants } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+} from "@/components/ui/navigation-menu";
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
+import { ANDROID_URL, IOS_URL } from "@/components/constants";
+
+const navLinks = [
+  { href: "/#features", label: "features" },
+  { href: "/#how-it-works", label: "howItWorks" },
+  { href: "/#pricing", label: "pricing" },
+  { href: "/#faq", label: "faq" },
+  { href: "/about", label: "about" },
+] as const;
+
+const storeLinks = [
+  { href: ANDROID_URL, label: "getOnAndroid", logo: "/logos/google-play.svg" },
+  { href: IOS_URL, label: "getOnIos", logo: "/logos/app-store.svg" },
+] as const;
 
 export default function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
+  const t = useTranslations("Navbar");
 
   return (
-    <motion.nav
+    <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className="fixed top-0 left-0 right-0 z-50 glass"
+      className="glass fixed inset-x-0 top-0 z-50"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
-          <div className="flex items-center space-x-3">
-            <Image src="/app_icon.png" alt="Food Doctor" width={48} height={48} className="w-12 h-12 rounded-xl shadow-md" />
-            <span className="text-2xl font-bold text-gradient">Food Doctor</span>
-          </div>
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/app_icon.png"
+            alt="Doctor Food"
+            width={40}
+            height={40}
+            className="rounded-xl shadow-md"
+          />
+          <span className="text-gradient font-heading text-xl font-bold whitespace-nowrap sm:text-2xl">Doctor Food</span>
+        </Link>
 
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a href="#features" className="text-gray-700 hover:text-emerald-600 transition">
-              Features
-            </a>
-            <a href="#how-it-works" className="text-gray-700 hover:text-emerald-600 transition">
-              How It Works
-            </a>
-            <a href="#testimonials" className="text-gray-700 hover:text-emerald-600 transition">
-              Testimonials
-            </a>
-            <a href="/about" className="text-gray-700 hover:text-emerald-600 transition">
-              About
-            </a>
-            <div className="relative">
-              <button
-                onMouseEnter={() => setShowDropdown(true)}
-                onMouseLeave={() => setShowDropdown(false)}
-                className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition flex items-center gap-2"
-              >
-                Download App
-                <ChevronDown className="w-4 h-4" />
-              </button>
-              <AnimatePresence>
-                {showDropdown && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    onMouseEnter={() => setShowDropdown(true)}
-                    onMouseLeave={() => setShowDropdown(false)}
-                    className="absolute right-0 mt-2 w-48 glass rounded-xl shadow-xl overflow-hidden z-50"
-                  >
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block px-4 py-3 hover:bg-emerald-50 transition flex items-center gap-3"
-                    >
-                      <span className="text-2xl">🤖</span>
-                      <span className="text-sm font-medium text-gray-700">Get on Android</span>
-                    </a>
-                    <a
-                      href="https://apps.apple.com/gb/app/doctor-food/id6766101323"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block px-4 py-3 hover:bg-emerald-50 transition flex items-center gap-3 border-t border-gray-100"
-                    >
-                      <span className="text-2xl">🍎</span>
-                      <span className="text-sm font-medium text-gray-700">Get on iOS</span>
-                    </a>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          </div>
+        <NavigationMenu className="hidden md:flex">
+          <NavigationMenuList>
+            {navLinks.map((link) => (
+              <NavigationMenuItem key={link.href}>
+                <NavigationMenuLink render={<Link href={link.href} />}>
+                  {t(link.label)}
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+            ))}
+          </NavigationMenuList>
+        </NavigationMenu>
 
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-gray-700"
-          >
-            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
+        <div className="flex items-center gap-2">
+          <LocaleSwitcher />
 
-        {/* Mobile Menu */}
-        {isOpen && (
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="md:hidden py-4 space-y-4"
-          >
-            <a href="#features" className="block text-gray-700 hover:text-emerald-600">
-              Features
-            </a>
-            <a href="#how-it-works" className="block text-gray-700 hover:text-emerald-600">
-              How It Works
-            </a>
-            <a href="#testimonials" className="block text-gray-700 hover:text-emerald-600">
-              Testimonials
-            </a>
-            <a href="/about" className="block text-gray-700 hover:text-emerald-600">
-              About
-            </a>
-            <a 
-              href="https://play.google.com/store/apps/details?id=com.neurobraintec.fooddoctor&hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block w-full text-center bg-gradient-to-r from-emerald-600 to-teal-600 text-white px-6 py-2 rounded-full"
+          <DropdownMenu>
+            <DropdownMenuTrigger render={<Button className="hidden md:inline-flex" />}>
+              {t("downloadApp")}
+              <IconChevronDown />
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              {storeLinks.map((store) => (
+                <DropdownMenuItem
+                  key={store.label}
+                  render={
+                    <a href={store.href} target="_blank" rel="noopener noreferrer" />
+                  }
+                >
+                  <Image src={store.logo} alt="" width={16} height={16} />
+                  {t(store.label)}
+                </DropdownMenuItem>
+              ))}
+            </DropdownMenuContent>
+          </DropdownMenu>
+
+          <Sheet>
+            <SheetTrigger
+              render={
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="md:hidden"
+                  aria-label={t("openMenu")}
+                />
+              }
             >
-              Download App
-            </a>
-          </motion.div>
-        )}
+              <IconMenu2 />
+            </SheetTrigger>
+            <SheetContent side="right">
+              <SheetHeader>
+                <SheetTitle>Doctor Food</SheetTitle>
+              </SheetHeader>
+              <nav className="flex flex-col gap-1 px-4">
+                {navLinks.map((link) => (
+                  <SheetClose
+                    key={link.href}
+                    render={
+                      <Link
+                        href={link.href}
+                        className={buttonVariants({
+                          variant: "ghost",
+                          className: "justify-start",
+                        })}
+                      />
+                    }
+                  >
+                    {t(link.label)}
+                  </SheetClose>
+                ))}
+                {storeLinks.map((store) => (
+                  <Button
+                    key={store.label}
+                    variant="outline"
+                    className="mt-2 w-full"
+                    render={
+                      <a href={store.href} target="_blank" rel="noopener noreferrer" />
+                    }
+                  >
+                    <Image src={store.logo} alt="" width={16} height={16} />
+                    {t(store.label)}
+                  </Button>
+                ))}
+              </nav>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
-    </motion.nav>
+    </motion.header>
   );
 }
