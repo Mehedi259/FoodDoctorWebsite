@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SectionHeader from "@/components/SectionHeader";
+import Illustration from "@/components/Illustration";
 
 // Prices and credits are the plans shown in the app and in the privacy policy (USD)
 const plans = {
@@ -70,6 +71,7 @@ export default function Pricing() {
               <Button
                 className="w-full"
                 variant={recommended ? "default" : "outline"}
+                nativeButton={false}
                 render={<a href="#get-app" />}
               >
                 {t("getApp")}
@@ -82,12 +84,18 @@ export default function Pricing() {
   );
 
   return (
-    <section id="pricing" className="bg-background py-24">
+    <section id="pricing" className="relative isolate overflow-hidden bg-linear-to-b from-background via-emerald-50/40 to-background py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8" lang={locale}>
         <SectionHeader
           eyebrow={t("eyebrow")}
           title={t("title")}
           description={t("body")}
+        />
+
+        <Illustration
+          src="/illustrations/pricing-e-wallet.svg"
+          className="mb-10 max-w-[200px] sm:max-w-[240px]"
+          tone="cyan"
         />
 
         <Tabs defaultValue="monthly">

@@ -50,6 +50,12 @@ export default function Footer() {
         <p className="text-center text-sm opacity-70">
           &copy; {new Date().getFullYear()} Doctor Food. {t("rights")}
         </p>
+        <p className="mt-2 text-center text-xs opacity-60">
+          Illustrations by{" "}
+          <a href="https://storyset.com" target="_blank" rel="noopener noreferrer" className="underline underline-offset-2 hover:opacity-100">
+            Storyset
+          </a>
+        </p>
       </div>
     </footer>
   );

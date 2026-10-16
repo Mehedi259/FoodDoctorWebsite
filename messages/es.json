@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Doctor Food · Planes de comidas con IA para tus metas y alergias",
-    "description": "Planes de comidas que sí vas a seguir, alertas de alérgenos y un asistente de nutrición con IA. Doctor Food integra una alimentación sana en tu vida real. Gratis en iOS y Android."
+    "title": "Planificador de comidas con IA para alergias y metas | Doctor Food",
+    "description": "Planes de comidas con IA que sí vas a seguir, alertas de alérgenos y un asistente de nutrición. Contador de calorías y recetas fáciles. Gratis en iOS y Android."
   },
   "Navbar": {
     "features": "Funciones",
@@ -17,14 +17,18 @@
   },
   "Hero": {
     "badge": "Gratis en iOS y Android",
-    "titleLine1": "Comida que se adapta a tu vida,",
-    "titleHighlight": "y no al revés.",
-    "description": "Cuéntale a Doctor Food tus objetivos, alergias y comidas favoritas. Nuestra IA crea planes de comidas que sí vas a seguir, registra lo que comes y responde tus dudas sobre nutrición en segundos.",
+    "titleLine1": "Deja de adivinar qué comer.",
+    "titleHighlight": "Planes de comidas con IA que se adaptan a tu vida.",
+    "description": "Doctor Food crea un plan de comidas semanal según tus metas, alergias y gustos, registra lo que comes y responde tus dudas de nutrición en segundos.",
     "availableOn": "Disponible en",
     "googlePlay": "Google Play",
     "appStore": "App Store",
-    "askCta": "Haz primero una pregunta",
-    "trust": ["Gratis para descargar", "3 preguntas de IA gratis", "Se adapta a tu horario"]
+    "askCta": "Haz una pregunta de nutrición gratis",
+    "trust": [
+      "Gratis para descargar",
+      "3 preguntas de IA gratis",
+      "Alertas de alergia en cada comida"
+    ]
   },
   "Phone": {
     "preview": "Vista previa de ejemplo",
@@ -44,56 +48,144 @@
   },
   "Pain": {
     "eyebrow": "¿Te suena?",
-    "title": "La mayoría no necesita más información. Necesita un plan que encaje en su vida real.",
+    "title": "La mayoría no necesita más información. Necesita un plan que encaje en su semana.",
     "items": [
-      { "title": "Dietas que no duran", "body": "Los planes estrictos se desmoronan a la segunda semana. Doctor Food adapta tu plan a tu horario y a tus gustos para que puedas seguir." },
-      { "title": "Alérgenos ocultos", "body": "Comer fuera con una alergia significa adivinar. Recibe alertas claras de alérgenos y cambios más seguros en cada comida." },
-      { "title": "Contar calorías lleva mucho tiempo", "body": "Registra una comida en segundos, no en minutos. Mira todo tu día de un vistazo." },
-      { "title": "Cansancio de decidir qué cenar", "body": "Deja de preguntarte qué cenar cada noche. Recibe una semana de comidas basada en lo que ya te gusta." },
-      { "title": "Consejos contradictorios en internet", "body": "Recibe respuestas según tu perfil, no publicaciones al azar. Pregunta lo que quieras sobre nutrición, cuando quieras." },
-      { "title": "Alimentar a toda la familia", "body": "Objetivos distintos, una sola mesa. Planifica comidas que funcionen para todos en casa sin cocinar tres cenas." }
+      {
+        "title": "Dietas que no duran",
+        "body": "Los planes estrictos se desmoronan a la segunda semana. Doctor Food ajusta tu plan a tu horario y tus gustos para que sigas."
+      },
+      {
+        "title": "Planes de comidas para alergias",
+        "body": "Comer fuera con alergia significa adivinar. Recibe alertas de alérgenos y cambios más seguros en cada comida."
+      },
+      {
+        "title": "Contar calorías en segundos",
+        "body": "Registra una comida en segundos, no en minutos. Mira todo tu día de un vistazo."
+      },
+      {
+        "title": "Deja de preguntarte qué comer",
+        "body": "Recibe una semana de cenas basada en comida que ya te gusta."
+      },
+      {
+        "title": "Consejos de nutrición para ti",
+        "body": "Respuestas según tu perfil, no publicaciones al azar. Pregunta lo que quieras sobre nutrición, cuando quieras."
+      },
+      {
+        "title": "Planificación de comidas en familia",
+        "body": "Objetivos distintos, una sola mesa. Planes que funcionan para todos en casa, sin cocinar tres cenas."
+      }
     ]
   },
   "HowItWorks": {
     "eyebrow": "Cómo funciona",
-    "title": "De abrumado a organizado en cuatro pasos",
+    "title": "Empieza tu plan de comidas en cuatro pasos",
     "steps": [
-      { "title": "Cuéntanos sobre ti", "body": "Tus objetivos, alergias, comidas favoritas y cuánto tiempo tienes para cocinar." },
-      { "title": "Recibe un plan que encaje", "body": "La IA crea tu primera semana de comidas, con recetas, porciones y lista de la compra." },
-      { "title": "Registra en segundos", "body": "Añade una comida escribiéndola o describiéndola. Las calorías y los macros se actualizan al instante." },
-      { "title": "Ajusta cuando cambie tu vida", "body": "¿Viajas, tienes una semana complicada o un objetivo nuevo? Tu plan se actualiza contigo." }
+      {
+        "title": "Cuéntanos sobre ti",
+        "body": "Tus objetivos, alergias, comidas favoritas y cuánto tiempo tienes para cocinar."
+      },
+      {
+        "title": "Recibe tu primera semana",
+        "body": "La IA crea una semana de comidas con recetas, porciones y lista de la compra."
+      },
+      {
+        "title": "Registra en segundos",
+        "body": "Describe o escribe una comida. Las calorías y los macros se actualizan al instante."
+      },
+      {
+        "title": "Ajusta cuando cambie tu vida",
+        "body": "¿Viajas o tienes una semana complicada? Tu plan se actualiza contigo."
+      }
     ]
   },
   "Features": {
     "eyebrow": "Funciones",
-    "title": "Todo lo que necesitas, en una sola app tranquila",
+    "title": "Todo lo que necesitas para tu plan de comidas diario",
     "items": [
-      { "title": "Recomendaciones de dieta con IA", "body": "Consejos basados en tu perfil y tus metas, no en tips genéricos para todos." },
-      { "title": "Planes de comidas personalizados", "body": "Planes semanales que se ajustan a tu presupuesto, tu tiempo para cocinar y tus gustos." },
-      { "title": "Detección de alergias", "body": "Señala posibles alérgenos en comidas y recetas para que comas con más seguridad." },
-      { "title": "Seguimiento de salud", "body": "Peso, progreso y hábitos en un panel claro que entiendes de un vistazo." },
-      { "title": "Sugerencias de recetas", "body": "Comidas nuevas con los ingredientes que ya tienes en la nevera." },
-      { "title": "Programación de comidas", "body": "Planifica la semana con antelación y recibe recordatorios antes de tener hambre." }
+      {
+        "title": "Recomendaciones de dieta con IA",
+        "body": "Consejos basados en tu perfil y tus metas, no en tips genéricos."
+      },
+      {
+        "title": "Planes de comidas personalizados",
+        "body": "Planes semanales que se ajustan a tu presupuesto, tu tiempo para cocinar y tus gustos."
+      },
+      {
+        "title": "Detección de alergias",
+        "body": "Señala posibles alérgenos en comidas y recetas para que comas con confianza."
+      },
+      {
+        "title": "Contador de calorías y macros",
+        "body": "Registro en segundos, con una vista clara de tu día."
+      },
+      {
+        "title": "Sugerencias de recetas",
+        "body": "Comidas nuevas con los ingredientes que ya tienes."
+      },
+      {
+        "title": "Programación de comidas",
+        "body": "Planifica con antelación y recibe recordatorios antes de tener hambre."
+      }
     ]
   },
   "UseCases": {
     "eyebrow": "Pensado para tu situación",
-    "title": "Sea cual sea tu objetivo, el plan se adapta a ti",
+    "title": "Sea cual sea tu objetivo, tu plan se adapta",
     "tabs": [
-      { "label": "Bajar de peso", "title": "Pierde peso sin pasar hambre", "body": "Objetivos calóricos realistas y comidas que disfrutarás, ajustados según avances.", "points": ["Objetivos calóricos según tu meta", "Guía de porciones fácil de seguir", "Revisiones semanales que actualizan tu plan"] },
-      { "label": "Alergias alimentarias", "title": "Come fuera con menos preocupaciones", "body": "Alertas de alérgenos en cada comida y cambios que mantienen el sabor que te gusta.", "points": ["Configura tus alergias una sola vez", "Alertas en planes y recetas", "Ideas de cambios para los alimentos que te gustan"] },
-      { "label": "Horarios ajetreados", "title": "Comida sana, incluso en semanas caóticas", "body": "Recetas rápidas y un plan que funciona con turnos largos y viajes.", "points": ["Ideas de comidas de 15 minutos", "Listas para cocinar en lote durante la semana", "Recordatorios antes de que tengas hambre"] },
-      { "label": "Comidas en familia", "title": "Una cocina, distintas necesidades", "body": "Planifica juntos, cocina una vez y ajusta las porciones para cada persona.", "points": ["Un plan semanal compartido", "Porciones individuales", "Preferencias para cada persona"] }
+      {
+        "label": "Bajar de peso",
+        "title": "Pierde peso sin pasar hambre",
+        "body": "Objetivos calóricos realistas y comidas que disfrutarás, ajustados según avances.",
+        "points": [
+          "Objetivo de calorías según tu meta",
+          "Guía de porciones fácil de seguir",
+          "Revisiones semanales que actualizan tu plan"
+        ]
+      },
+      {
+        "label": "Alergias alimentarias",
+        "title": "Come fuera con menos preocupaciones",
+        "body": "Alertas de alérgenos en cada comida y cambios que mantienen el sabor que te gusta.",
+        "points": [
+          "Configura tus alergias una sola vez",
+          "Alertas en planes y recetas",
+          "Ideas de cambios para los alimentos que te gustan"
+        ]
+      },
+      {
+        "label": "Semanas ajetreadas",
+        "title": "Comida sana, incluso en semanas caóticas",
+        "body": "Recetas rápidas y un plan que funciona con turnos largos y viajes.",
+        "points": [
+          "Ideas de comidas de 15 minutos",
+          "Lista para cocinar en lote durante la semana",
+          "Recordatorios antes de que tengas hambre"
+        ]
+      },
+      {
+        "label": "Comidas en familia",
+        "title": "Una cocina, distintas necesidades",
+        "body": "Planifica juntos, cocina una vez y ajusta las porciones para cada persona.",
+        "points": [
+          "Un plan semanal compartido",
+          "Porciones individuales",
+          "Preferencias para cada persona"
+        ]
+      }
     ]
   },
   "AskAI": {
     "eyebrow": "Prueba el asistente",
     "title": "Pregunta lo que quieras sobre comida y recibe una respuesta clara",
     "body": "Calorías, proteínas, alergias, qué comer antes de entrenar. Prueba tres preguntas gratis, aquí mismo.",
-    "points": ["Datos nutricionales de alimentos cotidianos", "Objetivos de calorías y proteínas", "Qué comer antes o después de entrenar"],
+    "points": [
+      "Datos nutricionales de alimentos cotidianos",
+      "Objetivos de calorías y proteínas",
+      "Qué comer antes o después de entrenar"
+    ],
     "sampleQuestion": "¿Cuánta proteína tienen las lentejas?",
     "sampleAnswer": "Unos 18 g por taza de lentejas cocidas. Combínalas con arroz o pan para obtener un conjunto completo de aminoácidos.",
-    "cta": "Abrir el asistente"
+    "cta": "Pregunta al asistente"
   },
   "Pricing": {
     "eyebrow": "Precios",
@@ -111,26 +203,50 @@
     "autoRenewYearly": "Se renueva automáticamente cada año",
     "getApp": "Obtener la app",
     "plans": [
-      { "name": "Pro", "description": "Para empezar" },
-      { "name": "Premium", "description": "Para metas constantes" },
-      { "name": "Family", "description": "Para toda la familia" }
+      {
+        "name": "Pro",
+        "description": "Para empezar"
+      },
+      {
+        "name": "Premium",
+        "description": "Para metas constantes"
+      },
+      {
+        "name": "Family",
+        "description": "Para toda la familia"
+      }
     ],
     "note": "Las suscripciones se renuevan automáticamente. Cancela cuando quieras antes de la renovación. Los créditos no usados no se acumulan."
   },
   "Faq": {
     "eyebrow": "Preguntas frecuentes",
-    "title": "Tus preguntas, respondidas",
+    "title": "Preguntas frecuentes sobre planificar comidas",
     "items": [
-      { "q": "¿Doctor Food reemplaza a mi médico?", "a": "No. Doctor Food ofrece orientación nutricional e ideas de comidas. No es consejo médico, así que consulta con tu médico cualquier afección o medicación." },
-      { "q": "¿Cómo funciona la detección de alergias?", "a": "Configuras tus alergias una sola vez. Doctor Food marca posibles alérgenos en comidas y recetas y sugiere cambios. En alergias graves, revisa siempre también las etiquetas." },
-      { "q": "¿Puedo cancelar mi suscripción?", "a": "Sí. Cancela en cualquier momento antes de la renovación para evitar el siguiente cargo. Los créditos no usados no se acumulan." },
-      { "q": "¿Mis datos de salud son privados?", "a": "Tus datos se cifran en tránsito y en reposo, y no los vendemos. La política de privacidad explica qué recopilamos y por qué." },
-      { "q": "¿En qué dispositivos funciona?", "a": "Doctor Food está disponible para iOS y Android." }
+      {
+        "q": "¿Doctor Food reemplaza a mi médico?",
+        "a": "No. Doctor Food ofrece orientación nutricional e ideas de comidas. No es consejo médico, así que consulta con tu médico cualquier afección o medicación."
+      },
+      {
+        "q": "¿Cómo funciona la detección de alergias?",
+        "a": "Configuras tus alergias una sola vez. Doctor Food marca posibles alérgenos en comidas y recetas y sugiere cambios. En alergias graves, revisa siempre también las etiquetas."
+      },
+      {
+        "q": "¿Puedo cancelar mi suscripción?",
+        "a": "Sí. Cancela en cualquier momento antes de la renovación para evitar el siguiente cargo. Los créditos no usados no se acumulan."
+      },
+      {
+        "q": "¿Mis datos de salud son privados?",
+        "a": "Tus datos se cifran en tránsito y en reposo, y no los vendemos. La política de privacidad explica qué recopilamos y por qué."
+      },
+      {
+        "q": "¿En qué dispositivos funciona?",
+        "a": "Doctor Food está disponible para iOS y Android."
+      }
     ]
   },
   "Cta": {
     "title": "Tu próxima comida ya puede estar planificada.",
-    "body": "Descarga Doctor Food y recibe hoy tu primer plan personalizado.",
+    "body": "Descarga Doctor Food y recibe hoy tu primer plan de comidas personalizado.",
     "note": "Descarga gratis. Cancela cualquier suscripción antes de que se renueve."
   },
   "Footer": {
@@ -158,10 +274,22 @@
     "what": "Ofrecemos planificación de comidas y seguimiento nutricional inteligentes que se adaptan a tu estilo de vida, tus preferencias y tus metas de salud. Nuestra IA analiza tus hábitos alimentarios, detecta áreas de mejora y sugiere cambios que encajan en tu rutina diaria.",
     "valuesTitle": "Nuestros valores",
     "values": [
-      { "title": "Basado en la ciencia", "body": "Nuestras recomendaciones se basan en investigación nutricional revisada por pares." },
-      { "title": "Privacidad primero", "body": "Tus datos de salud se cifran y nunca se comparten sin tu consentimiento explícito." },
-      { "title": "Inclusivo", "body": "Apoyamos todas las preferencias alimentarias, restricciones y tradiciones culinarias." },
-      { "title": "Transparente", "body": "Explicamos el razonamiento detrás de cada recomendación." }
+      {
+        "title": "Basado en la ciencia",
+        "body": "Nuestras recomendaciones se basan en investigación nutricional revisada por pares."
+      },
+      {
+        "title": "Privacidad primero",
+        "body": "Tus datos de salud se cifran y nunca se comparten sin tu consentimiento explícito."
+      },
+      {
+        "title": "Inclusivo",
+        "body": "Apoyamos todas las preferencias alimentarias, restricciones y tradiciones culinarias."
+      },
+      {
+        "title": "Transparente",
+        "body": "Explicamos el razonamiento detrás de cada recomendación."
+      }
     ],
     "teamTitle": "Nuestro equipo",
     "team": "Doctor Food lo impulsa un equipo diverso de dietistas-nutricionistas titulados, ingenieros de machine learning, diseñadores UX y defensores de la salud. Juntos hacemos que comer sano sea simple, agradable y sostenible.",
@@ -183,5 +311,62 @@
     "android": "Android",
     "ios": "iOS",
     "limitFooter": "¡Descarga la app para preguntas ilimitadas! 🚀"
+  },
+  "Marquee": {
+    "items": [
+      "Planes de comidas con IA",
+      "Recetas aptas para alergias",
+      "Calorías en segundos",
+      "Planificación de comidas en familia",
+      "Ideas para bajar de peso",
+      "Privado y cifrado"
+    ]
+  },
+  "LivePlan": {
+    "eyebrow": "Vista previa en vivo",
+    "title": "Mira una semana de comidas, planificada en segundos",
+    "body": "Pasa por los días. Cada plan actualiza sus calorías, comidas y alertas de alergia según tus metas.",
+    "kcalLabel": "{kcal} kcal",
+    "allergyNote": "Cambio sin cacahuetes aplicado",
+    "mealOats": "Avena de un día para otro con frutos rojos",
+    "mealChicken": "Bowl de pollo al limón con quinoa",
+    "mealSalmon": "Salmón con verduras asadas",
+    "mealWrap": "Wrap de pavo y aguacate",
+    "mealStir": "Salteado de tofu con arroz"
+  },
+  "AllergyScanner": {
+    "eyebrow": "Alertas de alergia",
+    "title": "Cuéntanos tus alergias una vez. Revisamos cada comida.",
+    "body": "Activa tus alergias y mira qué ingredientes se marcan antes de cocinar.",
+    "hint": "Toca una alergia para ver a qué afecta",
+    "safe": "Seguro",
+    "flagged": "Marcado",
+    "allergyPeanut": "Cacahuetes",
+    "allergyMilk": "Leche",
+    "allergyGluten": "Gluten",
+    "ingPeanutButter": "Mantequilla de cacahuete",
+    "ingYogurt": "Yogur griego",
+    "ingBread": "Pan integral",
+    "ingChicken": "Pechuga de pollo",
+    "ingBlueberries": "Arándanos"
+  },
+  "Trust": {
+    "eyebrow": "Privacidad y confianza",
+    "title": "Tus datos de salud se quedan privados",
+    "items": [
+      {
+        "title": "Cifrados",
+        "body": "Tus datos se cifran en tránsito y en reposo."
+      },
+      {
+        "title": "Nunca vendidos",
+        "body": "No vendemos tus datos personales a terceros."
+      },
+      {
+        "title": "Cancela cuando quieras",
+        "body": "Cancela antes de la renovación. Sin cargos ocultos."
+      }
+    ],
+    "disclaimer": "Doctor Food ofrece orientación nutricional, no consejo médico. Para una afección médica o un medicamento, consulta con tu médico."
   }
 }

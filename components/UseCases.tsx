@@ -1,10 +1,11 @@
 import { useTranslations } from "next-intl";
-import { IconClock, IconScale, IconShieldCheck, IconUsers } from "@tabler/icons-react";
-import { Card, CardContent } from "@/components/ui/card";
+import Image from "next/image";
+import { IconCheck } from "@tabler/icons-react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import SectionHeader from "@/components/SectionHeader";
 
-const icons = [IconScale, IconShieldCheck, IconClock, IconUsers];
+// One illustration per tab, in the same order as the copy in messages/*.json. Decorative: the heading says the same thing.
+const scenes = ["in-progress", "mobile-note-list", "cooking", "family"] as const;
 
 type UseCase = { label: string; title: string; body: string; points: string[] };
 
@@ -18,43 +19,43 @@ export default function UseCases() {
         <SectionHeader eyebrow={t("eyebrow")} title={t("title")} />
 
         <Tabs defaultValue="0" className="mx-auto max-w-5xl">
-          <TabsList className="mx-auto flex h-auto w-full flex-wrap justify-center gap-1 rounded-full p-1.5">
-            {cases.map((item, index) => (
-              <TabsTrigger key={item.label} value={String(index)} className="rounded-full px-4 py-2 text-sm">
-                {item.label}
-              </TabsTrigger>
-            ))}
-          </TabsList>
+          <div className="flex justify-start overflow-x-auto px-1 sm:justify-center">
+            <TabsList>
+              {cases.map((item, index) => (
+                <TabsTrigger key={item.label} value={String(index)}>
+                  {item.label}
+                </TabsTrigger>
+              ))}
+            </TabsList>
+          </div>
 
-          {cases.map((item, index) => {
-            const Icon = icons[index];
-            return (
-              <TabsContent key={item.label} value={String(index)} className="mt-10">
-                <div className="grid items-center gap-10 md:grid-cols-5">
-                  <div className="md:col-span-3">
-                    <div className="mb-6 flex size-14 items-center justify-center rounded-2xl bg-primary text-primary-foreground">
-                      <Icon className="size-7" />
-                    </div>
-                    <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{item.title}</h3>
-                    <p className="text-lg leading-relaxed text-muted-foreground">{item.body}</p>
-                  </div>
-
-                  <Card className="md:col-span-2">
-                    <CardContent className="space-y-3">
-                      {item.points.map((point, pointIndex) => (
-                        <div key={point} className="flex items-start gap-3 rounded-xl bg-muted/60 p-4">
-                          <span className="flex size-7 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-semibold text-primary-foreground">
-                            {pointIndex + 1}
-                          </span>
-                          <span className="pt-0.5 font-medium">{point}</span>
-                        </div>
-                      ))}
-                    </CardContent>
-                  </Card>
+          {cases.map((item, index) => (
+            <TabsContent key={item.label} value={String(index)} className="mt-10">
+              <div className="grid items-center gap-10 md:grid-cols-2">
+                <div>
+                  <h3 className="mb-4 text-3xl font-bold tracking-tight md:text-4xl">{item.title}</h3>
+                  <p className="text-lg leading-relaxed text-muted-foreground">{item.body}</p>
+                  <ul className="mt-6 space-y-3">
+                    {item.points.map((point) => (
+                      <li key={point} className="flex items-start gap-3">
+                        <IconCheck className="mt-1 size-5 shrink-0 text-primary" />
+                        <span className="text-base">{point}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </TabsContent>
-            );
-          })}
+
+                <Image
+                  src={`/illustrations/${scenes[index]}.svg`}
+                  alt=""
+                  width={1000}
+                  height={1000}
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="h-auto w-full"
+                />
+              </div>
+            </TabsContent>
+          ))}
         </Tabs>
       </div>
     </section>

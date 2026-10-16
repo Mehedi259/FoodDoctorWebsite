@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Doctor Food · Rencana makan AI untuk tujuan dan alergi kamu",
-    "description": "Rencana makan yang benar-benar bisa kamu jalani, penanda alergen, dan asisten nutrisi AI. Doctor Food menyesuaikan pola makan sehat dengan kehidupan nyatamu. Gratis di iOS dan Android."
+    "title": "Perencana Makan AI untuk Alergi dan Tujuan | Doctor Food",
+    "description": "Rencana makan AI yang benar-benar bisa kamu jalani, penanda alergen, dan asisten nutrisi. Pelacak kalori dan resep mudah. Gratis di iOS dan Android."
   },
   "Navbar": {
     "features": "Fitur",
@@ -17,14 +17,18 @@
   },
   "Hero": {
     "badge": "Gratis di iOS dan Android",
-    "titleLine1": "Makanan yang menyesuaikan hidupmu,",
-    "titleHighlight": "bukan sebaliknya.",
-    "description": "Beri tahu Doctor Food tujuan, alergi, dan makanan favoritmu. AI kami menyusun rencana makan yang benar-benar bisa kamu jalani, mencatat apa yang kamu makan, dan menjawab pertanyaan nutrisimu dalam hitungan detik.",
+    "titleLine1": "Berhenti bingung mau makan apa.",
+    "titleHighlight": "Rencana makan AI yang sesuai dengan hidupmu.",
+    "description": "Doctor Food menyusun rencana makan mingguan sesuai tujuan, alergi, dan seleramu, mencatat apa yang kamu makan, dan menjawab pertanyaan nutrisimu dalam hitungan detik.",
     "availableOn": "Tersedia di",
     "googlePlay": "Google Play",
     "appStore": "App Store",
-    "askCta": "Coba tanya dulu",
-    "trust": ["Gratis diunduh", "3 pertanyaan AI gratis", "Menyesuaikan jadwal harianmu"]
+    "askCta": "Tanya soal nutrisi gratis",
+    "trust": [
+      "Gratis diunduh",
+      "3 pertanyaan AI gratis",
+      "Penanda alergi di setiap makanan"
+    ]
   },
   "Phone": {
     "preview": "Pratinjau contoh",
@@ -44,56 +48,144 @@
   },
   "Pain": {
     "eyebrow": "Familiar, ya?",
-    "title": "Kebanyakan orang bukan kurang pengetahuan. Mereka kurang rencana yang cocok dengan kehidupan nyata.",
+    "title": "Kebanyakan orang bukan kurang pengetahuan. Mereka kurang rencana yang cocok dengan minggu mereka.",
     "items": [
-      { "title": "Diet yang tidak bertahan", "body": "Rencana yang ketat biasanya gagal di minggu kedua. Doctor Food menyesuaikan rencanamu dengan jadwal dan seleramu agar kamu bisa terus jalan." },
-      { "title": "Alergen tersembunyi", "body": "Makan di luar dengan alergi berarti menebak-nebak. Dapatkan penanda alergen yang jelas dan pengganti yang lebih aman di setiap makanan." },
-      { "title": "Menghitung kalori itu lama", "body": "Catat makanan dalam hitungan detik, bukan menit. Lihat seluruh harimu sekilas." },
-      { "title": "Lelah memutuskan makan malam", "body": "Berhenti bertanya mau makan apa setiap malam. Dapatkan rencana makan seminggu dari makanan yang memang kamu suka." },
-      { "title": "Saran yang saling bertentangan di internet", "body": "Dapatkan jawaban berdasarkan profilmu, bukan postingan acak. Tanyakan soal nutrisi kapan saja." },
-      { "title": "Memberi makan seluruh keluarga", "body": "Tujuan berbeda, satu meja. Rencanakan makanan yang cocok untuk semua di rumah tanpa memasak tiga menu makan malam." }
+      {
+        "title": "Diet yang tidak bertahan",
+        "body": "Rencana yang ketat biasanya gagal di minggu kedua. Doctor Food menyesuaikan rencanamu dengan jadwal dan seleramu agar kamu terus jalan."
+      },
+      {
+        "title": "Rencana makan ramah alergi",
+        "body": "Makan di luar dengan alergi berarti menebak-nebak. Dapatkan penanda alergen dan pengganti yang lebih aman di setiap makanan."
+      },
+      {
+        "title": "Pelacakan kalori dalam hitungan detik",
+        "body": "Catat makanan dalam hitungan detik, bukan menit. Lihat seluruh harimu sekilas."
+      },
+      {
+        "title": "Berhenti bingung mau makan apa",
+        "body": "Dapatkan seminggu menu makan malam dari makanan yang sudah kamu suka."
+      },
+      {
+        "title": "Saran nutrisi yang sesuai denganmu",
+        "body": "Jawaban berdasarkan profilmu, bukan postingan acak. Tanyakan soal nutrisi kapan saja."
+      },
+      {
+        "title": "Perencanaan makan keluarga",
+        "body": "Tujuan berbeda, satu meja. Rencana yang cocok untuk semua di rumah tanpa memasak tiga menu makan malam."
+      }
     ]
   },
   "HowItWorks": {
     "eyebrow": "Cara kerja",
-    "title": "Dari kewalahan menjadi teratur dalam empat langkah",
+    "title": "Mulai rencana makanmu dalam empat langkah",
     "steps": [
-      { "title": "Ceritakan tentang dirimu", "body": "Tujuan, alergi, makanan favorit, dan berapa waktu yang kamu punya untuk memasak." },
-      { "title": "Dapatkan rencana yang pas", "body": "AI menyusun minggu pertamamu: resep, porsi, dan daftar belanja." },
-      { "title": "Catat dalam hitungan detik", "body": "Tambahkan makanan dengan mengetik atau menjelaskannya. Kalori dan makronutrien langsung diperbarui." },
-      { "title": "Sesuaikan saat hidup berubah", "body": "Sedang bepergian, minggu sibuk, atau tujuan baru? Rencanamu menyesuaikan dengan kamu." }
+      {
+        "title": "Ceritakan tentang dirimu",
+        "body": "Tujuan, alergi, makanan favorit, dan berapa waktu yang kamu punya untuk memasak."
+      },
+      {
+        "title": "Dapatkan minggu pertamamu",
+        "body": "AI menyusun seminggu menu lengkap dengan resep, porsi, dan daftar belanja."
+      },
+      {
+        "title": "Catat dalam hitungan detik",
+        "body": "Jelaskan atau ketik makanan. Kalori dan makronutrien langsung diperbarui."
+      },
+      {
+        "title": "Sesuaikan saat hidup berubah",
+        "body": "Sedang bepergian atau minggu sibuk? Rencanamu menyesuaikan dengan kamu."
+      }
     ]
   },
   "Features": {
     "eyebrow": "Fitur",
-    "title": "Semua yang kamu butuhkan, dalam satu aplikasi yang tenang",
+    "title": "Semua yang kamu butuhkan untuk rencana makan harian",
     "items": [
-      { "title": "Rekomendasi diet AI", "body": "Saran yang disesuaikan dengan profil dan tujuanmu, bukan tips umum untuk semua orang." },
-      { "title": "Rencana makan personal", "body": "Rencana mingguan yang sesuai dengan anggaran, waktu memasak, dan seleramu." },
-      { "title": "Deteksi alergi", "body": "Menandai kemungkinan alergen dalam makanan dan resep agar kamu makan lebih tenang." },
-      { "title": "Pelacakan kesehatan", "body": "Berat badan, kemajuan, dan kebiasaan dalam satu dasbor yang jelas dan mudah dipahami." },
-      { "title": "Saran resep", "body": "Menu baru dari bahan yang sudah ada di kulkasmu." },
-      { "title": "Penjadwalan makan", "body": "Rencanakan minggu ke depan dan dapatkan pengingat sebelum lapar." }
+      {
+        "title": "Rekomendasi diet AI",
+        "body": "Saran berdasarkan profil dan tujuanmu, bukan tips umum."
+      },
+      {
+        "title": "Rencana makan personal",
+        "body": "Rencana mingguan yang sesuai dengan anggaran, waktu memasak, dan seleramu."
+      },
+      {
+        "title": "Deteksi alergi",
+        "body": "Menandai kemungkinan alergen di makanan dan resep agar kamu makan dengan yakin."
+      },
+      {
+        "title": "Pelacakan kalori dan makro",
+        "body": "Dicatat dalam hitungan detik, dengan gambaran jelas tentang harimu."
+      },
+      {
+        "title": "Saran resep",
+        "body": "Menu baru dari bahan yang sudah kamu punya."
+      },
+      {
+        "title": "Penjadwalan makan",
+        "body": "Rencanakan ke depan dan dapatkan pengingat sebelum lapar."
+      }
     ]
   },
   "UseCases": {
     "eyebrow": "Dibuat untuk situasimu",
     "title": "Apa pun tujuanmu, rencananya menyesuaikan dirimu",
     "tabs": [
-      { "label": "Target berat badan", "title": "Turun berat badan tanpa kelaparan", "body": "Target kalori yang realistis dan makanan yang kamu nikmati, disesuaikan seiring kemajuanmu.", "points": ["Target kalori sesuai tujuanmu", "Panduan porsi yang mudah diikuti", "Evaluasi mingguan yang memperbarui rencanamu"] },
-      { "label": "Alergi makanan", "title": "Makan di luar dengan lebih tenang", "body": "Penanda alergen di setiap makanan dan pengganti yang tetap nikmat.", "points": ["Atur alergimu sekali saja", "Penanda di rencana dan resep", "Ide pengganti untuk makanan favoritmu"] },
-      { "label": "Jadwal padat", "title": "Makan sehat, bahkan di minggu yang sibuk", "body": "Resep cepat dan rencana yang bisa diatur di sekitar shift malam dan perjalanan.", "points": ["Ide makanan 15 menit", "Daftar masak sekaligus untuk seminggu", "Pengingat sebelum lapar datang"] },
-      { "label": "Makan bersama keluarga", "title": "Satu dapur, kebutuhan berbeda", "body": "Rencanakan bersama, masak sekali, dan sesuaikan porsi untuk tiap orang.", "points": ["Satu rencana mingguan bersama", "Porsi individual", "Preferensi untuk setiap orang"] }
+      {
+        "label": "Turun berat badan",
+        "title": "Turun berat badan tanpa kelaparan",
+        "body": "Target kalori yang realistis dan makanan yang kamu nikmati, disesuaikan seiring kemajuanmu.",
+        "points": [
+          "Target kalori sesuai tujuanmu",
+          "Panduan porsi yang mudah diikuti",
+          "Evaluasi mingguan yang memperbarui rencanamu"
+        ]
+      },
+      {
+        "label": "Alergi makanan",
+        "title": "Makan di luar dengan lebih tenang",
+        "body": "Penanda alergen di setiap makanan dan pengganti yang tetap nikmat.",
+        "points": [
+          "Atur alergimu sekali saja",
+          "Penanda di rencana dan resep",
+          "Ide pengganti untuk makanan favoritmu"
+        ]
+      },
+      {
+        "label": "Minggu sibuk",
+        "title": "Makan sehat, bahkan di minggu yang padat",
+        "body": "Resep cepat dan rencana yang menyesuaikan shift malam dan perjalanan.",
+        "points": [
+          "Ide makanan 15 menit",
+          "Daftar masak sekaligus untuk seminggu",
+          "Pengingat sebelum lapar datang"
+        ]
+      },
+      {
+        "label": "Makan bersama keluarga",
+        "title": "Satu dapur, kebutuhan berbeda",
+        "body": "Rencanakan bersama, masak sekali, dan sesuaikan porsi untuk tiap orang.",
+        "points": [
+          "Satu rencana mingguan bersama",
+          "Porsi individual",
+          "Preferensi untuk setiap orang"
+        ]
+      }
     ]
   },
   "AskAI": {
     "eyebrow": "Coba asistennya",
     "title": "Tanya apa saja tentang makanan dan dapatkan jawaban yang jelas",
     "body": "Kalori, protein, alergi, apa yang sebaiknya dimakan sebelum olahraga. Coba tiga pertanyaan gratis langsung di sini.",
-    "points": ["Fakta gizi untuk makanan sehari-hari", "Target kalori dan protein", "Apa yang dimakan sebelum atau sesudah olahraga"],
+    "points": [
+      "Fakta gizi untuk makanan sehari-hari",
+      "Target kalori dan protein",
+      "Apa yang dimakan sebelum atau sesudah olahraga"
+    ],
     "sampleQuestion": "Berapa protein dalam lentil?",
     "sampleAnswer": "Sekitar 18 g per cangkir lentil matang. Kombinasikan dengan nasi atau roti untuk mendapatkan asam amino yang lengkap.",
-    "cta": "Buka asisten"
+    "cta": "Tanya asisten"
   },
   "Pricing": {
     "eyebrow": "Harga",
@@ -111,26 +203,50 @@
     "autoRenewYearly": "Diperpanjang otomatis setiap tahun",
     "getApp": "Dapatkan aplikasi",
     "plans": [
-      { "name": "Pro", "description": "Untuk memulai" },
-      { "name": "Premium", "description": "Untuk tujuan jangka panjang" },
-      { "name": "Family", "description": "Untuk seluruh keluarga" }
+      {
+        "name": "Pro",
+        "description": "Untuk memulai"
+      },
+      {
+        "name": "Premium",
+        "description": "Untuk tujuan jangka panjang"
+      },
+      {
+        "name": "Family",
+        "description": "Untuk seluruh keluarga"
+      }
     ],
     "note": "Langganan diperpanjang otomatis. Batalkan kapan saja sebelum perpanjangan. Kredit yang tidak terpakai tidak diakumulasi."
   },
   "Faq": {
     "eyebrow": "FAQ",
-    "title": "Pertanyaanmu, terjawab",
+    "title": "Pertanyaan umum tentang perencanaan makan",
     "items": [
-      { "q": "Apakah Doctor Food menggantikan dokter?", "a": "Tidak. Doctor Food memberikan panduan nutrisi dan ide makanan. Ini bukan saran medis, jadi konsultasikan kondisi kesehatan atau obat apa pun dengan dokter." },
-      { "q": "Bagaimana deteksi alergi bekerja?", "a": "Kamu mengatur alergi sekali saja. Doctor Food menandai kemungkinan alergen dalam makanan dan resep serta menyarankan pengganti. Untuk alergi berat, selalu periksa juga label produk." },
-      { "q": "Bisakah saya membatalkan langganan?", "a": "Bisa. Batalkan kapan saja sebelum perpanjangan agar tidak ada tagihan berikutnya. Kredit yang tidak terpakai tidak diakumulasi." },
-      { "q": "Apakah data kesehatan saya privat?", "a": "Data kamu dienkripsi saat dikirim maupun disimpan, dan kami tidak menjualnya. Kebijakan privasi menjelaskan apa yang kami kumpulkan dan alasannya." },
-      { "q": "Perangkat apa yang didukung?", "a": "Doctor Food tersedia untuk iOS dan Android." }
+      {
+        "q": "Apakah Doctor Food menggantikan dokter?",
+        "a": "Tidak. Doctor Food memberikan panduan nutrisi dan ide makanan. Ini bukan saran medis, jadi konsultasikan kondisi kesehatan atau obat apa pun dengan dokter."
+      },
+      {
+        "q": "Bagaimana deteksi alergi bekerja?",
+        "a": "Kamu mengatur alergi sekali saja. Doctor Food menandai kemungkinan alergen dalam makanan dan resep serta menyarankan pengganti. Untuk alergi berat, selalu periksa juga label produk."
+      },
+      {
+        "q": "Bisakah saya membatalkan langganan?",
+        "a": "Bisa. Batalkan kapan saja sebelum perpanjangan agar tidak ada tagihan berikutnya. Kredit yang tidak terpakai tidak diakumulasi."
+      },
+      {
+        "q": "Apakah data kesehatan saya privat?",
+        "a": "Data kamu dienkripsi saat dikirim maupun disimpan, dan kami tidak menjualnya. Kebijakan privasi menjelaskan apa yang kami kumpulkan dan alasannya."
+      },
+      {
+        "q": "Perangkat apa yang didukung?",
+        "a": "Doctor Food tersedia untuk iOS dan Android."
+      }
     ]
   },
   "Cta": {
     "title": "Makanan berikutnya mungkin sudah bisa direncanakan.",
-    "body": "Unduh Doctor Food dan dapatkan rencana personal pertamamu hari ini.",
+    "body": "Unduh Doctor Food dan dapatkan rencana makan personal pertamamu hari ini.",
     "note": "Gratis diunduh. Batalkan langganan apa pun sebelum diperpanjang."
   },
   "Footer": {
@@ -158,10 +274,22 @@
     "what": "Kami menyediakan perencanaan makan dan pelacakan gizi cerdas yang menyesuaikan gaya hidup, preferensi, dan tujuan kesehatanmu. AI kami menganalisis pola makanmu, menemukan area untuk diperbaiki, dan menyarankan perubahan yang pas dengan rutinitas harianmu.",
     "valuesTitle": "Nilai kami",
     "values": [
-      { "title": "Berbasis sains", "body": "Rekomendasi kami didasarkan pada riset gizi yang telah ditinjau sejawat." },
-      { "title": "Privasi utama", "body": "Data kesehatanmu dienkripsi dan tidak pernah dibagikan tanpa persetujuanmu." },
-      { "title": "Inklusif", "body": "Kami mendukung semua preferensi makan, pantangan, dan tradisi kuliner." },
-      { "title": "Transparan", "body": "Kami menjelaskan alasan di balik setiap rekomendasi." }
+      {
+        "title": "Berbasis sains",
+        "body": "Rekomendasi kami didasarkan pada riset gizi yang telah ditinjau sejawat."
+      },
+      {
+        "title": "Privasi utama",
+        "body": "Data kesehatanmu dienkripsi dan tidak pernah dibagikan tanpa persetujuanmu."
+      },
+      {
+        "title": "Inklusif",
+        "body": "Kami mendukung semua preferensi makan, pantangan, dan tradisi kuliner."
+      },
+      {
+        "title": "Transparan",
+        "body": "Kami menjelaskan alasan di balik setiap rekomendasi."
+      }
     ],
     "teamTitle": "Tim kami",
     "team": "Doctor Food didukung tim yang beragam: ahli gizi terdaftar, insinyur machine learning, desainer UX, dan pegiat kesehatan. Bersama-sama, kami membuat makan sehat jadi mudah, menyenangkan, dan berkelanjutan.",
@@ -183,5 +311,62 @@
     "android": "Android",
     "ios": "iOS",
     "limitFooter": "Unduh aplikasinya untuk pertanyaan tanpa batas! 🚀"
+  },
+  "Marquee": {
+    "items": [
+      "Rencana makan AI",
+      "Resep ramah alergi",
+      "Kalori dalam hitungan detik",
+      "Perencanaan makan keluarga",
+      "Ide makanan untuk diet",
+      "Privat dan terenkripsi"
+    ]
+  },
+  "LivePlan": {
+    "eyebrow": "Pratinjau langsung",
+    "title": "Lihat seminggu makan, direncanakan dalam hitungan detik",
+    "body": "Ketuk setiap hari. Setiap rencana memperbarui kalori, menu, dan penanda alergi sesuai tujuanmu.",
+    "kcalLabel": "{kcal} kkal",
+    "allergyNote": "Pengganti bebas kacang diterapkan",
+    "mealOats": "Overnight oats dengan buah beri",
+    "mealChicken": "Bowl ayam lemon dan quinoa",
+    "mealSalmon": "Salmon dengan sayuran panggang",
+    "mealWrap": "Wrap kalkun dan alpukat",
+    "mealStir": "Tumis tahu dengan nasi"
+  },
+  "AllergyScanner": {
+    "eyebrow": "Penanda alergi",
+    "title": "Beri tahu alergimu sekali. Kami periksa setiap makanan.",
+    "body": "Aktifkan alergimu dan lihat bahan mana yang ditandai sebelum memasak.",
+    "hint": "Ketuk alergi untuk melihat apa yang terpengaruh",
+    "safe": "Aman",
+    "flagged": "Ditandai",
+    "allergyPeanut": "Kacang",
+    "allergyMilk": "Susu",
+    "allergyGluten": "Gluten",
+    "ingPeanutButter": "Selai kacang",
+    "ingYogurt": "Yogurt Yunani",
+    "ingBread": "Roti gandum utuh",
+    "ingChicken": "Dada ayam",
+    "ingBlueberries": "Blueberry"
+  },
+  "Trust": {
+    "eyebrow": "Privasi dan kepercayaan",
+    "title": "Data kesehatanmu tetap privat",
+    "items": [
+      {
+        "title": "Terenkripsi",
+        "body": "Datamu terenkripsi saat dikirim dan saat disimpan."
+      },
+      {
+        "title": "Tidak pernah dijual",
+        "body": "Kami tidak menjual data pribadimu kepada pihak ketiga."
+      },
+      {
+        "title": "Batalkan kapan saja",
+        "body": "Batalkan sebelum perpanjangan. Tanpa biaya tersembunyi."
+      }
+    ],
+    "disclaimer": "Doctor Food memberikan panduan nutrisi, bukan saran medis. Untuk kondisi medis atau obat, konsultasikan dengan dokter."
   }
 }

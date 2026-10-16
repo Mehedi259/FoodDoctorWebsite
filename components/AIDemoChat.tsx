@@ -265,6 +265,7 @@ export default function AIDemoChat() {
                         <Button
                           size="sm"
                           className="flex-1"
+                          nativeButton={false}
                           render={
                             <a href={ANDROID_URL} target="_blank" rel="noopener noreferrer" />
                           }
@@ -274,6 +275,7 @@ export default function AIDemoChat() {
                         <Button
                           size="sm"
                           className="flex-1"
+                          nativeButton={false}
                           render={
                             <a href={IOS_URL} target="_blank" rel="noopener noreferrer" />
                           }

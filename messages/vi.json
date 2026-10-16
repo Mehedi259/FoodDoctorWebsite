@@ -1,7 +1,7 @@
 {
   "Meta": {
-    "title": "Doctor Food · Thực đơn AI cho mục tiêu và dị ứng của bạn",
-    "description": "Thực đơn bạn thực sự làm theo được, cảnh báo chất gây dị ứng và trợ lý dinh dưỡng AI. Doctor Food đưa việc ăn uống lành mạnh vào cuộc sống thật của bạn. Miễn phí trên iOS và Android."
+    "title": "Lập thực đơn AI cho dị ứng và mục tiêu | Doctor Food",
+    "description": "Thực đơn AI bạn thực sự làm theo được, cảnh báo chất gây dị ứng và trợ lý dinh dưỡng. Theo dõi calo và công thức dễ làm. Miễn phí trên iOS và Android."
   },
   "Navbar": {
     "features": "Tính năng",
@@ -17,14 +17,18 @@
   },
   "Hero": {
     "badge": "Miễn phí trên iOS và Android",
-    "titleLine1": "Món ăn hợp với cuộc sống của bạn,",
-    "titleHighlight": "chứ không phải ngược lại.",
-    "description": "Hãy cho Doctor Food biết mục tiêu, dị ứng và món ăn yêu thích của bạn. AI của chúng tôi lên thực đơn bạn thực sự làm theo được, ghi lại những gì bạn ăn và trả lời câu hỏi dinh dưỡng chỉ trong vài giây.",
+    "titleLine1": "Đừng đoán nữa, hãy biết mình nên ăn gì.",
+    "titleHighlight": "Thực đơn AI hợp với cuộc sống của bạn.",
+    "description": "Doctor Food lập thực đơn hằng tuần theo mục tiêu, dị ứng và khẩu vị của bạn, ghi lại những gì bạn ăn và trả lời câu hỏi dinh dưỡng chỉ trong vài giây.",
     "availableOn": "Có trên",
     "googlePlay": "Google Play",
     "appStore": "App Store",
-    "askCta": "Hỏi thử một câu trước",
-    "trust": ["Tải miễn phí", "3 câu hỏi AI miễn phí", "Phù hợp với lịch trình của bạn"]
+    "askCta": "Hỏi thử một câu dinh dưỡng miễn phí",
+    "trust": [
+      "Tải miễn phí",
+      "3 câu hỏi AI miễn phí",
+      "Cảnh báo dị ứng trong mọi bữa ăn"
+    ]
   },
   "Phone": {
     "preview": "Ảnh minh họa",
@@ -44,56 +48,144 @@
   },
   "Pain": {
     "eyebrow": "Nghe quen không?",
-    "title": "Hầu hết mọi người không thiếu kiến thức. Họ thiếu một kế hoạch phù hợp với cuộc sống thật.",
+    "title": "Hầu hết mọi người không thiếu kiến thức. Họ thiếu một thực đơn hợp với tuần của mình.",
     "items": [
-      { "title": "Chế độ ăn không kéo dài", "body": "Kế hoạch quá khắt khe thường sụp đổ sau tuần thứ hai. Doctor Food điều chỉnh kế hoạch theo lịch trình và khẩu vị của bạn để bạn có thể tiếp tục." },
-      { "title": "Chất gây dị ứng ẩn", "body": "Ăn ngoài khi bị dị ứng nghĩa là phải đoán. Nhận cảnh báo chất gây dị ứng rõ ràng và gợi ý thay thế an toàn hơn trong mọi bữa ăn." },
-      { "title": "Đếm calo tốn quá nhiều thời gian", "body": "Ghi lại một bữa ăn chỉ mất vài giây, không phải vài phút. Xem cả ngày ăn uống của bạn chỉ trong một lần nhìn." },
-      { "title": "Mệt mỏi vì không biết ăn gì", "body": "Đừng băn khoăn mỗi tối xem ăn gì nữa. Nhận thực đơn cả tuần được xây dựng từ những món bạn vốn đã thích." },
-      { "title": "Lời khuyên trái ngược trên mạng", "body": "Nhận câu trả lời dựa trên hồ sơ của bạn thay vì những bài đăng ngẫu nhiên. Hỏi bất kỳ câu hỏi dinh dưỡng nào, bất cứ lúc nào." },
-      { "title": "Lo bữa ăn cho cả gia đình", "body": "Mục tiêu khác nhau, nhưng chỉ một mâm cơm. Lên kế hoạch bữa ăn phù hợp cho mọi người trong nhà mà không phải nấu ba món riêng." }
+      {
+        "title": "Chế độ ăn không kéo dài",
+        "body": "Thực đơn quá khắt khe thường sụp đổ sau tuần thứ hai. Doctor Food điều chỉnh kế hoạch theo lịch trình và khẩu vị để bạn tiếp tục."
+      },
+      {
+        "title": "Thực đơn thân thiện với người dị ứng",
+        "body": "Ăn ngoài khi bị dị ứng nghĩa là phải đoán. Nhận cảnh báo chất gây dị ứng và gợi ý thay thế an toàn trong mọi bữa ăn."
+      },
+      {
+        "title": "Theo dõi calo trong vài giây",
+        "body": "Ghi lại một bữa ăn chỉ mất vài giây, không phải vài phút. Xem cả ngày của bạn chỉ trong một lần nhìn."
+      },
+      {
+        "title": "Thôi băn khoăn không biết ăn gì",
+        "body": "Nhận thực đơn bữa tối cho cả tuần từ những món bạn vốn đã thích."
+      },
+      {
+        "title": "Lời khuyên dinh dưỡng dành cho bạn",
+        "body": "Nhận câu trả lời dựa trên hồ sơ của bạn thay vì những bài đăng ngẫu nhiên. Hỏi bất kỳ câu hỏi dinh dưỡng nào, bất cứ lúc nào."
+      },
+      {
+        "title": "Lập thực đơn cho cả gia đình",
+        "body": "Mục tiêu khác nhau, nhưng chỉ một mâm cơm. Thực đơn phù hợp với mọi người trong nhà mà không phải nấu ba món riêng."
+      }
     ]
   },
   "HowItWorks": {
     "eyebrow": "Cách hoạt động",
-    "title": "Bốn bước để từ rối bời trở nên có kế hoạch",
+    "title": "Bắt đầu thực đơn của bạn trong bốn bước",
     "steps": [
-      { "title": "Kể cho chúng tôi về bạn", "body": "Mục tiêu, dị ứng, món ăn yêu thích và thời gian bạn có để nấu ăn." },
-      { "title": "Nhận kế hoạch phù hợp", "body": "AI lập thực đơn tuần đầu tiên của bạn, kèm công thức, khẩu phần và danh sách mua sắm." },
-      { "title": "Ghi lại trong vài giây", "body": "Thêm món ăn bằng cách gõ hoặc mô tả. Calo và chất dinh dưỡng được cập nhật ngay lập tức." },
-      { "title": "Điều chỉnh khi cuộc sống thay đổi", "body": "Đi công tác, tuần bận rộn hay mục tiêu mới? Kế hoạch của bạn cập nhật theo bạn." }
+      {
+        "title": "Kể cho chúng tôi về bạn",
+        "body": "Mục tiêu, dị ứng, món ăn yêu thích và thời gian bạn có để nấu ăn."
+      },
+      {
+        "title": "Nhận thực đơn tuần đầu tiên",
+        "body": "AI lập một tuần bữa ăn, kèm công thức, khẩu phần và danh sách mua sắm."
+      },
+      {
+        "title": "Ghi lại trong vài giây",
+        "body": "Mô tả hoặc gõ món ăn. Calo và chất dinh dưỡng được cập nhật ngay lập tức."
+      },
+      {
+        "title": "Điều chỉnh khi cuộc sống thay đổi",
+        "body": "Đi công tác hay tuần bận rộn? Thực đơn của bạn sẽ cập nhật theo bạn."
+      }
     ]
   },
   "Features": {
     "eyebrow": "Tính năng",
-    "title": "Mọi thứ bạn cần, trong một ứng dụng nhẹ nhàng",
+    "title": "Mọi thứ bạn cần cho thực đơn hằng ngày",
     "items": [
-      { "title": "Gợi ý ăn uống bằng AI", "body": "Lời khuyên dựa trên hồ sơ và mục tiêu của bạn, không phải mẹo chung cho tất cả mọi người." },
-      { "title": "Thực đơn cá nhân hóa", "body": "Thực đơn hằng tuần phù hợp với ngân sách, thời gian nấu và khẩu vị của bạn." },
-      { "title": "Phát hiện dị ứng", "body": "Đánh dấu các chất có thể gây dị ứng trong món ăn và công thức để bạn yên tâm hơn khi ăn." },
-      { "title": "Theo dõi sức khỏe", "body": "Cân nặng, tiến độ và thói quen trong một bảng điều khiển rõ ràng, dễ hiểu chỉ trong một lần nhìn." },
-      { "title": "Gợi ý công thức", "body": "Món ăn mới từ những nguyên liệu bạn đã có trong tủ lạnh." },
-      { "title": "Lên lịch bữa ăn", "body": "Lên kế hoạch cho cả tuần và nhận nhắc nhở trước khi bạn đói." }
+      {
+        "title": "Gợi ý ăn uống bằng AI",
+        "body": "Lời khuyên dựa trên hồ sơ và mục tiêu của bạn, không phải mẹo chung chung."
+      },
+      {
+        "title": "Thực đơn cá nhân hóa",
+        "body": "Thực đơn hằng tuần phù hợp với ngân sách, thời gian nấu và khẩu vị của bạn."
+      },
+      {
+        "title": "Phát hiện dị ứng",
+        "body": "Đánh dấu chất có thể gây dị ứng trong món ăn và công thức để bạn yên tâm khi ăn."
+      },
+      {
+        "title": "Theo dõi calo và đa lượng",
+        "body": "Ghi lại trong vài giây, với cái nhìn rõ ràng về cả ngày của bạn."
+      },
+      {
+        "title": "Gợi ý công thức",
+        "body": "Món mới từ những nguyên liệu bạn đã có."
+      },
+      {
+        "title": "Lên lịch bữa ăn",
+        "body": "Lên kế hoạch trước và nhận nhắc nhở trước khi bạn đói."
+      }
     ]
   },
   "UseCases": {
     "eyebrow": "Phù hợp với hoàn cảnh của bạn",
-    "title": "Dù mục tiêu là gì, kế hoạch sẽ thích nghi với bạn",
+    "title": "Dù mục tiêu là gì, thực đơn sẽ thích nghi với bạn",
     "tabs": [
-      { "label": "Mục tiêu cân nặng", "title": "Giảm cân mà không phải nhịn đói", "body": "Mục tiêu calo thực tế và những bữa ăn bạn sẽ thích, được điều chỉnh theo tiến độ của bạn.", "points": ["Mục tiêu calo theo mục đích của bạn", "Hướng dẫn khẩu phần dễ làm theo", "Kiểm tra hằng tuần để cập nhật kế hoạch"] },
-      { "label": "Dị ứng thực phẩm", "title": "Ăn ngoài bớt lo lắng hơn", "body": "Cảnh báo chất gây dị ứng ở mọi bữa ăn và các lựa chọn thay thế vẫn giữ được hương vị bạn thích.", "points": ["Thiết lập dị ứng một lần", "Cảnh báo trong kế hoạch và công thức", "Gợi ý thay thế cho món ăn bạn yêu thích"] },
-      { "label": "Lịch trình bận rộn", "title": "Ăn lành mạnh ngay cả trong tuần bận rộn", "body": "Công thức nhanh và kế hoạch phù hợp với ca làm đêm và những chuyến đi.", "points": ["Ý tưởng bữa ăn trong 15 phút", "Danh sách nấu sẵn cho cả tuần", "Nhắc nhở trước khi bạn đói"] },
-      { "label": "Bữa ăn gia đình", "title": "Một bếp, nhiều nhu cầu", "body": "Cùng lên kế hoạch, nấu một lần và điều chỉnh khẩu phần cho từng người.", "points": ["Một thực đơn tuần chung", "Khẩu phần riêng cho từng người", "Sở thích riêng cho mỗi người"] }
+      {
+        "label": "Giảm cân",
+        "title": "Giảm cân mà không phải nhịn đói",
+        "body": "Mục tiêu calo thực tế và những bữa ăn bạn sẽ thích, được điều chỉnh theo tiến độ của bạn.",
+        "points": [
+          "Mục tiêu calo theo mục đích của bạn",
+          "Hướng dẫn khẩu phần dễ làm theo",
+          "Kiểm tra hằng tuần để cập nhật thực đơn"
+        ]
+      },
+      {
+        "label": "Dị ứng thực phẩm",
+        "title": "Ăn ngoài bớt lo lắng hơn",
+        "body": "Cảnh báo chất gây dị ứng ở mọi bữa ăn và các lựa chọn thay thế vẫn giữ được hương vị bạn thích.",
+        "points": [
+          "Thiết lập dị ứng một lần",
+          "Cảnh báo trong thực đơn và công thức",
+          "Gợi ý thay thế cho món bạn yêu thích"
+        ]
+      },
+      {
+        "label": "Tuần bận rộn",
+        "title": "Ăn lành mạnh ngay cả trong tuần bận rộn",
+        "body": "Công thức nhanh và thực đơn phù hợp với ca làm đêm và những chuyến đi.",
+        "points": [
+          "Ý tưởng bữa ăn trong 15 phút",
+          "Danh sách nấu sẵn cho cả tuần",
+          "Nhắc nhở trước khi bạn đói"
+        ]
+      },
+      {
+        "label": "Bữa ăn gia đình",
+        "title": "Một bếp, nhiều nhu cầu",
+        "body": "Cùng lên kế hoạch, nấu một lần và điều chỉnh khẩu phần cho từng người.",
+        "points": [
+          "Một thực đơn tuần dùng chung",
+          "Khẩu phần riêng cho từng người",
+          "Sở thích riêng cho mỗi người"
+        ]
+      }
     ]
   },
   "AskAI": {
     "eyebrow": "Thử trợ lý",
     "title": "Hỏi bất cứ điều gì về thực phẩm và nhận câu trả lời rõ ràng",
     "body": "Calo, đạm, dị ứng, nên ăn gì trước khi tập luyện. Thử ba câu hỏi miễn phí ngay tại đây.",
-    "points": ["Thông tin dinh dưỡng của thực phẩm hằng ngày", "Mục tiêu calo và đạm", "Nên ăn gì trước và sau khi tập"],
+    "points": [
+      "Thông tin dinh dưỡng của thực phẩm hằng ngày",
+      "Mục tiêu calo và đạm",
+      "Nên ăn gì trước và sau khi tập"
+    ],
     "sampleQuestion": "Đậu lăng có bao nhiêu đạm?",
     "sampleAnswer": "Khoảng 18 g đạm cho mỗi cốc đậu lăng đã nấu chín. Kết hợp với cơm hoặc bánh mì để có đầy đủ các axit amin thiết yếu.",
-    "cta": "Mở trợ lý"
+    "cta": "Hỏi trợ lý"
   },
   "Pricing": {
     "eyebrow": "Bảng giá",
@@ -111,21 +203,45 @@
     "autoRenewYearly": "Tự động gia hạn hằng năm",
     "getApp": "Nhận ứng dụng",
     "plans": [
-      { "name": "Pro", "description": "Để bắt đầu" },
-      { "name": "Premium", "description": "Cho mục tiêu lâu dài" },
-      { "name": "Family", "description": "Cho cả gia đình" }
+      {
+        "name": "Pro",
+        "description": "Để bắt đầu"
+      },
+      {
+        "name": "Premium",
+        "description": "Cho mục tiêu lâu dài"
+      },
+      {
+        "name": "Family",
+        "description": "Cho cả gia đình"
+      }
     ],
     "note": "Gói đăng ký tự động gia hạn. Bạn có thể hủy bất cứ lúc nào trước ngày gia hạn. Tín dụng chưa dùng sẽ không được chuyển sang kỳ sau."
   },
   "Faq": {
     "eyebrow": "Câu hỏi thường gặp",
-    "title": "Giải đáp thắc mắc của bạn",
+    "title": "Câu hỏi thường gặp về lập thực đơn",
     "items": [
-      { "q": "Doctor Food có thay thế bác sĩ của tôi không?", "a": "Không. Doctor Food cung cấp hướng dẫn dinh dưỡng và ý tưởng bữa ăn. Đây không phải lời khuyên y tế, vì vậy hãy trao đổi với bác sĩ về bất kỳ bệnh lý hay thuốc nào." },
-      { "q": "Phát hiện dị ứng hoạt động như thế nào?", "a": "Bạn thiết lập dị ứng một lần. Doctor Food đánh dấu các chất có thể gây dị ứng trong món ăn và công thức, đồng thời gợi ý thay thế. Với dị ứng nặng, hãy luôn kiểm tra nhãn sản phẩm." },
-      { "q": "Tôi có thể hủy gói đăng ký không?", "a": "Có. Bạn có thể hủy bất cứ lúc nào trước ngày gia hạn để tránh khoản thanh toán tiếp theo. Tín dụng chưa dùng sẽ không được chuyển sang kỳ sau." },
-      { "q": "Dữ liệu sức khỏe của tôi có được bảo mật không?", "a": "Dữ liệu của bạn được mã hóa khi truyền và khi lưu trữ, và chúng tôi không bán dữ liệu. Chính sách quyền riêng tư giải thích chúng tôi thu thập gì và vì sao." },
-      { "q": "Ứng dụng chạy trên thiết bị nào?", "a": "Doctor Food có trên iOS và Android." }
+      {
+        "q": "Doctor Food có thay thế bác sĩ của tôi không?",
+        "a": "Không. Doctor Food cung cấp hướng dẫn dinh dưỡng và ý tưởng bữa ăn. Đây không phải lời khuyên y tế, vì vậy hãy trao đổi với bác sĩ về bất kỳ bệnh lý hay thuốc nào."
+      },
+      {
+        "q": "Phát hiện dị ứng hoạt động như thế nào?",
+        "a": "Bạn thiết lập dị ứng một lần. Doctor Food đánh dấu các chất có thể gây dị ứng trong món ăn và công thức, đồng thời gợi ý thay thế. Với dị ứng nặng, hãy luôn kiểm tra nhãn sản phẩm."
+      },
+      {
+        "q": "Tôi có thể hủy gói đăng ký không?",
+        "a": "Có. Bạn có thể hủy bất cứ lúc nào trước ngày gia hạn để tránh khoản thanh toán tiếp theo. Tín dụng chưa dùng sẽ không được chuyển sang kỳ sau."
+      },
+      {
+        "q": "Dữ liệu sức khỏe của tôi có được bảo mật không?",
+        "a": "Dữ liệu của bạn được mã hóa khi truyền và khi lưu trữ, và chúng tôi không bán dữ liệu. Chính sách quyền riêng tư giải thích chúng tôi thu thập gì và vì sao."
+      },
+      {
+        "q": "Ứng dụng chạy trên thiết bị nào?",
+        "a": "Doctor Food có trên iOS và Android."
+      }
     ]
   },
   "Cta": {
@@ -158,10 +274,22 @@
     "what": "Chúng tôi cung cấp dịch vụ lập kế hoạch bữa ăn và theo dõi dinh dưỡng thông minh, thích nghi với lối sống, sở thích và mục tiêu sức khỏe của bạn. AI của chúng tôi xem xét thói quen ăn uống, tìm ra những điểm cần cải thiện và đề xuất thay đổi phù hợp với thói quen hằng ngày của bạn.",
     "valuesTitle": "Giá trị của chúng tôi",
     "values": [
-      { "title": "Dựa trên khoa học", "body": "Các gợi ý của chúng tôi dựa trên nghiên cứu dinh dưỡng đã được bình duyệt." },
-      { "title": "Quyền riêng tư là trên hết", "body": "Dữ liệu sức khỏe của bạn được mã hóa và không bao giờ được chia sẻ nếu không có sự đồng ý rõ ràng của bạn." },
-      { "title": "Hòa nhập", "body": "Chúng tôi tôn trọng mọi sở thích ăn uống, hạn chế và truyền thống ẩm thực văn hóa." },
-      { "title": "Minh bạch", "body": "Chúng tôi giải thích lý do đằng sau mọi gợi ý mà chúng tôi đưa ra." }
+      {
+        "title": "Dựa trên khoa học",
+        "body": "Các gợi ý của chúng tôi dựa trên nghiên cứu dinh dưỡng đã được bình duyệt."
+      },
+      {
+        "title": "Quyền riêng tư là trên hết",
+        "body": "Dữ liệu sức khỏe của bạn được mã hóa và không bao giờ được chia sẻ nếu không có sự đồng ý rõ ràng của bạn."
+      },
+      {
+        "title": "Hòa nhập",
+        "body": "Chúng tôi tôn trọng mọi sở thích ăn uống, hạn chế và truyền thống ẩm thực văn hóa."
+      },
+      {
+        "title": "Minh bạch",
+        "body": "Chúng tôi giải thích lý do đằng sau mọi gợi ý mà chúng tôi đưa ra."
+      }
     ],
     "teamTitle": "Đội ngũ của chúng tôi",
     "team": "Doctor Food được vận hành bởi một đội ngũ đa dạng gồm chuyên gia dinh dưỡng đã đăng ký hành nghề, kỹ sư học máy, nhà thiết kế UX và những người ủng hộ sức khỏe. Cùng nhau, chúng tôi làm cho việc ăn uống lành mạnh trở nên đơn giản, thú vị và bền vững.",
@@ -183,5 +311,62 @@
     "android": "Android",
     "ios": "iOS",
     "limitFooter": "Tải ứng dụng để hỏi không giới hạn! 🚀"
+  },
+  "Marquee": {
+    "items": [
+      "Thực đơn AI",
+      "Công thức thân thiện với dị ứng",
+      "Theo dõi calo trong vài giây",
+      "Lập thực đơn cho gia đình",
+      "Ý tưởng bữa ăn giảm cân",
+      "Riêng tư và được mã hóa"
+    ]
+  },
+  "LivePlan": {
+    "eyebrow": "Xem trước trực tiếp",
+    "title": "Xem một tuần ăn uống, được lên kế hoạch trong vài giây",
+    "body": "Chạm qua từng ngày. Mỗi thực đơn cập nhật calo, bữa ăn và cảnh báo dị ứng theo mục tiêu của bạn.",
+    "kcalLabel": "{kcal} kcal",
+    "allergyNote": "Đã áp dụng lựa chọn không có đậu phộng",
+    "mealOats": "Yến mạch qua đêm với việt quất",
+    "mealChicken": "Bát gà chanh với diêm mạch",
+    "mealSalmon": "Cá hồi với rau nướng",
+    "mealWrap": "Bánh cuốn gà tây và bơ",
+    "mealStir": "Đậu phụ xào với cơm"
+  },
+  "AllergyScanner": {
+    "eyebrow": "Cảnh báo dị ứng",
+    "title": "Cho chúng tôi biết dị ứng của bạn một lần. Chúng tôi kiểm tra mọi bữa ăn.",
+    "body": "Bật các dị ứng của bạn và xem nguyên liệu nào bị đánh dấu trước khi nấu.",
+    "hint": "Chạm vào một dị ứng để xem nó ảnh hưởng đến món nào",
+    "safe": "An toàn",
+    "flagged": "Được đánh dấu",
+    "allergyPeanut": "Đậu phộng",
+    "allergyMilk": "Sữa",
+    "allergyGluten": "Gluten",
+    "ingPeanutButter": "Bơ đậu phộng",
+    "ingYogurt": "Sữa chua Hy Lạp",
+    "ingBread": "Bánh mì nguyên cám",
+    "ingChicken": "Ức gà",
+    "ingBlueberries": "Việt quất"
+  },
+  "Trust": {
+    "eyebrow": "Quyền riêng tư và tin cậy",
+    "title": "Dữ liệu sức khỏe của bạn được giữ riêng tư",
+    "items": [
+      {
+        "title": "Được mã hóa",
+        "body": "Dữ liệu của bạn được mã hóa khi truyền và khi lưu trữ."
+      },
+      {
+        "title": "Không bao giờ bán",
+        "body": "Chúng tôi không bán dữ liệu cá nhân của bạn cho bên thứ ba."
+      },
+      {
+        "title": "Hủy bất cứ lúc nào",
+        "body": "Hủy trước ngày gia hạn. Không có phí ẩn."
+      }
+    ],
+    "disclaimer": "Doctor Food cung cấp hướng dẫn dinh dưỡng, không phải lời khuyên y tế. Với bệnh lý hoặc thuốc, hãy hỏi bác sĩ."
   }
 }

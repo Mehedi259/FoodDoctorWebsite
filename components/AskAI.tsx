@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { IconCheck, IconMessageCircle, IconSparkles } from "@tabler/icons-react";
 import { Badge } from "@/components/ui/badge";
@@ -42,22 +43,32 @@ export default function AskAI() {
           </Button>
         </div>
 
-        <Card className="mx-auto w-full max-w-md overflow-hidden shadow-xl">
-          <CardHeader className="flex flex-row items-center gap-3 border-b bg-primary/5">
-            <div className="flex size-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
-              <IconSparkles className="size-5" />
-            </div>
-            <CardTitle className="text-base">{chat("title")}</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4 p-5">
-            <div className="ms-auto max-w-[85%] rounded-2xl rounded-ee-sm bg-primary p-4 text-primary-foreground">
-              <p className="text-sm leading-relaxed">{t("sampleQuestion")}</p>
-            </div>
-            <div className="me-auto max-w-[90%] rounded-2xl rounded-es-sm bg-muted p-4">
-              <p className="text-sm leading-relaxed">{t("sampleAnswer")}</p>
-            </div>
-          </CardContent>
-        </Card>
+        <div className="mx-auto w-full max-w-md space-y-6">
+          <Image
+            src="/illustrations/order-food.svg"
+            alt=""
+            width={1000}
+            height={1000}
+            sizes="(min-width: 1024px) 40vw, 90vw"
+            className="h-auto w-full"
+          />
+          <Card className="overflow-hidden shadow-xl">
+            <CardHeader className="flex flex-row items-center gap-3 border-b bg-primary/5">
+              <div className="flex size-10 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                <IconSparkles className="size-5" />
+              </div>
+              <CardTitle className="text-base">{chat("title")}</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-4 p-5">
+              <div className="ms-auto max-w-[85%] rounded-2xl rounded-ee-sm bg-primary p-4 text-primary-foreground">
+                <p className="text-sm leading-relaxed">{t("sampleQuestion")}</p>
+              </div>
+              <div className="me-auto max-w-[90%] rounded-2xl rounded-es-sm bg-muted p-4">
+                <p className="text-sm leading-relaxed">{t("sampleAnswer")}</p>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </section>
   );

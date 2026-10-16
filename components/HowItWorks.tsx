@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { IconBolt, IconRefresh, IconUserPlus, IconWand } from "@tabler/icons-react";
 import { Badge } from "@/components/ui/badge";
@@ -14,6 +15,15 @@ export default function HowItWorks() {
     <section id="how-it-works" className="bg-background py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader eyebrow={t("eyebrow")} title={t("title")} />
+
+        <Image
+          src="/illustrations/order-food.svg"
+          alt=""
+          width={1000}
+          height={1000}
+          sizes="(min-width: 768px) 640px, 90vw"
+          className="mx-auto mb-12 h-auto w-full max-w-sm"
+        />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {steps.map((step, index) => {

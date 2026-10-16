@@ -48,6 +48,11 @@ for (const locale of locales) {
     const h1Count = (html.match(/<h1[\s>]/g) || []).length;
     if (h1Count !== 1) fail(where, `expected 1 <h1>, found ${h1Count}`);
 
+    // JSON-LD must be in the static HTML itself, not added by JavaScript
+    const jsonLdCount = (html.match(/<script[^>]*type="application\/ld\+json"/g) || []).length;
+    if (jsonLdCount === 0) fail(where, "no JSON-LD structured data in the static HTML");
+    if (page.path === "" && !html.includes('"@type":"FAQPage"')) fail(where, "FAQPage structured data missing");
+
     const title = match(html, /<title>([^<]+)<\/title>/);
     if (!title) fail(where, "missing <title>");
 

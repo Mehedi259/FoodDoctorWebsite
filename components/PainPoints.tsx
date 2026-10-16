@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import {
   IconAlertTriangle,
@@ -20,6 +21,15 @@ export default function PainPoints() {
     <section id="problems" className="bg-muted/40 py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader eyebrow={t("eyebrow")} title={t("title")} />
+
+        <Image
+          src="/illustrations/mobile-note-list.svg"
+          alt=""
+          width={1000}
+          height={1000}
+          sizes="(min-width: 768px) 480px, 80vw"
+          className="mx-auto mb-12 h-auto w-full max-w-sm"
+        />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {items.map((item, index) => {

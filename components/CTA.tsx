@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import Illustration from "@/components/Illustration";
 import { ANDROID_URL, IOS_URL } from "@/components/constants";
 
 export default function CTA() {
@@ -23,7 +24,8 @@ export default function CTA() {
             <div className="absolute top-0 end-0 size-64 translate-x-1/3 -translate-y-1/3 rounded-full bg-white/10" />
             <div className="absolute bottom-0 start-0 size-48 -translate-x-1/3 translate-y-1/3 rounded-full bg-white/10" />
 
-            <CardContent className="relative flex flex-col items-center text-center">
+            <CardContent className="relative grid items-center gap-10 p-0 md:grid-cols-[minmax(0,1.2fr)_minmax(0,0.8fr)]">
+              <div className="flex flex-col items-center text-center md:items-start md:text-start">
               <h2 className="mb-5 max-w-3xl text-4xl leading-tight font-bold tracking-tight md:text-5xl">
                 {t("title")}
               </h2>
@@ -33,6 +35,7 @@ export default function CTA() {
                 <Button
                   size="lg"
                   variant="secondary"
+                  nativeButton={false}
                   render={
                     <a
                       href={IOS_URL}
@@ -48,6 +51,7 @@ export default function CTA() {
                 <Button
                   size="lg"
                   variant="secondary"
+                  nativeButton={false}
                   render={
                     <a
                       href={ANDROID_URL}
@@ -63,6 +67,13 @@ export default function CTA() {
               </div>
 
               <p className="mt-6 text-sm opacity-80">{t("note")}</p>
+              </div>
+
+              <Illustration
+                src="/illustrations/cta-mobile-login.svg"
+                className="max-w-xs"
+                tone="cyan"
+              />
             </CardContent>
           </Card>
         </motion.div>

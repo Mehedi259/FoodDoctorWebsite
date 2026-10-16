@@ -84,6 +84,7 @@ export default async function OgCard({
           <Button
             size="lg"
             variant="secondary"
+            nativeButton={false}
             render={<span />}
           >
             <Image src="/logos/app-store.svg" alt="" width={20} height={20} />
@@ -92,6 +93,7 @@ export default async function OgCard({
           <Button
             size="lg"
             variant="secondary"
+            nativeButton={false}
             render={<span />}
           >
             <Image src="/logos/google-play.svg" alt="" width={20} height={20} />
