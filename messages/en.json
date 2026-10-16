@@ -13,7 +13,8 @@
     "getOnAndroid": "Get on Android",
     "getOnIos": "Get on iOS",
     "language": "Language",
-    "openMenu": "Open menu"
+    "openMenu": "Open menu",
+    "blog": "Blog"
   },
   "Hero": {
     "badge": "Free on iOS and Android",
@@ -205,18 +206,39 @@
     "plans": [
       {
         "name": "Pro",
-        "description": "For getting started"
+        "description": "For getting started",
+        "features": [
+          "Meal plans for one person",
+          "Allergy flags on every meal",
+          "AI nutrition questions",
+          "Calorie and macro tracking"
+        ]
       },
       {
         "name": "Premium",
-        "description": "For committed goals"
+        "description": "For committed goals",
+        "features": [
+          "Everything in Pro",
+          "More credits for AI questions",
+          "Recipe suggestions",
+          "Weekly plan adjustments"
+        ]
       },
       {
         "name": "Family",
-        "description": "For the whole household"
+        "description": "For the whole household",
+        "features": [
+          "Everything in Premium",
+          "Plans for the whole household",
+          "The largest credit allowance"
+        ]
       }
     ],
-    "note": "Subscriptions renew automatically. Cancel any time before renewal. Unused credits don't roll over."
+    "note": "Subscriptions renew automatically. Cancel any time before renewal. Unused credits don't roll over.",
+    "saveBadge": "Save 2 months",
+    "billingLabel": "Billing period",
+    "equivalent": "About {price} a month",
+    "featuresTitle": "What's included"
   },
   "Faq": {
     "eyebrow": "FAQ",
@@ -241,6 +263,30 @@
       {
         "q": "Which devices does it work on?",
         "a": "Doctor Food is available on iOS and Android."
+      },
+      {
+        "q": "What does Doctor Food cost?",
+        "a": "The app is free to download and includes three AI questions. Paid plans add credits every month or year. See the pricing section for each plan."
+      },
+      {
+        "q": "How do AI credits work?",
+        "a": "Each AI request uses credits. Your plan gives you a set number of credits per month or per year. Unused credits don't roll over."
+      },
+      {
+        "q": "Can the whole family use one plan?",
+        "a": "Yes. The Family plan is built for the whole household and includes the largest credit allowance."
+      },
+      {
+        "q": "Does it help with weight goals?",
+        "a": "Yes. Choose a goal such as weight loss and Doctor Food sets realistic calorie targets and meals, then adjusts them as you progress."
+      },
+      {
+        "q": "What if my allergy is severe?",
+        "a": "Doctor Food flags likely allergens to help you, but it can't guarantee that a food is safe. For severe allergies, always read product labels and follow your allergist's advice."
+      },
+      {
+        "q": "Can I track what I eat every day?",
+        "a": "Yes. Log a meal in seconds and see calories and macros for the day in one view."
       }
     ]
   },
@@ -261,7 +307,8 @@
     "about": "About us",
     "privacy": "Privacy policy",
     "terms": "Terms & conditions",
-    "rights": "All rights reserved."
+    "rights": "All rights reserved.",
+    "blog": "Blog"
   },
   "About": {
     "title": "About Doctor Food",
@@ -368,5 +415,91 @@
       }
     ],
     "disclaimer": "Doctor Food gives nutrition guidance, not medical advice. For a medical condition or medication, talk to your doctor."
+  },
+  "Common": {
+    "home": "Home"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Meal planning, allergies and nutrition, explained",
+    "body": "Practical guides for planning meals you'll stick to, cooking safely with allergies, and reading nutrition labels with confidence.",
+    "latestTitle": "From the blog",
+    "latestBody": "Practical guides on meal planning, allergies and everyday nutrition.",
+    "viewAll": "All articles",
+    "readArticle": "Read article",
+    "published": "Published {date}",
+    "updated": "Updated {date}",
+    "minutes": "{count} min read",
+    "by": "By {name}",
+    "backToBlog": "Back to the blog",
+    "empty": "No articles in this language yet. Check back soon.",
+    "relatedTitle": "Keep reading",
+    "ctaTitle": "Turn the tips into a plan",
+    "ctaBody": "Doctor Food builds a weekly meal plan around your goals and allergies. Start free on iOS and Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Platform",
+    "title": "One app for planning, tracking and guidance",
+    "body": "Meal plans, allergy checks, tracking and nutrition answers all use the same profile, so every choice fits the rest of your day.",
+    "pillars": [
+      {
+        "title": "Plan",
+        "body": "Weekly meals built around your goal, schedule and allergies.",
+        "items": [
+          {
+            "title": "Weekly meal plans",
+            "body": "A full week of breakfasts, lunches and dinners that match your targets."
+          },
+          {
+            "title": "Recipe suggestions",
+            "body": "Easy recipes from the ingredients you already have at home."
+          },
+          {
+            "title": "Meal scheduling",
+            "body": "Reminders that help you plan ahead, so you aren't choosing food when hungry."
+          }
+        ]
+      },
+      {
+        "title": "Track",
+        "body": "See what you eat and how it adds up, day by day.",
+        "items": [
+          {
+            "title": "Calorie and macro tracking",
+            "body": "Log a meal in seconds and see calories, protein, carbs and fat."
+          },
+          {
+            "title": "Food diary",
+            "body": "A simple timeline of everything you ate, in the order you ate it."
+          },
+          {
+            "title": "Weight management",
+            "body": "Progress toward your weight goal, with targets that adjust as you go."
+          }
+        ]
+      },
+      {
+        "title": "Guide",
+        "body": "Clear answers and safer choices when you need them.",
+        "items": [
+          {
+            "title": "AI diet recommendations",
+            "body": "Suggestions based on your profile, your goals and what you enjoy."
+          },
+          {
+            "title": "Nutrition coaching",
+            "body": "Ask questions in plain language and get practical, general guidance."
+          },
+          {
+            "title": "Allergy detection",
+            "body": "Likely allergens flagged in meals and recipes, with safer swaps."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Questions about Doctor Food",
+    "body": "Answers about plans, credits, allergies, privacy and devices. Still have a question? Ask the nutrition assistant inside the app."
   }
 }

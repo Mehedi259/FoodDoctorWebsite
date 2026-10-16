@@ -13,7 +13,8 @@
     "getOnAndroid": "Baixar no Android",
     "getOnIos": "Baixar no iOS",
     "language": "Idioma",
-    "openMenu": "Abrir menu"
+    "openMenu": "Abrir menu",
+    "blog": "Blog"
   },
   "Hero": {
     "badge": "Grátis no iOS e Android",
@@ -205,18 +206,39 @@
     "plans": [
       {
         "name": "Pro",
-        "description": "Para começar"
+        "description": "Para começar",
+        "features": [
+          "Planos de refeições para uma pessoa",
+          "Alertas de alergias em todas as refeições",
+          "Perguntas de nutrição com IA",
+          "Contagem de calorias e macros"
+        ]
       },
       {
         "name": "Premium",
-        "description": "Para metas constantes"
+        "description": "Para metas constantes",
+        "features": [
+          "Tudo do Pro",
+          "Mais créditos para perguntas com IA",
+          "Sugestões de receitas",
+          "Ajustes semanais do plano"
+        ]
       },
       {
         "name": "Family",
-        "description": "Para a casa toda"
+        "description": "Para a casa toda",
+        "features": [
+          "Tudo do Premium",
+          "Planos para a casa toda",
+          "A maior quantidade de créditos"
+        ]
       }
     ],
-    "note": "As assinaturas renovam automaticamente. Cancele a qualquer momento antes da renovação. Créditos não usados não acumulam."
+    "note": "As assinaturas renovam automaticamente. Cancele a qualquer momento antes da renovação. Créditos não usados não acumulam.",
+    "saveBadge": "Economize 2 meses",
+    "billingLabel": "Período de cobrança",
+    "featuresTitle": "O que está incluído",
+    "equivalent": "Cerca de {price} por mês"
   },
   "Faq": {
     "eyebrow": "Perguntas frequentes",
@@ -241,6 +263,30 @@
       {
         "q": "Em quais dispositivos funciona?",
         "a": "O Doctor Food está disponível para iOS e Android."
+      },
+      {
+        "q": "Quanto custa o Doctor Food?",
+        "a": "O app é gratuito para baixar e inclui três perguntas com IA. Os planos pagos adicionam créditos todo mês ou todo ano. Veja a seção de preços para conhecer cada plano."
+      },
+      {
+        "q": "Como funcionam os créditos de IA?",
+        "a": "Cada pedido à IA usa créditos. Seu plano dá uma quantidade fixa de créditos por mês ou por ano. Os créditos não usados não acumulam."
+      },
+      {
+        "q": "A família inteira pode usar um só plano?",
+        "a": "Sim. O plano Family foi feito para a casa toda e tem a maior quantidade de créditos."
+      },
+      {
+        "q": "Ajuda a atingir metas de peso?",
+        "a": "Sim. Escolha um objetivo, como perder peso, e o Doctor Food define metas calóricas e refeições realistas, ajustando-as conforme você progride."
+      },
+      {
+        "q": "E se a minha alergia for grave?",
+        "a": "O Doctor Food sinaliza alérgenos prováveis para ajudar, mas não pode garantir que um alimento seja seguro. Em alergias graves, sempre leia os rótulos dos produtos e siga a orientação do seu alergista."
+      },
+      {
+        "q": "Posso registrar o que como todos os dias?",
+        "a": "Sim. Registre uma refeição em segundos e veja calorias e macros do dia em uma única tela."
       }
     ]
   },
@@ -261,7 +307,8 @@
     "about": "Sobre nós",
     "privacy": "Política de privacidade",
     "terms": "Termos e condições",
-    "rights": "Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "blog": "Blog"
   },
   "About": {
     "title": "Sobre o Doctor Food",
@@ -368,5 +415,91 @@
       }
     ],
     "disclaimer": "O Doctor Food oferece orientação nutricional, não aconselhamento médico. Para uma condição de saúde ou medicamento, converse com seu médico."
+  },
+  "Common": {
+    "home": "Início"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Planejamento de refeições, alergias e nutrição, explicados",
+    "body": "Guias práticos para planejar refeições que você vai manter, cozinhar com segurança quando há alergias e entender os rótulos nutricionais com confiança.",
+    "latestTitle": "Do blog",
+    "latestBody": "Guias práticos sobre planejamento de refeições, alergias e nutrição do dia a dia.",
+    "viewAll": "Todos os artigos",
+    "readArticle": "Ler artigo",
+    "published": "Publicado em {date}",
+    "updated": "Atualizado em {date}",
+    "minutes": "{count} min de leitura",
+    "by": "Por {name}",
+    "backToBlog": "Voltar ao blog",
+    "empty": "Ainda não há artigos neste idioma. Volte em breve.",
+    "relatedTitle": "Continue lendo",
+    "ctaTitle": "Transforme as dicas em um plano",
+    "ctaBody": "O Doctor Food monta um plano semanal de refeições com base nos seus objetivos e alergias. Comece grátis no iOS e no Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Plataforma",
+    "title": "Um só app para planejar, acompanhar e se orientar",
+    "body": "Planos de refeições, verificações de alergias, acompanhamento e respostas sobre nutrição usam o mesmo perfil, então cada escolha combina com o resto do seu dia.",
+    "pillars": [
+      {
+        "title": "Planejar",
+        "body": "Refeições semanais montadas em torno do seu objetivo, da sua rotina e das suas alergias.",
+        "items": [
+          {
+            "title": "Planos semanais de refeições",
+            "body": "Uma semana inteira de cafés da manhã, almoços e jantares que atendem às suas metas."
+          },
+          {
+            "title": "Sugestões de receitas",
+            "body": "Receitas simples com os ingredientes que você já tem em casa."
+          },
+          {
+            "title": "Agendamento de refeições",
+            "body": "Lembretes que ajudam a planejar com antecedência, para não escolher comida com fome."
+          }
+        ]
+      },
+      {
+        "title": "Acompanhar",
+        "body": "Veja o que você come e como isso soma dia a dia.",
+        "items": [
+          {
+            "title": "Contagem de calorias e macros",
+            "body": "Registre uma refeição em segundos e veja calorias, proteínas, carboidratos e gorduras."
+          },
+          {
+            "title": "Diário alimentar",
+            "body": "Uma linha do tempo simples de tudo o que você comeu, na ordem em que comeu."
+          },
+          {
+            "title": "Controle de peso",
+            "body": "Acompanhe o progresso até a sua meta de peso, com metas que se ajustam ao longo do caminho."
+          }
+        ]
+      },
+      {
+        "title": "Orientar",
+        "body": "Respostas claras e escolhas mais seguras quando você precisa.",
+        "items": [
+          {
+            "title": "Recomendações de dieta com IA",
+            "body": "Sugestões baseadas no seu perfil, nos seus objetivos e no que você gosta."
+          },
+          {
+            "title": "Orientação nutricional",
+            "body": "Faça perguntas em linguagem simples e receba orientações práticas e gerais."
+          },
+          {
+            "title": "Detecção de alergias",
+            "body": "Alérgenos prováveis sinalizados em refeições e receitas, com substituições mais seguras."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Perguntas sobre o Doctor Food",
+    "body": "Respostas sobre planos, créditos, alergias, privacidade e dispositivos. Ainda tem dúvidas? Pergunte ao assistente de nutrição dentro do app."
   }
 }

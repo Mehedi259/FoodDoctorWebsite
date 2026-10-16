@@ -13,7 +13,8 @@
     "getOnAndroid": "Sur Android",
     "getOnIos": "Sur iOS",
     "language": "Langue",
-    "openMenu": "Ouvrir le menu"
+    "openMenu": "Ouvrir le menu",
+    "blog": "Blog"
   },
   "Hero": {
     "badge": "Gratuit sur iOS et Android",
@@ -205,18 +206,39 @@
     "plans": [
       {
         "name": "Pro",
-        "description": "Pour bien commencer"
+        "description": "Pour bien commencer",
+        "features": [
+          "Plans de repas pour une personne",
+          "Alertes d'allergènes sur chaque repas",
+          "Questions nutritionnelles avec IA",
+          "Suivi des calories et des macros"
+        ]
       },
       {
         "name": "Premium",
-        "description": "Pour des objectifs au long cours"
+        "description": "Pour des objectifs au long cours",
+        "features": [
+          "Tout ce qui est dans Pro",
+          "Plus de crédits pour les questions IA",
+          "Suggestions de recettes",
+          "Ajustements hebdomadaires du plan"
+        ]
       },
       {
         "name": "Family",
-        "description": "Pour toute la famille"
+        "description": "Pour toute la famille",
+        "features": [
+          "Tout ce qui est dans Premium",
+          "Plans pour toute la famille",
+          "Le plus grand nombre de crédits"
+        ]
       }
     ],
-    "note": "Les abonnements se renouvellent automatiquement. Résilie à tout moment avant le renouvellement. Les crédits non utilisés ne sont pas reportés."
+    "note": "Les abonnements se renouvellent automatiquement. Résilie à tout moment avant le renouvellement. Les crédits non utilisés ne sont pas reportés.",
+    "saveBadge": "Économisez 2 mois",
+    "billingLabel": "Période de facturation",
+    "featuresTitle": "Ce qui est inclus",
+    "equivalent": "Environ {price} par mois"
   },
   "Faq": {
     "eyebrow": "FAQ",
@@ -241,6 +263,30 @@
       {
         "q": "Sur quels appareils fonctionne l'app ?",
         "a": "Doctor Food est disponible sur iOS et Android."
+      },
+      {
+        "q": "Combien coûte Doctor Food ?",
+        "a": "L'app est gratuite à télécharger et comprend trois questions IA. Les formules payantes ajoutent des crédits chaque mois ou chaque année. Consultez la section tarifs pour le détail de chaque formule."
+      },
+      {
+        "q": "Comment fonctionnent les crédits IA ?",
+        "a": "Chaque requête IA consomme des crédits. Votre formule vous donne un nombre fixe de crédits par mois ou par an. Les crédits non utilisés ne sont pas reportés."
+      },
+      {
+        "q": "Toute la famille peut-elle utiliser un seul abonnement ?",
+        "a": "Oui. La formule Family est conçue pour toute la famille et offre le plus grand nombre de crédits."
+      },
+      {
+        "q": "Aide-t-elle à atteindre un objectif de poids ?",
+        "a": "Oui. Choisissez un objectif, comme la perte de poids, et Doctor Food définit des objectifs caloriques et des repas réalistes, puis les ajuste au fil de vos progrès."
+      },
+      {
+        "q": "Et si mon allergie est sévère ?",
+        "a": "Doctor Food signale les allergènes probables pour vous aider, mais ne peut pas garantir qu'un aliment est sans danger. En cas d'allergie sévère, lisez toujours les étiquettes et suivez les conseils de votre allergologue."
+      },
+      {
+        "q": "Puis-je suivre ce que je mange chaque jour ?",
+        "a": "Oui. Enregistrez un repas en quelques secondes et voyez les calories et les macros de la journée en un coup d'œil."
       }
     ]
   },
@@ -261,7 +307,8 @@
     "about": "À propos",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions générales",
-    "rights": "Tous droits réservés."
+    "rights": "Tous droits réservés.",
+    "blog": "Blog"
   },
   "About": {
     "title": "À propos de Doctor Food",
@@ -368,5 +415,91 @@
       }
     ],
     "disclaimer": "Doctor Food propose une aide nutritionnelle, pas un avis médical. Pour une pathologie ou un traitement, parle à ton médecin."
+  },
+  "Common": {
+    "home": "Accueil"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Planification des repas, allergies et nutrition, expliquées",
+    "body": "Des guides pratiques pour planifier des repas que vous tiendrez, cuisiner en toute sécurité avec des allergies et lire les étiquettes nutritionnelles avec confiance.",
+    "latestTitle": "Depuis le blog",
+    "latestBody": "Des guides pratiques sur la planification des repas, les allergies et la nutrition au quotidien.",
+    "viewAll": "Tous les articles",
+    "readArticle": "Lire l'article",
+    "published": "Publié le {date}",
+    "updated": "Mis à jour le {date}",
+    "minutes": "{count} min de lecture",
+    "by": "Par {name}",
+    "backToBlog": "Retour au blog",
+    "empty": "Pas encore d'articles dans cette langue. Revenez bientôt.",
+    "relatedTitle": "Continuer la lecture",
+    "ctaTitle": "Transformez ces conseils en plan",
+    "ctaBody": "Doctor Food crée un plan de repas hebdomadaire selon vos objectifs et vos allergies. Commencez gratuitement sur iOS et Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Plateforme",
+    "title": "Une seule app pour planifier, suivre et être guidé",
+    "body": "Plans de repas, contrôles d'allergies, suivi et réponses nutritionnelles utilisent le même profil, pour que chaque choix s'intègre au reste de votre journée.",
+    "pillars": [
+      {
+        "title": "Planifier",
+        "body": "Des repas hebdomadaires construits autour de votre objectif, de votre emploi du temps et de vos allergies.",
+        "items": [
+          {
+            "title": "Plans de repas hebdomadaires",
+            "body": "Une semaine complète de petits-déjeuners, déjeuners et dîners adaptés à vos objectifs."
+          },
+          {
+            "title": "Suggestions de recettes",
+            "body": "Des recettes simples avec les ingrédients que vous avez déjà à la maison."
+          },
+          {
+            "title": "Programmation des repas",
+            "body": "Des rappels pour anticiper, afin de ne pas choisir un repas quand on a faim."
+          }
+        ]
+      },
+      {
+        "title": "Suivre",
+        "body": "Voyez ce que vous mangez et comment cela s'additionne, jour après jour.",
+        "items": [
+          {
+            "title": "Suivi des calories et des macros",
+            "body": "Enregistrez un repas en quelques secondes et voyez calories, protéines, glucides et lipides."
+          },
+          {
+            "title": "Journal alimentaire",
+            "body": "Une chronologie simple de tout ce que vous avez mangé, dans l'ordre."
+          },
+          {
+            "title": "Gestion du poids",
+            "body": "Suivez votre progression vers votre objectif de poids, avec des cibles qui évoluent avec vous."
+          }
+        ]
+      },
+      {
+        "title": "Guider",
+        "body": "Des réponses claires et des choix plus sûrs quand vous en avez besoin.",
+        "items": [
+          {
+            "title": "Recommandations alimentaires par IA",
+            "body": "Des suggestions basées sur votre profil, vos objectifs et vos goûts."
+          },
+          {
+            "title": "Conseils nutritionnels",
+            "body": "Posez vos questions en langage simple et obtenez des conseils pratiques et généraux."
+          },
+          {
+            "title": "Détection des allergènes",
+            "body": "Les allergènes probables sont signalés dans les repas et les recettes, avec des alternatives plus sûres."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Questions sur Doctor Food",
+    "body": "Réponses sur les plans, les crédits, les allergies, la confidentialité et les appareils. Une autre question ? Posez-la à l'assistant nutrition dans l'app."
   }
 }

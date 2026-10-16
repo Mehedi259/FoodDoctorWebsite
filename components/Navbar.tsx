@@ -31,10 +31,11 @@ import LocaleSwitcher from "@/components/LocaleSwitcher";
 import { ANDROID_URL, IOS_URL } from "@/components/constants";
 
 const navLinks = [
-  { href: "/#features", label: "features" },
+  { href: "/features", label: "features" },
   { href: "/#how-it-works", label: "howItWorks" },
   { href: "/#pricing", label: "pricing" },
-  { href: "/#faq", label: "faq" },
+  { href: "/faq", label: "faq" },
+  { href: "/blog", label: "blog" },
   { href: "/about", label: "about" },
 ] as const;
 

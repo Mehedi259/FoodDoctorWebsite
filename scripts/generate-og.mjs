@@ -17,7 +17,7 @@ const outDir = path.join(root, "out");
 const publicOgDir = path.join(root, "public", "og");
 
 // Keep in sync with lib/og.ts
-const pages = ["home", "about", "privacy", "terms"];
+const pages = ["home", "about", "privacy", "terms", "features", "faq", "blog"];
 
 const locales = readdirSync(path.join(root, "messages"))
   .filter((file) => file.endsWith(".json"))

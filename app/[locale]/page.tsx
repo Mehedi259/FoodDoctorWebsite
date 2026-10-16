@@ -12,6 +12,7 @@ import AllergyScanner from "@/components/AllergyScanner";
 import AskAI from "@/components/AskAI";
 import Trust from "@/components/Trust";
 import Pricing from "@/components/Pricing";
+import LatestPosts from "@/components/LatestPosts";
 import Faq from "@/components/Faq";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -75,6 +76,7 @@ export default async function Home({
       <AskAI />
       <Trust />
       <Pricing />
+      <LatestPosts locale={locale} />
       <Faq />
       <CTA />
       <Footer />

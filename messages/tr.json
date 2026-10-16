@@ -13,7 +13,8 @@
     "getOnAndroid": "Android'de Al",
     "getOnIos": "iOS'ta Al",
     "language": "Dil",
-    "openMenu": "Menüyü aç"
+    "openMenu": "Menüyü aç",
+    "blog": "Blog"
   },
   "Hero": {
     "badge": "iOS ve Android'de ücretsiz",
@@ -205,18 +206,39 @@
     "plans": [
       {
         "name": "Pro",
-        "description": "Başlangıç için"
+        "description": "Başlangıç için",
+        "features": [
+          "Bir kişilik öğün planları",
+          "Her öğünde alerji uyarıları",
+          "Yapay zekâ destekli beslenme soruları",
+          "Kalori ve makro takibi"
+        ]
       },
       {
         "name": "Premium",
-        "description": "Kararlı hedefler için"
+        "description": "Kararlı hedefler için",
+        "features": [
+          "Pro'daki her şey",
+          "Yapay zekâ soruları için daha fazla kredi",
+          "Tarif önerileri",
+          "Haftalık plan ayarlamaları"
+        ]
       },
       {
         "name": "Family",
-        "description": "Tüm aile için"
+        "description": "Tüm aile için",
+        "features": [
+          "Premium'daki her şey",
+          "Tüm hane için öğün planları",
+          "En yüksek kredi hakkı"
+        ]
       }
     ],
-    "note": "Abonelikler otomatik yenilenir. Yenilemeden önce istediğin zaman iptal edebilirsin. Kullanılmayan krediler devretmez."
+    "note": "Abonelikler otomatik yenilenir. Yenilemeden önce istediğin zaman iptal edebilirsin. Kullanılmayan krediler devretmez.",
+    "saveBadge": "2 ay kazanın",
+    "billingLabel": "Faturalandırma dönemi",
+    "featuresTitle": "Neler dahil",
+    "equivalent": "Aylık yaklaşık {price}"
   },
   "Faq": {
     "eyebrow": "SSS",
@@ -241,6 +263,30 @@
       {
         "q": "Hangi cihazlarda çalışır?",
         "a": "Doctor Food iOS ve Android'de kullanılabilir."
+      },
+      {
+        "q": "Doctor Food ne kadar?",
+        "a": "Uygulama indirmesi ücretsizdir ve üç yapay zekâ sorusu içerir. Ücretli planlar her ay veya her yıl kredi ekler. Her planın ayrıntıları için fiyatlandırma bölümüne bakın."
+      },
+      {
+        "q": "Yapay zekâ kredileri nasıl çalışır?",
+        "a": "Her yapay zekâ isteği kredi harcar. Planınız ay veya yıl başına belirli sayıda kredi verir. Kullanılmayan krediler bir sonraki döneme devredilmez."
+      },
+      {
+        "q": "Tüm aile tek bir planı kullanabilir mi?",
+        "a": "Evet. Family planı tüm hane için tasarlanmıştır ve en yüksek kredi hakkını içerir."
+      },
+      {
+        "q": "Kilo hedeflerime yardımcı olur mu?",
+        "a": "Evet. Kilo verme gibi bir hedef seçtiğinizde Doctor Food gerçekçi kalori hedefleri ve öğünler belirler, ilerledikçe bunları ayarlar."
+      },
+      {
+        "q": "Alerjim ciddiyse ne olur?",
+        "a": "Doctor Food size yardımcı olmak için olası alerjenleri işaretler, ancak bir gıdanın güvenli olduğunu garanti edemez. Ciddi alerjilerde her zaman ürün etiketlerini okuyun ve alerji uzmanınızın önerilerine uyun."
+      },
+      {
+        "q": "Her gün ne yediğimi takip edebilir miyim?",
+        "a": "Evet. Bir öğünü saniyeler içinde kaydedin ve günün kalori ile makrolarını tek ekranda görün."
       }
     ]
   },
@@ -261,7 +307,8 @@
     "about": "Hakkımızda",
     "privacy": "Gizlilik politikası",
     "terms": "Şartlar ve koşullar",
-    "rights": "Tüm hakları saklıdır."
+    "rights": "Tüm hakları saklıdır.",
+    "blog": "Blog"
   },
   "About": {
     "title": "Doctor Food hakkında",
@@ -368,5 +415,91 @@
       }
     ],
     "disclaimer": "Doctor Food beslenme rehberliği sunar, tıbbi tavsiye değildir. Bir hastalık ya da ilaç için doktoruna danış."
+  },
+  "Common": {
+    "home": "Ana sayfa"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Öğün planlama, alerjiler ve beslenme, anlaşılır biçimde",
+    "body": "Sürdürebileceğiniz öğünler nasıl planlanır, alerji varken güvenli nasıl pişirilir ve besin etiketleri nasıl okunur? Uygulamalı rehberler.",
+    "latestTitle": "Bloğdan",
+    "latestBody": "Öğün planlama, alerjiler ve günlük beslenme üzerine uygulamalı rehberler.",
+    "viewAll": "Tüm yazılar",
+    "readArticle": "Yazıyı oku",
+    "published": "Yayın tarihi: {date}",
+    "updated": "Güncelleme: {date}",
+    "minutes": "{count} dk okuma",
+    "by": "Yazar: {name}",
+    "backToBlog": "Bloga dön",
+    "empty": "Bu dilde henüz yazı yok. Lütfen daha sonra tekrar kontrol edin.",
+    "relatedTitle": "Okumaya devam et",
+    "ctaTitle": "İpuçlarını bir plana dönüştürün",
+    "ctaBody": "Doctor Food, hedeflerinize ve alerjilerinize göre haftalık bir öğün planı oluşturur. iOS ve Android'de ücretsiz başlayın."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Platform",
+    "title": "Planlama, takip ve rehberlik için tek uygulama",
+    "body": "Öğün planları, alerji kontrolleri, takip ve beslenme yanıtları aynı profili kullanır; böylece her seçim gününüzün geri kalanıyla uyum sağlar.",
+    "pillars": [
+      {
+        "title": "Planla",
+        "body": "Hedefinize, programınıza ve alerjilerinize göre oluşturulan haftalık öğünler.",
+        "items": [
+          {
+            "title": "Haftalık öğün planları",
+            "body": "Hedeflerinize uygun, bütün bir hafta kahvaltı, öğle ve akşam yemeği."
+          },
+          {
+            "title": "Tarif önerileri",
+            "body": "Evinizde zaten bulunan malzemelerle kolay tarifler."
+          },
+          {
+            "title": "Öğün zamanlaması",
+            "body": "Aç karnına acele seçim yapmamanız için önceden planlamanıza yardımcı olan hatırlatmalar."
+          }
+        ]
+      },
+      {
+        "title": "Takip et",
+        "body": "Ne yediğinizi ve bunun gün gün nasıl birikip toplandığını görün.",
+        "items": [
+          {
+            "title": "Kalori ve makro takibi",
+            "body": "Bir öğünü saniyeler içinde kaydedin; kalori, protein, karbonhidrat ve yağı görün."
+          },
+          {
+            "title": "Yemek günlüğü",
+            "body": "Yediğiniz her şeyin, yeme sırasına göre basit bir zaman çizelgesi."
+          },
+          {
+            "title": "Kilo yönetimi",
+            "body": "Kilo hedefinize doğru ilerlemenizi takip edin; hedef değerler ilerledikçe ayarlanır."
+          }
+        ]
+      },
+      {
+        "title": "Rehberlik",
+        "body": "İhtiyacınız olduğunda net yanıtlar ve daha güvenli seçimler.",
+        "items": [
+          {
+            "title": "Yapay zekâ destekli diyet önerileri",
+            "body": "Profilinize, hedeflerinize ve tercihlerinize dayalı öneriler."
+          },
+          {
+            "title": "Beslenme koçluğu",
+            "body": "Sorularınızı sade bir dille sorun; pratik ve genel rehberlik alın."
+          },
+          {
+            "title": "Alerji tespiti",
+            "body": "Öğün ve tariflerde olası alerjenler işaretlenir, daha güvenli alternatifler önerilir."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Doctor Food hakkında sıkça sorulan sorular",
+    "body": "Planlar, krediler, alerjiler, gizlilik ve cihazlar hakkında yanıtlar. Başka bir sorunuz mu var? Uygulama içindeki beslenme asistanına sorun."
   }
 }

@@ -13,7 +13,8 @@
     "getOnAndroid": "Unduh di Android",
     "getOnIos": "Unduh di iOS",
     "language": "Bahasa",
-    "openMenu": "Buka menu"
+    "openMenu": "Buka menu",
+    "blog": "Blog"
   },
   "Hero": {
     "badge": "Gratis di iOS dan Android",
@@ -205,18 +206,39 @@
     "plans": [
       {
         "name": "Pro",
-        "description": "Untuk memulai"
+        "description": "Untuk memulai",
+        "features": [
+          "Rencana makan untuk satu orang",
+          "Penanda alergi di setiap makanan",
+          "Pertanyaan nutrisi dengan AI",
+          "Pencatatan kalori dan makro"
+        ]
       },
       {
         "name": "Premium",
-        "description": "Untuk tujuan jangka panjang"
+        "description": "Untuk tujuan jangka panjang",
+        "features": [
+          "Semua yang ada di Pro",
+          "Lebih banyak kredit untuk pertanyaan AI",
+          "Saran resep",
+          "Penyesuaian rencana mingguan"
+        ]
       },
       {
         "name": "Family",
-        "description": "Untuk seluruh keluarga"
+        "description": "Untuk seluruh keluarga",
+        "features": [
+          "Semua yang ada di Premium",
+          "Rencana makan untuk seluruh keluarga",
+          "Jatah kredit terbesar"
+        ]
       }
     ],
-    "note": "Langganan diperpanjang otomatis. Batalkan kapan saja sebelum perpanjangan. Kredit yang tidak terpakai tidak diakumulasi."
+    "note": "Langganan diperpanjang otomatis. Batalkan kapan saja sebelum perpanjangan. Kredit yang tidak terpakai tidak diakumulasi.",
+    "saveBadge": "Hemat 2 bulan",
+    "billingLabel": "Periode penagihan",
+    "featuresTitle": "Yang termasuk",
+    "equivalent": "Sekitar {price} per bulan"
   },
   "Faq": {
     "eyebrow": "FAQ",
@@ -241,6 +263,30 @@
       {
         "q": "Perangkat apa yang didukung?",
         "a": "Doctor Food tersedia untuk iOS dan Android."
+      },
+      {
+        "q": "Berapa biaya Doctor Food?",
+        "a": "Aplikasi ini gratis diunduh dan mencakup tiga pertanyaan AI. Paket berbayar menambahkan kredit setiap bulan atau setiap tahun. Lihat bagian harga untuk detail setiap paket."
+      },
+      {
+        "q": "Bagaimana cara kerja kredit AI?",
+        "a": "Setiap permintaan AI menggunakan kredit. Paket Anda memberikan sejumlah kredit tetap per bulan atau per tahun. Kredit yang tidak terpakai tidak akan dibawa ke periode berikutnya."
+      },
+      {
+        "q": "Bisakah seluruh keluarga menggunakan satu paket?",
+        "a": "Bisa. Paket Family dirancang untuk seluruh keluarga dan memiliki jatah kredit terbesar."
+      },
+      {
+        "q": "Apakah ini membantu target berat badan?",
+        "a": "Ya. Pilih tujuan seperti menurunkan berat badan, dan Doctor Food akan menetapkan target kalori dan menu yang realistis, lalu menyesuaikannya seiring kemajuan Anda."
+      },
+      {
+        "q": "Bagaimana jika alergi saya parah?",
+        "a": "Doctor Food menandai alergen yang mungkin ada untuk membantu Anda, tetapi tidak dapat memastikan bahwa suatu makanan aman. Untuk alergi berat, selalu baca label produk dan ikuti saran dari dokter alergi Anda."
+      },
+      {
+        "q": "Bisakah saya mencatat apa yang saya makan setiap hari?",
+        "a": "Bisa. Catat makanan dalam hitungan detik dan lihat kalori serta makro untuk hari itu dalam satu tampilan."
       }
     ]
   },
@@ -261,7 +307,8 @@
     "about": "Tentang kami",
     "privacy": "Kebijakan privasi",
     "terms": "Syarat & ketentuan",
-    "rights": "Hak cipta dilindungi."
+    "rights": "Hak cipta dilindungi.",
+    "blog": "Blog"
   },
   "About": {
     "title": "Tentang Doctor Food",
@@ -368,5 +415,91 @@
       }
     ],
     "disclaimer": "Doctor Food memberikan panduan nutrisi, bukan saran medis. Untuk kondisi medis atau obat, konsultasikan dengan dokter."
+  },
+  "Common": {
+    "home": "Beranda"
+  },
+  "Blog": {
+    "eyebrow": "Blog",
+    "title": "Perencanaan makan, alergi, dan nutrisi, dijelaskan dengan mudah",
+    "body": "Panduan praktis untuk merencanakan makanan yang bisa Anda jalani, memasak dengan aman saat ada alergi, dan membaca label gizi dengan percaya diri.",
+    "latestTitle": "Dari blog",
+    "latestBody": "Panduan praktis tentang perencanaan makan, alergi, dan nutrisi sehari-hari.",
+    "viewAll": "Semua artikel",
+    "readArticle": "Baca artikel",
+    "published": "Diterbitkan {date}",
+    "updated": "Diperbarui {date}",
+    "minutes": "{count} menit membaca",
+    "by": "Oleh {name}",
+    "backToBlog": "Kembali ke blog",
+    "empty": "Belum ada artikel dalam bahasa ini. Silakan cek lagi nanti.",
+    "relatedTitle": "Lanjut membaca",
+    "ctaTitle": "Ubah tipsnya menjadi rencana",
+    "ctaBody": "Doctor Food menyusun rencana makan mingguan sesuai tujuan dan alergi Anda. Mulai gratis di iOS dan Android."
+  },
+  "FeaturesPage": {
+    "eyebrow": "Platform",
+    "title": "Satu aplikasi untuk merencanakan, mencatat, dan dibimbing",
+    "body": "Rencana makan, pemeriksaan alergi, pencatatan, dan jawaban nutrisi menggunakan profil yang sama, sehingga setiap pilihan sesuai dengan sisa hari Anda.",
+    "pillars": [
+      {
+        "title": "Rencanakan",
+        "body": "Makanan mingguan yang disusun sesuai tujuan, jadwal, dan alergi Anda.",
+        "items": [
+          {
+            "title": "Rencana makan mingguan",
+            "body": "Satu minggu penuh sarapan, makan siang, dan makan malam yang sesuai dengan target Anda."
+          },
+          {
+            "title": "Saran resep",
+            "body": "Resep mudah dari bahan-bahan yang sudah ada di rumah."
+          },
+          {
+            "title": "Jadwal makan",
+            "body": "Pengingat yang membantu Anda merencanakan makan lebih awal, sehingga tidak memilih makanan saat lapar."
+          }
+        ]
+      },
+      {
+        "title": "Catat",
+        "body": "Lihat apa yang Anda makan dan bagaimana totalnya setiap hari.",
+        "items": [
+          {
+            "title": "Pencatatan kalori dan makro",
+            "body": "Catat makanan dalam hitungan detik dan lihat kalori, protein, karbohidrat, dan lemak."
+          },
+          {
+            "title": "Buku harian makan",
+            "body": "Linimasa sederhana dari semua yang Anda makan, sesuai urutan waktu makan."
+          },
+          {
+            "title": "Manajemen berat badan",
+            "body": "Pantau kemajuan menuju target berat badan, dengan target yang menyesuaikan seiring perjalanan Anda."
+          }
+        ]
+      },
+      {
+        "title": "Panduan",
+        "body": "Jawaban yang jelas dan pilihan yang lebih aman saat Anda membutuhkannya.",
+        "items": [
+          {
+            "title": "Rekomendasi diet dari AI",
+            "body": "Saran berdasarkan profil, tujuan, dan selera Anda."
+          },
+          {
+            "title": "Pelatihan nutrisi",
+            "body": "Ajukan pertanyaan dengan bahasa sederhana dan dapatkan panduan praktis yang bersifat umum."
+          },
+          {
+            "title": "Deteksi alergi",
+            "body": "Alergen yang mungkin ada pada makanan dan resep ditandai, lengkap dengan alternatif yang lebih aman."
+          }
+        ]
+      }
+    ]
+  },
+  "FaqPage": {
+    "title": "Pertanyaan tentang Doctor Food",
+    "body": "Jawaban tentang paket, kredit, alergi, privasi, dan perangkat. Masih ada pertanyaan? Tanyakan kepada asisten nutrisi di dalam aplikasi."
   }
 }

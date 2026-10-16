@@ -21,24 +21,25 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold">{t("product")}</h3>
+            <h2 className="mb-4 font-semibold">{t("product")}</h2>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/#features" className={linkClass}>{t("features")}</Link></li>
+              <li><Link href="/features" className={linkClass}>{t("features")}</Link></li>
               <li><Link href="/#how-it-works" className={linkClass}>{t("howItWorks")}</Link></li>
               <li><Link href="/#pricing" className={linkClass}>{t("pricing")}</Link></li>
-              <li><Link href="/#faq" className={linkClass}>{t("faq")}</Link></li>
+              <li><Link href="/faq" className={linkClass}>{t("faq")}</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold">{t("company")}</h3>
+            <h2 className="mb-4 font-semibold">{t("company")}</h2>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about" className={linkClass}>{t("about")}</Link></li>
+              <li><Link href="/blog" className={linkClass}>{t("blog")}</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="mb-4 font-semibold">{t("legal")}</h3>
+            <h2 className="mb-4 font-semibold">{t("legal")}</h2>
             <ul className="space-y-2 text-sm">
               <li><Link href="/privacy" className={linkClass}>{t("privacy")}</Link></li>
               <li><Link href="/terms" className={linkClass}>{t("terms")}</Link></li>

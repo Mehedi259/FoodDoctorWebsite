@@ -32,6 +32,9 @@ export default async function OgCard({
   const meta = await getTranslations("Meta");
   const footer = await getTranslations("Footer");
   const about = await getTranslations("About");
+  const featuresPage = await getTranslations("FeaturesPage");
+  const faqPage = await getTranslations("FaqPage");
+  const blog = await getTranslations("Blog");
   const hero = await getTranslations("Hero");
   const phone = await getTranslations("Phone");
   const format = await getFormatter();
@@ -41,6 +44,9 @@ export default async function OgCard({
     about: { title: about("title"), body: truncate(about("intro"), 200) },
     privacy: { title: footer("privacy"), body: meta("description") },
     terms: { title: footer("terms"), body: meta("description") },
+    features: { title: featuresPage("title"), body: truncate(featuresPage("body"), 200) },
+    faq: { title: faqPage("title"), body: truncate(faqPage("body"), 200) },
+    blog: { title: blog("title"), body: truncate(blog("body"), 200) },
   };
   const card = cards[page as OgPage];
 
@@ -50,6 +56,9 @@ export default async function OgCard({
     about: "order-food",
     privacy: "security",
     terms: "mobile-note-list",
+    features: "features-healthy-food",
+    faq: "faq-shrug",
+    blog: "cooking",
   };
 
   return (
